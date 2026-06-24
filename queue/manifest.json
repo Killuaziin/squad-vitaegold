@@ -14,6 +14,13 @@
       "title": "Mitos e Verdades: saúde depois dos 60",
       "published": false,
       "url": null
+    },
+    {
+      "id": "blog-respiracao",
+      "type": "blog",
+      "title": "Respiração para reduzir o estresse",
+      "published": false,
+      "url": null
     }
   ]
 }
