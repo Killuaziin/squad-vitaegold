@@ -7,5 +7,13 @@
     "4": "mitos",
     "5": "blog"
   },
-  "posts": []
+  "posts": [
+    {
+      "id": "mitos-saude-60",
+      "type": "mitos",
+      "title": "Mitos e Verdades: saúde depois dos 60",
+      "published": false,
+      "url": null
+    }
+  ]
 }

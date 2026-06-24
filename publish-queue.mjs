@@ -71,8 +71,9 @@ const USER = process.env.INSTAGRAM_USER_ID;
 if (!TOKEN || !USER) { console.error('ERRO: faltam secrets INSTAGRAM_ACCESS_TOKEN / INSTAGRAM_USER_ID'); process.exit(1); }
 
 const m = JSON.parse(readFileSync(MANIFEST, 'utf8'));
+const DRY = process.env.DRY_RUN === '1';
 const weekday = new Date().getUTCDay(); // 0=Dom..6=Sab
-const type = m.schedule[String(weekday)];
+const type = process.env.FORCE_TYPE || m.schedule[String(weekday)];
 if (!type) { console.log(`Hoje (dia ${weekday}) nao tem post agendado. Nada a fazer.`); process.exit(0); }
 
 const post = m.posts.find(p => !p.published && p.type === type);
@@ -91,6 +92,9 @@ for (const u of urls) children.push(await createChild(USER, u, TOKEN));
 for (const c of children) await waitFinished(c, TOKEN);
 const carousel = await createCarousel(USER, children, caption, TOKEN);
 await waitFinished(carousel, TOKEN);
+
+if (DRY) { console.log(`DRY RUN OK: tudo pronto, NAO publicado (post "${post.id}" segue na fila).`); process.exit(0); }
+
 const id = await publishMedia(USER, carousel, TOKEN);
 const link = await permalink(id, TOKEN);
 

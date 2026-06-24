@@ -4,7 +4,16 @@ on:
   schedule:
     # 12:00 UTC = 09:00 BRT, nas Segundas(1), Quartas(3), Quintas(4) e Sextas(5)
     - cron: "0 12 * * 1,3,4,5"
-  workflow_dispatch: {} # permite rodar manualmente pelo botao "Run workflow"
+  workflow_dispatch: # permite rodar manualmente pelo botao "Run workflow"
+    inputs:
+      force_type:
+        description: "Forcar tipo (blog / produto / mitos). Vazio = usa o dia da semana."
+        required: false
+        default: ""
+      dry_run:
+        description: "Teste sem publicar de verdade? (1 = sim)"
+        required: false
+        default: "0"
 
 permissions:
   contents: write # necessario para commitar o manifest atualizado
@@ -29,6 +38,8 @@ jobs:
         env:
           INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
           INSTAGRAM_USER_ID: ${{ secrets.INSTAGRAM_USER_ID }}
+          FORCE_TYPE: ${{ github.event.inputs.force_type }}
+          DRY_RUN: ${{ github.event.inputs.dry_run }}
         run: node publish-queue.mjs
 
       - name: Salvar manifest atualizado no repo
