@@ -1,0 +1,16 @@
+{
+  "modo": "art",
+  "status": "APROVADO",
+  "iteracao": 1,
+  "violacoes": [],
+  "texto_novo_nao_revisado": [],
+  "auditoria": {
+    "slides_verificados": [1, 2, 3, 4, 5, 6, 7, 8],
+    "selos_verificados": true,
+    "antes_depois_verificado": true,
+    "endosso_profissional_verificado": true,
+    "percentuais_resultado_verificados": true,
+    "observacoes": "Todos os textos dentro da arte (texto_na_imagem) são originados diretamente da copy_aprovada.json. Os pill badges de bioativo (Colágeno Tipo II Não Desnaturado, Extrato de Cúrcuma, Magnésio, Cálcio) são labels de identificação dos ativos já presentes no campo 'bioativo' da copy aprovada — não constituem novas claims. O texto 'Link na bio' no botão do slide 8 é elemento de navegação UI sem conteúdo de saúde. Nenhum texto novo não revisado identificado. Nenhum termo da blocklist ANVISA presente na arte.",
+    "normas_aplicadas": ["IN 28/2018", "RDC 243/2018", "RDC 259/2002"]
+  }
+}

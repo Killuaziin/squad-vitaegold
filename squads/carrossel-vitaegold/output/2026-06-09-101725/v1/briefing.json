@@ -1,0 +1,112 @@
+{
+  "produto_sku": "curcuma-white",
+  "tema": "Alegações funcionais autorizadas do CúrcumaWhite — comunicação educativa sobre os bioativos do produto",
+
+  "persona": {
+    "perfil": "Homens e mulheres entre 30 e 55 anos, residentes em centros urbanos brasileiros, com renda média-alta. Valorizam saúde preventiva, buscam soluções naturais e premium para o bem-estar cotidiano. Praticantes ocasionais de atividade física (caminhadas, academia leve, yoga) ou pessoas em transição para rotinas mais ativas.",
+    "contexto_de_vida": "Pessoas que sentem o impacto de uma rotina intensa no corpo — longas horas sentadas, esforço físico acumulado ao longo dos anos — e que buscam complementar a alimentação com nutrientes que apoiem a mobilidade e o conforto articular no dia a dia.",
+    "relacao_com_suplementos": "Consumidores conscientes que pesquisam antes de comprar, valorizam ingredientes com alegações funcionais reconhecidas e preferem marcas transparentes sobre o que está na fórmula e por quê. Já consomem ou estão abertos a complementos alimentares como parte de um estilo de vida saudável."
+  },
+
+  "dores_legitimas": [
+    "Sensação de cansaço articular após um dia longo ou atividade física, que faz parte do contexto natural do envelhecimento e de rotinas ativas",
+    "Dificuldade de ingerir nutrientes essenciais para a saúde óssea e muscular apenas pela alimentação do dia a dia",
+    "Busca por um complemento alimentar que reúna múltiplos bioativos reconhecidos em uma única fórmula prática",
+    "Curiosidade sobre o papel da cúrcuma e do colágeno tipo II na nutrição esportiva e de bem-estar",
+    "Interesse crescente em ingredientes naturais de origem vegetal como parte de uma alimentação equilibrada"
+  ],
+
+  "angulos_permitidos": [
+    "Ângulo 1 — Função articular: o colágeno tipo II não desnaturado auxilia na manutenção da função articular — comunicar o papel deste bioativo em rotinas ativas e como ele complementa a alimentação",
+    "Ângulo 2 — Ação antioxidante: o extrato de cúrcuma possui ação antioxidante — educar o público sobre o que é a curcumina, de onde vem e qual alegação funcional ela carrega como complemento alimentar",
+    "Ângulo 3 — Funcionamento muscular: o magnésio auxilia no funcionamento muscular e neuromuscular — posicionar o magnésio como nutriente essencial para quem mantém rotinas físicas, integrando-o à fórmula CúrcumaWhite",
+    "Ângulo 4 — Saúde óssea: o cálcio auxilia na formação e manutenção de ossos e dentes — comunicar o papel do cálcio como micronutriente fundamental e sua presença na fórmula como complemento nutricional"
+  ],
+
+  "tendencias_formato": {
+    "slides_ideais": 8,
+    "estrutura": "Slide 1 (Capa/Hook): headline de 4 a 7 palavras com palavra âncora forte, fundo com identidade visual Vitae Gold. Slide 2 (Contexto): por que este nutriente importa na rotina diária — sem promessa terapêutica. Slides 3 a 6 (Desenvolvimento): um bioativo por slide — colágeno tipo II, curcumina, magnésio, cálcio — com alegação funcional autorizada como headline e texto de suporte explicativo (máximo 40 palavras por slide). Slide 7 (Fórmula completa): apresentar o CúrcumaWhite como complemento que reúne os quatro nutrientes. Slide 8 (CTA): convite claro à ação — salvar, acessar o link da bio ou entrar em contato pelo WhatsApp.",
+    "ganchos_performando": [
+      "Pergunta de contexto de vida: 'Você sabia que a cúrcuma tem alegação funcional reconhecida no Brasil?'",
+      "Dado educativo direto: '4 nutrientes. 1 cápsula. Veja o que cada um faz pelo seu organismo.'",
+      "Convite à descoberta: 'O que é colágeno tipo II não desnaturado — e por que ele está no CúrcumaWhite'",
+      "Âncora de rotina: 'Para quem leva bem-estar a sério: conheça a composição do CúrcumaWhite'"
+    ],
+    "cta_recorrente": "Salve este post para consultar sempre que quiser, e acesse o link da bio para conhecer o CúrcumaWhite."
+  },
+
+  "concorrentes": [
+    {
+      "marca": "Marcas de cúrcuma isolada (segmento farmácia/natureba)",
+      "angulo": "Comunicam curcumina com ênfase em propriedades antioxidantes e formato educativo, frequentemente em carrosseis de 5 a 8 slides com design minimalista e fundo branco",
+      "risco_regulatorio": "Algumas marcas utilizam o termo 'anti-inflamatório natural' como claim direto, o que extrapola as alegações funcionais autorizadas pela IN 28/2018 — Vitae Gold deve manter-se dentro da alegação 'ação antioxidante' para o extrato de cúrcuma"
+    },
+    {
+      "marca": "Marcas de colágeno tipo II (segmento mobilidade/articulações)",
+      "angulo": "Usam carrosseis educativos com foco em 'manutenção da função articular', frequentemente associando ao público acima de 40 anos e praticantes de esportes de impacto. Design com paleta terrosa e imagens de pessoas em movimento",
+      "risco_regulatorio": "Frequente uso de termos como 'alivia dor' ou 'trata inflamação articular' — categorias proibidas pela blocklist. Vitae Gold deve restringir-se ao campo da alegação funcional sem associar o produto a tratamento de condições clínicas"
+    },
+    {
+      "marca": "Marcas premium de suplementos naturais multicomposto (segmento bem-estar)",
+      "angulo": "Apostam em carrosseis de 7 a 10 slides com narrativa de estilo de vida saudável, linguagem próxima e ingredientes listados individualmente com explicação funcional. Tom editorial, sem linguagem de vendas agressiva",
+      "risco_regulatorio": "Risco de deslizamento para claims de resultado garantido ou linguagem de 'comprovação científica' sem respaldo declarado — categorias bloqueadas. O diferencial de Vitae Gold está em comunicar apenas alegações autorizadas de forma clara e transparente"
+    }
+  ],
+
+  "tom_de_voz": "Educativo e próximo, sem jargão clínico excessivo. A marca se posiciona como fonte confiável de informação sobre nutrição, não como prescritora de saúde. Usar linguagem acessível para explicar o papel de cada bioativo, reforçar que o produto é um complemento alimentar (não medicamento) e incentivar o público a buscar orientação profissional quando necessário. Evitar excessos de entusiasmo ('incrível!', 'revolucionário') — preferir afirmações precisas e verificáveis.",
+
+  "palavras_a_evitar": [
+    "anti-inflamatório (como claim direto de resultado terapêutico)",
+    "alivia dor",
+    "trata inflamação",
+    "cura",
+    "tratamento",
+    "prevenir doença",
+    "combater artrite",
+    "eliminar inflamação",
+    "ação anti-inflamatória comprovada",
+    "comprovado cientificamente (como selo)",
+    "clinicamente comprovado (sem respaldo citado)",
+    "resultado garantido",
+    "resultados em X dias",
+    "rejuvenescimento",
+    "anti-aging",
+    "anti-envelhecimento",
+    "colesterol",
+    "diabetes",
+    "pressão arterial",
+    "ansiedade (como tratamento)",
+    "insônia (como tratamento)",
+    "emagrecimento",
+    "queimar gordura",
+    "antes e depois",
+    "médico recomenda",
+    "nutricionista recomenda",
+    "substitui refeição",
+    "100% eficaz"
+  ],
+
+  "_metadados": {
+    "gerado_em": "2026-06-09",
+    "agente": "Pesquisador — Analista de Mercado de Suplementos",
+    "squad": "carrossel-vitaegold",
+    "run_id": "2026-06-09-101725",
+    "versao": "v1",
+    "fontes_consultadas": [
+      "squads/carrossel-vitaegold/output/2026-06-09-101725/input.md",
+      "squads/carrossel-vitaegold/knowledge/claims_autorizadas.json",
+      "squads/carrossel-vitaegold/knowledge/blocklist_anvisa.json",
+      "_opensquad/_memory/company.md",
+      "Pesquisa web: tendências de carrossel Instagram 2025-2026",
+      "Pesquisa web: perfil de público cúrcuma/açafrão no Brasil",
+      "Pesquisa web: formato e engajamento de carrosseis para suplementos"
+    ],
+    "claims_base_curcuma_white": [
+      "O colágeno tipo II auxilia na manutenção da função articular",
+      "O extrato de cúrcuma possui ação antioxidante",
+      "O magnésio auxilia no funcionamento muscular e neuromuscular",
+      "O cálcio auxilia na formação e manutenção de ossos e dentes"
+    ],
+    "aviso_regulatorio": "Este briefing é orientação de comunicação. Todos os ângulos devem ser revisados pelo responsável regulatório da Vitae Gold antes da publicação. Nenhum claim aqui descrito deve ser interpretado como validação jurídica."
+  }
+}

@@ -1,0 +1,329 @@
+{
+  "produto_sku": "curcuma-white",
+  "tema": "4 nutrientes. 1 cápsula. — Carrossel educativo de bioativos CúrcumaWhite",
+  "conceito_visual": "Tipografia limpa e hierarquia forte em fundo dourado no gancho, seguida de alternância rítmica de fundos (branco, dourado, escuro, neutro) nos slides de bioativo para manter o scroll. Produto apresentado com elegância sobre fundo escuro. CTA em verde WhatsApp com aviso legal em destaque.",
+  "formato": "1080x1350px (4:5)",
+  "slides": [
+    {
+      "slide": 1,
+      "papel": "gancho",
+      "conceito_visual": "Fundo dourado puro — tipografia preta centralizada para máximo impacto de scroll-stop. Headline grande e bold em dois blocos. Logo em versão escura no canto superior direito. Sem imagem — a mensagem É o visual.",
+      "especificacoes": {
+        "fundo": "#d4a017",
+        "texto_principal": {
+          "conteudo": "4 nutrientes.\n1 cápsula.\nVeja o que cada um faz.",
+          "fonte": "Montserrat",
+          "tamanho": "56px",
+          "cor": "#1a1a1a",
+          "peso": "Bold"
+        },
+        "texto_secundario": {
+          "conteudo": "Cúrcuma, colágeno tipo II, magnésio e cálcio — saiba por que eles estão juntos no CúrcumaWhite.",
+          "fonte": "Inter",
+          "tamanho": "28px",
+          "cor": "#1a1a1a",
+          "peso": "Regular"
+        },
+        "logo": {
+          "posicao": "canto superior direito",
+          "tamanho": "15% da largura (162px)",
+          "versao": "preto sobre claro (logo escuro)"
+        },
+        "elemento_visual": "Fundo dourado sólido #d4a017 sem textura. Linha divisória horizontal fina em #1a1a1a entre headline e subtexto. Nenhuma fotografia — foco total na tipografia.",
+        "seta_proximo_slide": true
+      },
+      "texto_na_imagem": "4 nutrientes.\n1 cápsula.\nVeja o que cada um faz.\n\nCúrcuma, colágeno tipo II, magnésio e cálcio — saiba por que eles estão juntos no CúrcumaWhite.",
+      "canva_elementos": [
+        "Retângulo fundo sólido #d4a017 1080x1350px",
+        "Caixa de texto Montserrat Bold 56px #1a1a1a — headline principal",
+        "Linha divisória horizontal 600px espessura 2px #1a1a1a",
+        "Caixa de texto Inter Regular 28px #1a1a1a — subtexto",
+        "Logo Vitae Gold versão escura — canto superior direito 162px largura",
+        "Seta chevron down #1a1a1a — rodapé centralizado"
+      ]
+    },
+    {
+      "slide": 2,
+      "papel": "contexto",
+      "conceito_visual": "Fundo branco limpo com acento dourado. Tom empático e direto ao público. Imagem de pessoa com rotina intensa (desfocada ao fundo) para criar identificação. Texto centralizado com peso emocional.",
+      "especificacoes": {
+        "fundo": "#ffffff",
+        "texto_principal": {
+          "conteudo": "O dia a dia cobra um preço do seu corpo.",
+          "fonte": "Montserrat",
+          "tamanho": "44px",
+          "cor": "#1a1a1a",
+          "peso": "Bold"
+        },
+        "texto_secundario": {
+          "conteudo": "Rotina intensa, alimentação corrida. Complementar a dieta com os nutrientes certos é uma escolha inteligente — não um luxo.",
+          "fonte": "Inter",
+          "tamanho": "28px",
+          "cor": "#333333",
+          "peso": "Regular"
+        },
+        "logo": {
+          "posicao": "canto superior direito",
+          "tamanho": "15% da largura (162px)",
+          "versao": "preto sobre claro (logo escuro)"
+        },
+        "elemento_visual": "Overlay semitransparente branco (85% opacidade) sobre foto stock de pessoa com expressão de cansaço ou correria urbana. Barra de acento dourado #d4a017 de 8px na borda esquerda do card de texto. Número do slide '2' em Montserrat Light 18px #d4a017 no canto inferior esquerdo.",
+        "seta_proximo_slide": true
+      },
+      "texto_na_imagem": "O dia a dia cobra um preço do seu corpo.\n\nRotina intensa, alimentação corrida. Complementar a dieta com os nutrientes certos é uma escolha inteligente — não um luxo.",
+      "canva_elementos": [
+        "Foto stock — pessoa em rotina urbana ou com expressão de cansaço (Canva Photos)",
+        "Retângulo overlay branco 1080x1350px opacidade 85%",
+        "Barra vertical retângulo #d4a017 8x300px — borda esquerda do bloco de texto",
+        "Caixa de texto Montserrat Bold 44px #1a1a1a — headline",
+        "Caixa de texto Inter Regular 28px #333333 — subtexto",
+        "Logo Vitae Gold versão escura — canto superior direito 162px",
+        "Numeração '2' Montserrat Light 18px #d4a017 — canto inferior esquerdo",
+        "Seta chevron down #1a1a1a — rodapé centralizado"
+      ]
+    },
+    {
+      "slide": 3,
+      "papel": "desenvolvimento — Colágeno Tipo II",
+      "conceito_visual": "Fundo branco #ffffff com acentos dourados. Visual clean e premium para apresentar o bioativo com autoridade. Tag de bioativo em pill dourada no topo. Headline emocional com subtexto informativo.",
+      "especificacoes": {
+        "fundo": "#ffffff",
+        "texto_principal": {
+          "conteudo": "Suas articulações precisam de atenção contínua.",
+          "fonte": "Montserrat",
+          "tamanho": "42px",
+          "cor": "#1a1a1a",
+          "peso": "Bold"
+        },
+        "texto_secundario": {
+          "conteudo": "O colágeno tipo II não desnaturado auxilia na manutenção da função articular — um apoio diário para quem não quer sentir o tempo passar nas juntas.",
+          "fonte": "Inter",
+          "tamanho": "28px",
+          "cor": "#333333",
+          "peso": "Regular"
+        },
+        "logo": {
+          "posicao": "canto superior direito",
+          "tamanho": "15% da largura (162px)",
+          "versao": "preto sobre claro (logo escuro)"
+        },
+        "elemento_visual": "Pill/badge retangular arredondado #d4a017 com texto 'Colágeno Tipo II Não Desnaturado' em Montserrat SemiBold 22px #ffffff — posicionado acima da headline. Ícone ou ilustração minimalista de articulação/joelho em line art dourado #d4a017 no canto inferior direito (200x200px). Número '3' em Montserrat Light 18px #d4a017 no canto inferior esquerdo.",
+        "seta_proximo_slide": true
+      },
+      "texto_na_imagem": "Colágeno Tipo II Não Desnaturado\n\nSuas articulações precisam de atenção contínua.\n\nO colágeno tipo II não desnaturado auxilia na manutenção da função articular — um apoio diário para quem não quer sentir o tempo passar nas juntas.",
+      "canva_elementos": [
+        "Retângulo fundo branco 1080x1350px",
+        "Pill badge — retângulo arredondado #d4a017, texto Montserrat SemiBold 22px #ffffff 'Colágeno Tipo II Não Desnaturado'",
+        "Caixa de texto Montserrat Bold 42px #1a1a1a — headline",
+        "Caixa de texto Inter Regular 28px #333333 — subtexto",
+        "Ícone line art articulação/joelho #d4a017 200x200px — canto inferior direito (Canva Elements ou SVG)",
+        "Logo Vitae Gold versão escura — canto superior direito 162px",
+        "Numeração '3' Montserrat Light 18px #d4a017 — canto inferior esquerdo",
+        "Seta chevron down #d4a017 — rodapé centralizado"
+      ]
+    },
+    {
+      "slide": 4,
+      "papel": "desenvolvimento — Cúrcuma",
+      "conceito_visual": "Fundo dourado #d4a017 — a cor do ingrediente vira o fundo. Texto escuro para contraste máximo. Visual quente e vibrante que remete à especiaria. Eco visual com o slide 1 para criar consistência na marca.",
+      "especificacoes": {
+        "fundo": "#d4a017",
+        "texto_principal": {
+          "conteudo": "A cúrcuma tem alegação funcional reconhecida no Brasil.",
+          "fonte": "Montserrat",
+          "tamanho": "42px",
+          "cor": "#1a1a1a",
+          "peso": "Bold"
+        },
+        "texto_secundario": {
+          "conteudo": "O extrato de cúrcuma possui ação antioxidante — contribuindo para o equilíbrio do organismo frente ao estresse oxidativo do cotidiano.",
+          "fonte": "Inter",
+          "tamanho": "28px",
+          "cor": "#1a1a1a",
+          "peso": "Regular"
+        },
+        "logo": {
+          "posicao": "canto superior direito",
+          "tamanho": "15% da largura (162px)",
+          "versao": "preto sobre claro (logo escuro)"
+        },
+        "elemento_visual": "Pill/badge retangular arredondado #1a1a1a com texto 'Extrato de Cúrcuma (Curcuma longa)' em Montserrat SemiBold 22px #d4a017 — posicionado acima da headline. Foto ou textura de cúrcuma em pó (em tom âmbar intenso) no terço inferior do slide como elemento decorativo semitransparente (opacidade 30%). Número '4' em Montserrat Light 18px #1a1a1a no canto inferior esquerdo.",
+        "seta_proximo_slide": true
+      },
+      "texto_na_imagem": "Extrato de Cúrcuma (Curcuma longa)\n\nA cúrcuma tem alegação funcional reconhecida no Brasil.\n\nO extrato de cúrcuma possui ação antioxidante — contribuindo para o equilíbrio do organismo frente ao estresse oxidativo do cotidiano.",
+      "canva_elementos": [
+        "Retângulo fundo dourado #d4a017 1080x1350px",
+        "Pill badge — retângulo arredondado #1a1a1a, texto Montserrat SemiBold 22px #d4a017 'Extrato de Cúrcuma (Curcuma longa)'",
+        "Caixa de texto Montserrat Bold 42px #1a1a1a — headline",
+        "Caixa de texto Inter Regular 28px #1a1a1a — subtexto",
+        "Foto/textura cúrcuma em pó — opacidade 30%, terço inferior (Canva Photos)",
+        "Logo Vitae Gold versão escura — canto superior direito 162px",
+        "Numeração '4' Montserrat Light 18px #1a1a1a — canto inferior esquerdo",
+        "Seta chevron down #1a1a1a — rodapé centralizado"
+      ]
+    },
+    {
+      "slide": 5,
+      "papel": "desenvolvimento — Magnésio",
+      "conceito_visual": "Fundo escuro #1a1a1a — contraste máximo, energia e força. Evoca performance muscular e seriedade científica. Texto branco com acentos dourados. Cria ritmo visual de alternância dark no meio do carrossel.",
+      "especificacoes": {
+        "fundo": "#1a1a1a",
+        "texto_principal": {
+          "conteudo": "Músculos em dia, rendimento de verdade.",
+          "fonte": "Montserrat",
+          "tamanho": "44px",
+          "cor": "#ffffff",
+          "peso": "Bold"
+        },
+        "texto_secundario": {
+          "conteudo": "O magnésio auxilia no funcionamento muscular e neuromuscular — um mineral essencial que muitas pessoas não ingerem em quantidade suficiente só pela alimentação.",
+          "fonte": "Inter",
+          "tamanho": "28px",
+          "cor": "#f5f5f5",
+          "peso": "Regular"
+        },
+        "logo": {
+          "posicao": "canto superior direito",
+          "tamanho": "15% da largura (162px)",
+          "versao": "dourado sobre escuro (logo dourado)"
+        },
+        "elemento_visual": "Pill/badge retangular arredondado #d4a017 com texto 'Magnésio' em Montserrat SemiBold 22px #1a1a1a — posicionado acima da headline. Ícone ou ilustração minimalista de músculo/braço em line art dourado #d4a017 no canto inferior direito (200x200px). Linha de acento horizontal #d4a017 de 4px abaixo da headline. Número '5' em Montserrat Light 18px #d4a017 no canto inferior esquerdo.",
+        "seta_proximo_slide": true
+      },
+      "texto_na_imagem": "Magnésio\n\nMúsculos em dia, rendimento de verdade.\n\nO magnésio auxilia no funcionamento muscular e neuromuscular — um mineral essencial que muitas pessoas não ingerem em quantidade suficiente só pela alimentação.",
+      "canva_elementos": [
+        "Retângulo fundo escuro #1a1a1a 1080x1350px",
+        "Pill badge — retângulo arredondado #d4a017, texto Montserrat SemiBold 22px #1a1a1a 'Magnésio'",
+        "Caixa de texto Montserrat Bold 44px #ffffff — headline",
+        "Linha horizontal #d4a017 600px espessura 4px — abaixo da headline",
+        "Caixa de texto Inter Regular 28px #f5f5f5 — subtexto",
+        "Ícone line art músculo/braço #d4a017 200x200px — canto inferior direito (Canva Elements ou SVG)",
+        "Logo Vitae Gold versão dourada — canto superior direito 162px",
+        "Numeração '5' Montserrat Light 18px #d4a017 — canto inferior esquerdo",
+        "Seta chevron down #d4a017 — rodapé centralizado"
+      ]
+    },
+    {
+      "slide": 6,
+      "papel": "desenvolvimento — Cálcio",
+      "conceito_visual": "Fundo neutro #f5f5f5 — suavidade que remete à saúde óssea e longevidade. Retorno à leveza após o slide escuro, criando respiração visual. Acentos dourados mantêm identidade da marca.",
+      "especificacoes": {
+        "fundo": "#f5f5f5",
+        "texto_principal": {
+          "conteudo": "Ossos fortes são construídos todos os dias.",
+          "fonte": "Montserrat",
+          "tamanho": "44px",
+          "cor": "#1a1a1a",
+          "peso": "Bold"
+        },
+        "texto_secundario": {
+          "conteudo": "O cálcio auxilia na formação e manutenção de ossos e dentes — e manter o aporte adequado desse mineral é um compromisso de longo prazo com a sua saúde.",
+          "fonte": "Inter",
+          "tamanho": "28px",
+          "cor": "#333333",
+          "peso": "Regular"
+        },
+        "logo": {
+          "posicao": "canto superior direito",
+          "tamanho": "15% da largura (162px)",
+          "versao": "preto sobre claro (logo escuro)"
+        },
+        "elemento_visual": "Pill/badge retangular arredondado #d4a017 com texto 'Cálcio' em Montserrat SemiBold 22px #ffffff — posicionado acima da headline. Ícone ou ilustração minimalista de osso/esqueleto em line art dourado #d4a017 no canto inferior direito (200x200px). Card de fundo branco #ffffff com border-radius e sombra sutil ao redor do bloco de texto — cria profundidade sobre o fundo neutro. Número '6' em Montserrat Light 18px #d4a017 no canto inferior esquerdo.",
+        "seta_proximo_slide": true
+      },
+      "texto_na_imagem": "Cálcio\n\nOssos fortes são construídos todos os dias.\n\nO cálcio auxilia na formação e manutenção de ossos e dentes — e manter o aporte adequado desse mineral é um compromisso de longo prazo com a sua saúde.",
+      "canva_elementos": [
+        "Retângulo fundo neutro #f5f5f5 1080x1350px",
+        "Card retângulo branco #ffffff com sombra shadow — envolve bloco de texto",
+        "Pill badge — retângulo arredondado #d4a017, texto Montserrat SemiBold 22px #ffffff 'Cálcio'",
+        "Caixa de texto Montserrat Bold 44px #1a1a1a — headline",
+        "Caixa de texto Inter Regular 28px #333333 — subtexto",
+        "Ícone line art osso/esqueleto #d4a017 200x200px — canto inferior direito (Canva Elements ou SVG)",
+        "Logo Vitae Gold versão escura — canto superior direito 162px",
+        "Numeração '6' Montserrat Light 18px #d4a017 — canto inferior esquerdo",
+        "Seta chevron down #d4a017 — rodapé centralizado"
+      ]
+    },
+    {
+      "slide": 7,
+      "papel": "produto",
+      "conceito_visual": "Fundo escuro #1a1a1a com elegância premium. Apresenta o produto com autoridade, unificando os 4 bioativos numa só narrativa visual. Logo dourado em destaque. Foto do produto (frasco) centralizada ou à direita com hierarquia de texto à esquerda.",
+      "especificacoes": {
+        "fundo": "#1a1a1a",
+        "texto_principal": {
+          "conteudo": "CúrcumaWhite: os 4 bioativos em uma fórmula prática.",
+          "fonte": "Montserrat",
+          "tamanho": "44px",
+          "cor": "#ffffff",
+          "peso": "Bold"
+        },
+        "texto_secundario": {
+          "conteudo": "Colágeno tipo II não desnaturado, extrato de cúrcuma, magnésio e cálcio — um complemento alimentar desenvolvido para quem cuida do corpo com consistência.",
+          "fonte": "Inter",
+          "tamanho": "28px",
+          "cor": "#f5f5f5",
+          "peso": "Regular"
+        },
+        "logo": {
+          "posicao": "canto superior direito",
+          "tamanho": "15% da largura (162px)",
+          "versao": "dourado sobre escuro (logo dourado)"
+        },
+        "elemento_visual": "Foto do produto (frasco CúrcumaWhite) centralizada na metade inferior do slide, fundo escuro com leve reflexo/brilho dourado ao redor do frasco (efeito glow sutil #d4a017 10% opacidade). Lista de 4 bullets em linha — ícones dourados: Colágeno Tipo II | Cúrcuma | Magnésio | Cálcio — em Inter SemiBold 24px #d4a017, posicionados entre headline e subtexto ou abaixo do subtexto. Linha horizontal #d4a017 no topo como borda decorativa (8px).",
+        "seta_proximo_slide": true
+      },
+      "texto_na_imagem": "CúrcumaWhite: os 4 bioativos em uma fórmula prática.\n\nColágeno tipo II não desnaturado, extrato de cúrcuma, magnésio e cálcio — um complemento alimentar desenvolvido para quem cuida do corpo com consistência.",
+      "canva_elementos": [
+        "Retângulo fundo escuro #1a1a1a 1080x1350px",
+        "Barra horizontal superior #d4a017 1080x8px — topo do slide",
+        "Foto produto frasco CúrcumaWhite — centralizada metade inferior, fundo removido",
+        "Efeito glow circular #d4a017 opacidade 10% ao redor do frasco",
+        "Caixa de texto Montserrat Bold 44px #ffffff — headline",
+        "Caixa de texto Inter Regular 28px #f5f5f5 — subtexto",
+        "Logo Vitae Gold versão dourada — canto superior direito 162px",
+        "Seta chevron down #d4a017 — rodapé centralizado"
+      ]
+    },
+    {
+      "slide": 8,
+      "papel": "CTA",
+      "conceito_visual": "Fundo branco limpo com botão de CTA verde WhatsApp #25d366 para ação imediata. Aviso legal em destaque visível. Tom direto e convidativo. Encerramento que reforça a ação salvar + visitar link na bio.",
+      "especificacoes": {
+        "fundo": "#ffffff",
+        "texto_principal": {
+          "conteudo": "Salve este post e conheça o CúrcumaWhite.",
+          "fonte": "Montserrat",
+          "tamanho": "44px",
+          "cor": "#1a1a1a",
+          "peso": "Bold"
+        },
+        "texto_secundario": {
+          "conteudo": "Acesse o link na bio para saber mais sobre a fórmula completa.",
+          "fonte": "Inter",
+          "tamanho": "30px",
+          "cor": "#333333",
+          "peso": "SemiBold"
+        },
+        "logo": {
+          "posicao": "canto superior direito",
+          "tamanho": "15% da largura (162px)",
+          "versao": "preto sobre claro (logo escuro)"
+        },
+        "elemento_visual": "Botão CTA retangular arredondado (border-radius 12px) #25d366 com texto 'Link na bio' em Montserrat Bold 32px #ffffff — posicionado centralizado abaixo do texto secundário. Ícone de seta apontando para cima (↑ link na bio) ao lado do texto do botão. Caixa de aviso legal na base do slide: retângulo #f5f5f5 com borda #d4a017 2px, texto Inter Regular 22px #333333 — 'Este produto não é um medicamento. Consulte um nutricionista.' Ícone de bookmark/salvar em line art #d4a017 ao lado do headline para reforçar a instrução de salvar.",
+        "seta_proximo_slide": false
+      },
+      "texto_na_imagem": "Salve este post e conheça o CúrcumaWhite.\n\nAcesse o link na bio para saber mais sobre a fórmula completa.\n\nLink na bio\n\nEste produto não é um medicamento. Consulte um nutricionista.",
+      "canva_elementos": [
+        "Retângulo fundo branco #ffffff 1080x1350px",
+        "Ícone bookmark/salvar line art #d4a017 — ao lado esquerdo da headline",
+        "Caixa de texto Montserrat Bold 44px #1a1a1a — headline",
+        "Caixa de texto Inter SemiBold 30px #333333 — subtexto principal",
+        "Botão CTA retângulo arredondado #25d366 border-radius 12px — centralizado",
+        "Texto botão Montserrat Bold 32px #ffffff 'Link na bio'",
+        "Ícone seta ↑ #ffffff — dentro do botão, à esquerda do texto",
+        "Caixa aviso legal — retângulo #f5f5f5 border #d4a017 2px, texto Inter Regular 22px #333333 'Este produto não é um medicamento. Consulte um nutricionista.'",
+        "Logo Vitae Gold versão escura — canto superior direito 162px"
+      ]
+    }
+  ]
+}

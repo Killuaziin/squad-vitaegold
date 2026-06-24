@@ -1,0 +1,11 @@
+{
+  "_comentario": "Fila de posts. O publicador roda em dias agendados (GitHub Actions) e publica o proximo post NAO publicado do tipo do dia. Dia da semana em UTC: 0=Dom,1=Seg,2=Ter,3=Qua,4=Qui,5=Sex,6=Sab.",
+  "timezone_referencia": "America/Sao_Paulo (09h BRT = 12h UTC)",
+  "schedule": {
+    "1": "produto",
+    "3": "blog",
+    "4": "mitos",
+    "5": "blog"
+  },
+  "posts": []
+}

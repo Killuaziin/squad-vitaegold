@@ -1,0 +1,13 @@
+version: "1.0"
+squad: carrossel-vitaegold
+
+steps:
+  - steps/step-01-input.md
+  - steps/step-02-pesquisador.md
+  - steps/step-03-copywriter.md
+  - steps/step-04-compliance-copy.md
+  - steps/step-05-designer.md
+  - steps/step-06-diretor-arte.md
+  - steps/step-07-compliance-arte.md
+  - steps/step-08-aprovacao-humana.md
+  - steps/step-09-operador.md

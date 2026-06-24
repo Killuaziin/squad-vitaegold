@@ -1,0 +1,62 @@
+{
+  "squad": "carrossel-vitaegold",
+  "status": "running",
+  "step": { "current": 9, "total": 9, "label": "step-09-operador" },
+  "agents": [
+    {
+      "id": "pesquisador",
+      "name": "Pesquisador",
+      "icon": "🔍",
+      "status": "done",
+      "desk": { "col": 1, "row": 1 }
+    },
+    {
+      "id": "copywriter",
+      "name": "Copywriter",
+      "icon": "✍️",
+      "status": "done",
+      "desk": { "col": 2, "row": 1 }
+    },
+    {
+      "id": "compliance",
+      "name": "Compliance ANVISA",
+      "icon": "⚖️",
+      "status": "done",
+      "desk": { "col": 3, "row": 1 }
+    },
+    {
+      "id": "designer",
+      "name": "Designer",
+      "icon": "🎨",
+      "status": "done",
+      "desk": { "col": 1, "row": 2 }
+    },
+    {
+      "id": "diretor-arte",
+      "name": "Diretor de Arte",
+      "icon": "🖼️",
+      "status": "done",
+      "desk": { "col": 2, "row": 2 }
+    },
+    {
+      "id": "operador",
+      "name": "Operador",
+      "icon": "📱",
+      "status": "working",
+      "desk": { "col": 3, "row": 2 }
+    }
+  ],
+  "aprovacao_humana": {
+    "aprovado": true,
+    "aprovado_em": "2026-06-09T10:30:00Z",
+    "decisao": "Aprovar e publicar"
+  },
+  "handoff": {
+    "from": "humano",
+    "to": "operador",
+    "message": "Aprovação humana confirmada. Operador pode prosseguir com a publicação.",
+    "completedAt": "2026-06-09T10:30:00Z"
+  },
+  "startedAt": "2026-06-09T10:17:25Z",
+  "updatedAt": "2026-06-09T10:30:00Z"
+}

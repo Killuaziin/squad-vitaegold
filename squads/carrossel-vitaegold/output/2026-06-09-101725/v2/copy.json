@@ -1,0 +1,103 @@
+{
+  "produto_sku": "curcuma-white",
+  "tema": "Alegações funcionais autorizadas do CúrcumaWhite — comunicação educativa sobre os bioativos do produto",
+  "slides": [
+    {
+      "n": 1,
+      "papel": "gancho",
+      "texto": "4 nutrientes. 1 cápsula.\nVeja o que cada um faz.",
+      "subtexto": "Cúrcuma, colágeno tipo II, magnésio e cálcio — saiba por que eles estão juntos no CúrcumaWhite.",
+      "claims_usadas": []
+    },
+    {
+      "n": 2,
+      "papel": "contexto",
+      "texto": "O dia a dia cobra um preço do seu corpo.",
+      "subtexto": "Rotina intensa, alimentação corrida. Complementar a dieta com os nutrientes certos é uma escolha inteligente — não um luxo.",
+      "claims_usadas": []
+    },
+    {
+      "n": 3,
+      "papel": "desenvolvimento",
+      "bioativo": "Colágeno Tipo II Não Desnaturado",
+      "texto": "Suas articulações precisam de atenção contínua.",
+      "subtexto": "O colágeno tipo II não desnaturado auxilia na manutenção da função articular — um apoio diário para quem não quer sentir o tempo passar nas juntas.",
+      "claims_usadas": [
+        "O colágeno tipo II não desnaturado auxilia na manutenção da função articular"
+      ]
+    },
+    {
+      "n": 4,
+      "papel": "desenvolvimento",
+      "bioativo": "Extrato de Cúrcuma (Curcuma longa)",
+      "texto": "A cúrcuma tem alegação funcional reconhecida no Brasil.",
+      "subtexto": "O extrato de cúrcuma possui ação antioxidante — contribuindo para o equilíbrio do organismo frente ao estresse oxidativo do cotidiano.",
+      "claims_usadas": [
+        "O extrato de cúrcuma (Curcuma longa) possui ação antioxidante"
+      ]
+    },
+    {
+      "n": 5,
+      "papel": "desenvolvimento",
+      "bioativo": "Magnésio",
+      "texto": "Músculos em dia, rendimento de verdade.",
+      "subtexto": "O magnésio auxilia no funcionamento muscular e neuromuscular — um mineral essencial que muitas pessoas não ingerem em quantidade suficiente só pela alimentação.",
+      "claims_usadas": [
+        "O magnésio auxilia no funcionamento muscular e neuromuscular"
+      ]
+    },
+    {
+      "n": 6,
+      "papel": "desenvolvimento",
+      "bioativo": "Cálcio",
+      "texto": "Ossos fortes são construídos todos os dias.",
+      "subtexto": "O cálcio auxilia na formação e manutenção de ossos e dentes — e manter o aporte adequado desse mineral é um compromisso de longo prazo com a sua saúde.",
+      "claims_usadas": [
+        "O cálcio auxilia na formação e manutenção de ossos e dentes"
+      ]
+    },
+    {
+      "n": 7,
+      "papel": "produto",
+      "texto": "CúrcumaWhite: os 4 bioativos em uma fórmula prática.",
+      "subtexto": "Colágeno tipo II não desnaturado, extrato de cúrcuma, magnésio e cálcio — um complemento alimentar desenvolvido para quem cuida do corpo com consistência.",
+      "claims_usadas": [
+        "O colágeno tipo II não desnaturado auxilia na manutenção da função articular",
+        "O extrato de cúrcuma (Curcuma longa) possui ação antioxidante",
+        "O magnésio auxilia no funcionamento muscular e neuromuscular",
+        "O cálcio auxilia na formação e manutenção de ossos e dentes"
+      ]
+    },
+    {
+      "n": 8,
+      "papel": "cta",
+      "texto": "Salve este post e conheça o CúrcumaWhite.",
+      "subtexto": "Acesse o link na bio para saber mais sobre a fórmula completa. Este produto não é um medicamento. Consulte um nutricionista.",
+      "claims_usadas": [],
+      "aviso_obrigatorio": "Este produto não é um medicamento. Consulte um nutricionista."
+    }
+  ],
+  "legenda": "Você sabia que cúrcuma, colágeno tipo II não desnaturado, magnésio e cálcio têm alegações funcionais reconhecidas pela ANVISA?\n\nCada um desses nutrientes tem um papel específico no organismo — e reunir todos em uma única fórmula prática é exatamente a proposta do CúrcumaWhite.\n\nVeja o que a ciência diz sobre cada um:\n\n🟡 Extrato de cúrcuma → possui ação antioxidante\n🦴 Colágeno tipo II não desnaturado → auxilia na manutenção da função articular\n💪 Magnésio → auxilia no funcionamento muscular e neuromuscular\n🦷 Cálcio → auxilia na formação e manutenção de ossos e dentes\n\nNão é sobre modismo. É sobre escolher um complemento alimentar com ingredientes que têm alegação funcional autorizada — e que se encaixa na sua rotina sem complicação.\n\nSalve este post para consultar sempre que quiser, e acesse o link da bio para conhecer o CúrcumaWhite.\n\nEste produto não é um medicamento. Consulte um nutricionista antes de iniciar qualquer suplementação.\n\n——\n\nQual desses nutrientes você já inclui na sua alimentação do dia a dia? Conta nos comentários 👇",
+  "hashtags": [
+    "#curcuma",
+    "#curcumawhite",
+    "#suplementacaonatural",
+    "#saúdearticular",
+    "#colageno",
+    "#magnesio",
+    "#calcio",
+    "#bemestar",
+    "#alimentacaoequilibrada",
+    "#saudepreventiva",
+    "#suplementos",
+    "#nutricao",
+    "#saudenaatural",
+    "#curcumina",
+    "#vidasaudavel"
+  ],
+  "alertas_obrigatorios": [
+    "Este produto não é um medicamento. Consulte um nutricionista.",
+    "Alegações funcionais conforme regulamentação ANVISA (RDC 243/2018 e IN 28/2018).",
+    "Complemento alimentar. Não substitui uma alimentação equilibrada e variada."
+  ]
+}

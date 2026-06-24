@@ -1,0 +1,27 @@
+# ===== SEGREDOS - NUNCA COMMITAR =====
+.env
+.env.*
+!.env.example
+
+# ===== Dependencias =====
+node_modules/
+
+# ===== Sessao / navegador (privado) =====
+_opensquad/_browser_profile/
+.playwright-mcp/
+
+# ===== Temporarios de renderizacao =====
+**/_slide-*.html
+**/_p*.html
+**/v2-slide-*.html
+**/_build/**/_*.html
+
+# ===== Capturas/temp soltos =====
+*.tmp
+page-*.jpeg
+page-*.png
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+desktop.ini

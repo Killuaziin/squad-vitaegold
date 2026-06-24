@@ -1,0 +1,39 @@
+id: carrossel-vitaegold
+name: Carrossel Instagram
+description: >
+  Produção automatizada de carrosseis para Instagram com compliance ANVISA embutido.
+  Dois portões de revisão regulatória (copy e arte) garantem que nenhuma claim proibida
+  seja publicada. Gate de aprovação humana obrigatório antes de publicar.
+icon: 🎨
+version: "1.0"
+
+skills:
+  - web_search
+  - web_fetch
+  - canva
+  - instagram-publisher
+
+data:
+  - pipeline/data/research-brief.md
+  - pipeline/data/domain-framework.md
+  - pipeline/data/quality-criteria.md
+  - pipeline/data/output-examples.md
+  - pipeline/data/anti-patterns.md
+  - pipeline/data/tone-of-voice.md
+
+knowledge:
+  - knowledge/blocklist_anvisa.json
+  - knowledge/claims_autorizadas.json
+  - knowledge/brand_guidelines.md
+
+pipeline:
+  steps:
+    - pipeline/steps/step-01-input.md
+    - pipeline/steps/step-02-pesquisador.md
+    - pipeline/steps/step-03-copywriter.md
+    - pipeline/steps/step-04-compliance-copy.md
+    - pipeline/steps/step-05-designer.md
+    - pipeline/steps/step-06-diretor-arte.md
+    - pipeline/steps/step-07-compliance-arte.md
+    - pipeline/steps/step-08-aprovacao-humana.md
+    - pipeline/steps/step-09-operador.md

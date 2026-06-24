@@ -1,0 +1,492 @@
+{
+  "versao": "2.0",
+  "instrucoes": "Alegações e informações extraídas do site vitaegold.com.br. Todos os produtos são isentos de registro conforme RDC 240/2018. Revise com o responsável regulatório antes de usar em produção.",
+  "fonte_referencia": "vitaegold.com.br + IN 28/2018",
+  "atualizado_em": "2026-06-08",
+
+  "nota_produtos_topicos": "Erva de Santa Maria, Serum Anti-idade e Risotex são dermocosméticos de uso externo — não são suplementos alimentares. Claims desses produtos seguem regulação cosmética (RDC 752/2022), não a IN 28/2018. O agente de Compliance deve tratá-los com regras distintas.",
+
+  "skus": {
+
+    "vitae-7-1": {
+      "nome_produto": "Vitae 7.1",
+      "categoria": "Mobilidade & Conforto",
+      "tipo": "suplemento_alimentar",
+      "descricao": "Suplemento alimentar multinutriente em cápsulas que combina múltiplos ingredientes em uma única fórmula para complementação nutricional.",
+      "ingredientes_ativos": ["Vitamina C", "Magnésio", "Creatina", "Cúrcuma", "Chlorella", "MSM", "Colágeno tipo II"],
+      "claims_autorizadas": [
+        "A vitamina C auxilia na formação do colágeno endógeno e no funcionamento do sistema imune",
+        "O magnésio auxilia no funcionamento muscular e neuromuscular"
+      ],
+      "modo_de_uso": "Consultar embalagem",
+      "advertencias_rotulo": [
+        "Este produto não é um medicamento",
+        "Não recomendado para gestantes, lactantes e pessoas com problemas de coagulação ou renais",
+        "Contém derivados de frutos do mar e enxofre",
+        "Não consumir em caso de alergia a esses componentes",
+        "Não exceder a dosagem diária recomendada na embalagem",
+        "Indicado para maiores de 18 anos",
+        "Manter longe do alcance de crianças",
+        "Isento de registro conforme RDC 240/2018"
+      ]
+    },
+
+    "thermovit": {
+      "nome_produto": "ThermoVit",
+      "categoria": "Energia & Performance",
+      "tipo": "suplemento_alimentar",
+      "descricao": "Suplemento alimentar em cápsulas formulado para suporte ao metabolismo e estado de alerta.",
+      "ingredientes_ativos": ["Cromo quelado", "Cafeína", "Chá verde", "Gengibre"],
+      "claims_autorizadas": [
+        "O cromo auxilia no metabolismo de proteínas, carboidratos e gorduras",
+        "A cafeína auxilia no aumento do estado de alerta e na melhora da concentração"
+      ],
+      "modo_de_uso": "Consultar embalagem",
+      "advertencias_rotulo": [
+        "Este produto não é um medicamento",
+        "Contém cafeína",
+        "Não deve ser consumido por gestantes, lactantes e crianças",
+        "Evitar o uso no período noturno",
+        "Não exceder a recomendação diária de consumo indicada na embalagem",
+        "Manter fora do alcance de crianças",
+        "Isento de registro conforme RDC 240/2018"
+      ]
+    },
+
+    "feminifit": {
+      "nome_produto": "FeminiFit",
+      "categoria": "Energia & Performance",
+      "tipo": "suplemento_alimentar",
+      "descricao": "Suplemento em cápsulas para a rotina ativa feminina, com chá verde, gengibre, pimenta, óleo de cártamo e L-carnitina.",
+      "ingredientes_ativos": ["Chá verde", "Gengibre", "Pimenta", "Óleo de cártamo", "L-carnitina"],
+      "claims_autorizadas": [
+        "Formulado para acompanhar hábitos saudáveis e prática de atividade física em rotinas ativas femininas"
+      ],
+      "modo_de_uso": "Consultar embalagem",
+      "advertencias_rotulo": [
+        "Este produto não é um medicamento",
+        "Contém cafeína",
+        "Indicado apenas para adultos",
+        "Gestantes, lactantes e pessoas com condições de saúde devem consultar profissional habilitado",
+        "Não exceder a dose diária recomendada na embalagem",
+        "Manter fora do alcance de crianças",
+        "Isento de registro conforme RDC 240/2018"
+      ]
+    },
+
+    "sereno": {
+      "nome_produto": "Sereno",
+      "categoria": "Bem-estar & Relaxamento",
+      "tipo": "suplemento_alimentar",
+      "descricao": "Melatonina e L-triptofano para a rotina noturna.",
+      "ingredientes_ativos": ["L-triptofano", "Melatonina", "Extratos vegetais"],
+      "claims_autorizadas": [
+        "Suporte à nutrição noturna e preparação do organismo para os períodos de descanso e recuperação"
+      ],
+      "modo_de_uso": "Tomar aproximadamente 30 minutos antes de dormir",
+      "advertencias_rotulo": [
+        "Este produto não é um medicamento",
+        "Não exceder a recomendação diária de consumo indicada na embalagem",
+        "Manter fora do alcance de crianças",
+        "Não indicado para gestantes, lactantes, crianças ou pessoas que necessitem de atenção constante",
+        "Pessoas com condições de saúde ou em uso de medicamentos devem consultar médico",
+        "Isento de registro conforme RDC 240/2018"
+      ]
+    },
+
+    "vitae-flora": {
+      "nome_produto": "Vitae Flora",
+      "categoria": "Energia & Performance",
+      "tipo": "suplemento_alimentar",
+      "descricao": "Suplemento líquido com vitaminas do complexo B (B1, B6 e Colina) em apresentação de fácil consumo com copo dosador.",
+      "ingredientes_ativos": ["Vitamina B1", "Vitamina B6", "Colina"],
+      "claims_autorizadas": [
+        "Auxilia no metabolismo energético",
+        "Apoia o funcionamento do sistema nervoso",
+        "Contribui para o metabolismo de proteínas"
+      ],
+      "modo_de_uso": "Consumir conforme recomendação diária indicada na embalagem, utilizando o copo dosador fornecido",
+      "advertencias_rotulo": [
+        "Suplemento alimentar líquido — não é medicamento",
+        "Não exceder a recomendação diária de consumo indicada na embalagem",
+        "Manter fora do alcance de crianças",
+        "Não recomendado para gestantes, lactantes e crianças menores de 12 anos",
+        "Pessoas com homocistinúria, cirrose ou doenças cardiovasculares devem consultar um médico",
+        "Isento de registro conforme RDC 240/2018"
+      ]
+    },
+
+    "blue-man": {
+      "nome_produto": "Blue Man",
+      "categoria": "Energia & Performance",
+      "tipo": "suplemento_alimentar",
+      "descricao": "Suplemento alimentar em cápsulas formulado para nutrição e equilíbrio diário direcionado ao público masculino, com zinco, taurina, magnésio, vitaminas B6 e B9, boro e cafeína.",
+      "ingredientes_ativos": ["Zinco", "Taurina", "Magnésio", "Vitamina B6", "Vitamina B9", "Boro", "Cafeína"],
+      "claims_autorizadas": [
+        "O zinco auxilia na manutenção dos níveis normais de testosterona no sangue",
+        "O zinco contribui para o funcionamento normal do sistema imunológico",
+        "As vitaminas B auxiliam no metabolismo energético e na metabolização de macronutrientes"
+      ],
+      "modo_de_uso": "Tomar pela manhã, respeitando a recomendação diária indicada na embalagem",
+      "advertencias_rotulo": [
+        "Este produto não é um medicamento",
+        "Contém cafeína",
+        "Manter fora do alcance de crianças",
+        "Indicado para maiores de 19 anos",
+        "Não exceder a dose recomendada",
+        "Isento de registro conforme RDC 240/2018"
+      ]
+    },
+
+    "polyvit": {
+      "nome_produto": "PolyVit A-Z - Multivitamínico e Multimineral Completo",
+      "categoria": "Energia & Performance",
+      "tipo": "suplemento_alimentar",
+      "descricao": "Suplemento alimentar em cápsulas com vitaminas A, C, D, complexo B, zinco, selênio, cobre, cálcio e magnésio.",
+      "ingredientes_ativos": ["Vitamina A", "Vitamina C", "Vitamina D", "Complexo B", "Zinco", "Selênio", "Cobre", "Cálcio", "Magnésio"],
+      "claims_autorizadas": [
+        "Auxílio no funcionamento do sistema imune (vitaminas A, C, D, zinco, selênio, cobre)",
+        "Auxílio no metabolismo energético (vitaminas do complexo B)",
+        "Auxílio na formação e manutenção de ossos e dentes (cálcio, vitamina D, magnésio)"
+      ],
+      "modo_de_uso": "Uma cápsula diária conforme indicado na embalagem",
+      "advertencias_rotulo": [
+        "Este produto não é um medicamento",
+        "Não exceder a recomendação diária de consumo indicada na embalagem",
+        "Manter fora do alcance de crianças",
+        "Indicado para maiores de 19 anos",
+        "Isento de registro conforme RDC 240/2018"
+      ]
+    },
+
+    "creatina-soluvel": {
+      "nome_produto": "Creatina Solúvel 150g",
+      "categoria": "Energia & Performance",
+      "tipo": "suplemento_alimentar",
+      "descricao": "Suplemento alimentar de creatina formulado para dissolução fácil em água ou bebidas.",
+      "ingredientes_ativos": ["Creatina monoidratada"],
+      "claims_autorizadas": [
+        "A creatina aumenta a performance física em exercícios de alta intensidade e curta duração",
+        "Aumenta o desempenho em séries sucessivas de exercícios intensos e de curta duração"
+      ],
+      "modo_de_uso": "Porção de 3g ao dia, diluir em água ou na bebida de sua preferência",
+      "advertencias_rotulo": [
+        "Suplemento alimentar — não é medicamento",
+        "Não substitui alimentação equilibrada",
+        "Consumo deve ser orientado por nutricionista ou médico",
+        "Não exceder a dose recomendada",
+        "Contraindicado para gestantes, lactantes e crianças",
+        "Indicado apenas para maiores de 19 anos",
+        "Manter fora do alcance de crianças"
+      ]
+    },
+
+    "coenzima-q10": {
+      "nome_produto": "Coenzima Q10 - 60 Cápsulas",
+      "categoria": "Imunidade & Bem-estar",
+      "tipo": "suplemento_alimentar",
+      "descricao": "Suplemento alimentar em cápsulas contendo coenzima Q10 (ubiquinona), substância naturalmente presente no organismo.",
+      "ingredientes_ativos": ["Coenzima Q10 (ubiquinona)"],
+      "claims_autorizadas": [
+        "Fonte de coenzima Q10 para complementar a alimentação"
+      ],
+      "modo_de_uso": "Consumir 1 cápsula ao dia, de preferência junto a uma refeição",
+      "advertencias_rotulo": [
+        "Este produto não é um medicamento",
+        "Não exceder a dose diária recomendada na embalagem",
+        "Manter fora do alcance de crianças",
+        "Indicado para maiores de 19 anos",
+        "Gestantes, lactantes e pessoas que usam medicamentos devem consultar profissional de saúde",
+        "Isento de registro conforme RDC 240/2018"
+      ]
+    },
+
+    "curcuma-white": {
+      "nome_produto": "CúrcumaWhite",
+      "categoria": "Mobilidade & Conforto",
+      "tipo": "suplemento_alimentar",
+      "descricao": "Suplemento que combina colágeno tipo II não desnaturado, extrato de cúrcuma, magnésio e cálcio para complementar alimentação em rotinas ativas.",
+      "ingredientes_ativos": ["Colágeno tipo II não desnaturado", "Extrato de cúrcuma", "Magnésio", "Cálcio"],
+      "claims_autorizadas": [
+        "O colágeno tipo II auxilia na manutenção da função articular",
+        "O extrato de cúrcuma possui ação antioxidante",
+        "O magnésio auxilia no funcionamento muscular e neuromuscular",
+        "O cálcio auxilia na formação e manutenção de ossos e dentes"
+      ],
+      "modo_de_uso": "Consultar embalagem",
+      "advertencias_rotulo": [
+        "Este produto não é um medicamento",
+        "Não recomendado para gestantes, lactantes ou crianças",
+        "Manter fora do alcance de crianças",
+        "Não exceder a recomendação diária de consumo indicada na embalagem",
+        "Isento de registro conforme RDC 240/2018"
+      ]
+    },
+
+    "vita-liv": {
+      "nome_produto": "Vita Liv",
+      "categoria": "Pele & Beleza",
+      "tipo": "suplemento_alimentar",
+      "descricao": "Suplemento alimentar em cápsulas com vitaminas A, C, E, niacina e zinco para complementação nutricional.",
+      "ingredientes_ativos": ["Vitamina A", "Vitamina C", "Vitamina E", "Niacina", "Zinco"],
+      "claims_autorizadas": [
+        "A vitamina A auxilia na manutenção da pele",
+        "A vitamina C auxilia na proteção das células contra danos causados pelos radicais livres",
+        "A vitamina C auxilia na formação do colágeno endógeno",
+        "O zinco auxilia no funcionamento normal do sistema imunológico"
+      ],
+      "modo_de_uso": "Tomar pela manhã ou à noite conforme recomendação diária indicada na embalagem",
+      "advertencias_rotulo": [
+        "Este produto não é um medicamento",
+        "Não exceder recomendação diária de consumo",
+        "Manter fora do alcance de crianças",
+        "Indicado para maiores de 19 anos",
+        "Isento de registro conforme RDC 240/2018"
+      ]
+    },
+
+    "m5x-magnesios": {
+      "nome_produto": "M5X - Magnésios Essenciais",
+      "categoria": "Mobilidade & Conforto",
+      "tipo": "suplemento_alimentar",
+      "descricao": "Suplemento alimentar em cápsulas com blend de 5 formas de magnésio de alta biodisponibilidade, incluindo Magnésio Dimalato e Magnésio Bisglicinato.",
+      "ingredientes_ativos": ["Magnésio Dimalato", "Magnésio Bisglicinato", "Outras formas de magnésio"],
+      "claims_autorizadas": [
+        "O magnésio auxilia no funcionamento muscular e neuromuscular",
+        "O magnésio auxilia no metabolismo energético",
+        "O magnésio auxilia na formação e manutenção de ossos e dentes",
+        "O magnésio auxilia no equilíbrio dos eletrólitos"
+      ],
+      "modo_de_uso": "Consultar embalagem. Clientes relatam uso noturno (antes de dormir)",
+      "advertencias_rotulo": [
+        "Este produto não é um medicamento",
+        "Não exceder a recomendação diária indicada na embalagem",
+        "Manter fora do alcance de crianças",
+        "Indicado para maiores de 19 anos",
+        "Isento de registro conforme RDC 240/2018"
+      ]
+    },
+
+    "magnesium-d3": {
+      "nome_produto": "Magnésium + D3",
+      "categoria": "Mobilidade & Conforto",
+      "tipo": "suplemento_alimentar",
+      "descricao": "Fórmula prática que combina magnésio e vitamina D3 em cápsulas para complementar a alimentação diária.",
+      "ingredientes_ativos": ["Magnésio", "Vitamina D3"],
+      "claims_autorizadas": [
+        "O magnésio auxilia no funcionamento muscular e neuromuscular",
+        "O magnésio auxilia no metabolismo energético",
+        "O magnésio auxilia na formação e manutenção de ossos e dentes",
+        "A vitamina D3 auxilia na absorção de cálcio e fósforo",
+        "A vitamina D3 auxilia na formação e manutenção de ossos e dentes",
+        "A vitamina D3 auxilia no funcionamento normal do sistema imunológico"
+      ],
+      "modo_de_uso": "Seguir a recomendação diária indicada na embalagem",
+      "advertencias_rotulo": [
+        "Este produto não é um medicamento",
+        "Não indicado para pessoas com insuficiência renal, desidratação, úlceras ou em uso de anticoagulantes",
+        "Não exceder a dose diária recomendada",
+        "Manter fora do alcance de crianças",
+        "Indicado para maiores de 19 anos",
+        "Isento de registro conforme RDC 240/2018"
+      ]
+    },
+
+    "colageno-c2": {
+      "nome_produto": "Colágeno C2",
+      "categoria": "Mobilidade & Conforto",
+      "tipo": "suplemento_alimentar",
+      "descricao": "Colágeno tipo II não desnaturado em cápsulas para complementar a alimentação de quem mantém rotina ativa.",
+      "ingredientes_ativos": ["Colágeno tipo II não desnaturado"],
+      "claims_autorizadas": [
+        "O colágeno tipo II auxilia na manutenção da função articular",
+        "Complemento nutricional para rotinas ativas e mobilidade diária"
+      ],
+      "modo_de_uso": "Seguir a recomendação diária indicada na embalagem",
+      "advertencias_rotulo": [
+        "Este produto não é um medicamento",
+        "Não indicado para pessoas com insuficiência renal, desidratação, úlceras ou em uso de anticoagulantes",
+        "Não exceder a dose diária recomendada",
+        "Manter fora do alcance de crianças",
+        "Indicado para maiores de 19 anos",
+        "Isento de registro conforme RDC 240/2018"
+      ]
+    },
+
+    "omega-3": {
+      "nome_produto": "Ômega 3 | Óleo de Peixe em Cápsulas",
+      "categoria": "Bem-estar & Relaxamento",
+      "tipo": "suplemento_alimentar",
+      "descricao": "Suplemento alimentar em cápsulas contendo óleo de peixe com EPA e DHA para complementar a alimentação no dia a dia.",
+      "ingredientes_ativos": ["EPA (ácido eicosapentaenóico)", "DHA (ácido docosahexaenóico)", "Óleo de peixe"],
+      "claims_autorizadas": [
+        "O ômega-3 (DHA) contribui para a manutenção da função cerebral normal",
+        "O ômega-3 (DHA + EPA) contribui para a manutenção da função cardíaca normal"
+      ],
+      "modo_de_uso": "Não exceder a recomendação diária de consumo indicada na embalagem",
+      "advertencias_rotulo": [
+        "Suplemento alimentar em cápsulas — não é medicamento",
+        "Contém derivados de peixe",
+        "Não recomendado para pessoas com insuficiência renal, desidratação, úlceras ou em uso de anticoagulantes",
+        "Manter fora do alcance de crianças",
+        "Isento de registro conforme RDC 240/2018"
+      ]
+    },
+
+    "colageno-hidrolisado": {
+      "nome_produto": "Colágeno Hidrolisado Premium",
+      "categoria": "Pele & Beleza",
+      "tipo": "suplemento_alimentar",
+      "descricao": "Suplemento de colágeno hidrolisado em peptídeos com vitamina C, zinco e vitamina E.",
+      "ingredientes_ativos": ["Colágeno hidrolisado (peptídeos)", "Vitamina C", "Zinco", "Vitamina E"],
+      "claims_autorizadas": [
+        "Auxilia na manutenção da pele",
+        "A vitamina C auxilia na formação do colágeno endógeno",
+        "O zinco auxilia no funcionamento normal do sistema imunológico",
+        "A vitamina C e E auxiliam na proteção das células contra danos causados pelos radicais livres"
+      ],
+      "modo_de_uso": "Dissolve facilmente em líquidos — pode ser consumido com suco, água ou vitaminas",
+      "advertencias_rotulo": [
+        "Este produto não é um medicamento",
+        "Não substitui uma alimentação equilibrada e hábitos de vida saudáveis"
+      ]
+    },
+
+    "erva-santa-maria": {
+      "nome_produto": "Erva de Santa Maria 240g",
+      "categoria": "Pele & Beleza",
+      "tipo": "dermocosmético_uso_externo",
+      "descricao": "Gel corporal com extratos vegetais, sensação refrescante e textura leve de rápida absorção.",
+      "ingredientes_ativos": ["Extratos vegetais"],
+      "claims_autorizadas": [
+        "Proporciona sensação refrescante",
+        "Oferece conforto à pele",
+        "Textura leve com absorção rápida"
+      ],
+      "modo_de_uso": "Aplicar sobre a pele e massagear suavemente até a absorção",
+      "advertencias_rotulo": [
+        "Produto de uso externo",
+        "Evitar contato com os olhos — enxaguar abundantemente em caso de contato",
+        "Não utilizar sobre pele irritada ou lesionada",
+        "Em caso de irritação, suspender o uso e procurar orientação médica",
+        "Manter fora do alcance de crianças"
+      ]
+    },
+
+    "vitaehair": {
+      "nome_produto": "Kit VitaeHair Completo",
+      "categoria": "Pele & Beleza",
+      "tipo": "kit_suplemento_cosmetico",
+      "descricao": "Sistema duplo de cuidado capilar: tônico tópico (pantenol + extratos vegetais) e cápsulas orais (zinco + biotina).",
+      "ingredientes_ativos": {
+        "tonico": ["Pantenol", "Extratos vegetais"],
+        "capsulas": ["Zinco", "Biotina"]
+      },
+      "claims_autorizadas": [
+        "O zinco auxilia na manutenção do cabelo normal",
+        "O zinco auxilia no funcionamento normal do sistema imunológico"
+      ],
+      "modo_de_uso": "Tônico: aplicar no couro cabeludo limpo e seco. Cápsulas: conforme indicado na embalagem",
+      "advertencias_rotulo": {
+        "capsulas": [
+          "Indicado para maiores de 19 anos",
+          "Pode conter derivados de soja e levedura",
+          "Não contém glúten",
+          "Não exceder recomendação diária",
+          "Manter fora do alcance de crianças"
+        ],
+        "tonico": [
+          "Uso externo apenas",
+          "Evitar contato com os olhos",
+          "Suspender se houver irritação",
+          "Manter fora do alcance de crianças"
+        ]
+      }
+    },
+
+    "serum-anti-idade": {
+      "nome_produto": "Serum Anti-idade",
+      "categoria": "Pele & Beleza",
+      "tipo": "dermocosmético_uso_externo",
+      "descricao": "Dermocosmético facial de textura leve e rápida absorção para cuidados diários com a pele.",
+      "ingredientes_ativos": ["Não especificados na página do produto"],
+      "claims_autorizadas": [
+        "Hidrata a pele",
+        "Ajuda a suavizar a aparência de linhas finas",
+        "Contribui para a aparência de firmeza da pele"
+      ],
+      "modo_de_uso": "Aplicar sobre o rosto limpo e seco, uma ou duas vezes ao dia",
+      "advertencias_rotulo": [
+        "Produto de uso externo — não ingerir",
+        "Evitar contato com olhos, mucosas e pele lesionada",
+        "Em caso de contato com os olhos, enxaguar abundantemente com água",
+        "Em caso de irritação, suspender o uso e procurar orientação médica",
+        "Manter fora do alcance de crianças",
+        "Conservar em local fresco, seco e ao abrigo da luz"
+      ]
+    },
+
+    "risotex": {
+      "nome_produto": "Risotex",
+      "categoria": "Pele & Beleza",
+      "tipo": "dermocosmético_uso_externo",
+      "descricao": "Creme facial hidratante dermocosmético de uso diário, dermatologicamente testado.",
+      "ingredientes_ativos": ["Não especificados na página do produto"],
+      "claims_autorizadas": [
+        "Hidrata a pele",
+        "Ajuda a uniformizar a aparência do tom da pele",
+        "Deixa a pele com aspecto mais macio e viçoso"
+      ],
+      "modo_de_uso": "Aplicar no rosto limpo, diariamente",
+      "advertencias_rotulo": [
+        "Produto de uso externo",
+        "Havendo irritação, suspender o uso e procurar orientação médica",
+        "Manter fora do alcance de crianças"
+      ]
+    },
+
+    "luteina-zeaxantina": {
+      "nome_produto": "Luteína com Zeaxantina",
+      "categoria": "Imunidade & Bem-estar",
+      "tipo": "suplemento_alimentar",
+      "descricao": "Suplemento alimentar em cápsulas com luteína, zeaxantina, vitamina A e vitamina C.",
+      "ingredientes_ativos": ["Luteína", "Zeaxantina", "Vitamina A", "Vitamina C"],
+      "claims_autorizadas": [
+        "A vitamina A auxilia na manutenção da visão",
+        "A vitamina A auxilia na manutenção da pele",
+        "A vitamina A auxilia no funcionamento do sistema imune",
+        "A vitamina C é um antioxidante que auxilia na proteção dos danos causados pelos radicais livres"
+      ],
+      "modo_de_uso": "Tomar pela manhã, respeitando a recomendação diária indicada na embalagem",
+      "advertencias_rotulo": [
+        "Este produto não é um medicamento",
+        "Não deve ser utilizado por gestantes e lactantes",
+        "Manter fora do alcance de crianças",
+        "Indicado para maiores de 19 anos",
+        "Isento de registro conforme RDC 240/2018"
+      ]
+    },
+
+    "nac": {
+      "nome_produto": "NAC (N-Acetil-Cisteína)",
+      "categoria": "Imunidade & Bem-estar",
+      "tipo": "suplemento_alimentar",
+      "descricao": "Suplemento alimentar fonte de N-acetil-cisteína, um aminoácido, em cápsulas para complementar a alimentação.",
+      "ingredientes_ativos": ["N-acetil-cisteína (aminoácido)"],
+      "claims_autorizadas": [
+        "Fonte de N-acetil-cisteína para complementar a alimentação"
+      ],
+      "modo_de_uso": "Consumir a dose diária indicada na embalagem, junto a uma refeição",
+      "advertencias_rotulo": [
+        "Este produto não é um medicamento",
+        "Não substitui uma alimentação equilibrada",
+        "Não deve ser consumido por gestantes, lactantes e crianças",
+        "Não exceder a recomendação diária de consumo indicada na embalagem",
+        "Manter fora do alcance de crianças",
+        "Indicado para maiores de 19 anos",
+        "Isento de registro conforme RDC 240/2018"
+      ]
+    }
+
+  }
+}

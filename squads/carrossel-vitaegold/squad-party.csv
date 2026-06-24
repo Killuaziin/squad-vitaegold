@@ -1,0 +1,7 @@
+path,displayName,icon
+./agents/pesquisador.agent.md,Pesquisador,🔍
+./agents/copywriter.agent.md,Copywriter,✍️
+./agents/compliance.agent.md,Compliance ANVISA,⚖️
+./agents/designer.agent.md,Designer,🎨
+./agents/diretor-arte.agent.md,Diretor de Arte,🖼️
+./agents/operador.agent.md,Operador,📱

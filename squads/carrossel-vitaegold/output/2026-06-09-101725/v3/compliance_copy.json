@@ -1,0 +1,29 @@
+{
+  "modo": "copy",
+  "status": "APROVADO",
+  "iteracao": 1,
+  "violacoes": [],
+  "observacoes_nao_bloqueantes": [
+    {
+      "elemento": "hashtags",
+      "campo": "hashtag",
+      "trecho": "#saudenaatural",
+      "motivo": "Erro de digitação — duplo 'a'. Não é violação regulatória.",
+      "status_item": "CORRECAO_COSMETICA",
+      "sugestao": "Substituir por #saudenatural"
+    }
+  ],
+  "auditoria": {
+    "blocklist_verificada": true,
+    "claims_verificadas": true,
+    "alertas_obrigatorios_verificados": true,
+    "normas_aplicadas": ["IN 28/2018", "RDC 243/2018", "RDC 259/2002"],
+    "claims_base_sku": [
+      "O colágeno tipo II não desnaturado auxilia na manutenção da função articular",
+      "O extrato de cúrcuma (Curcuma longa) possui ação antioxidante",
+      "O magnésio auxilia no funcionamento muscular e neuromuscular",
+      "O cálcio auxilia na formação e manutenção de ossos e dentes"
+    ],
+    "observacoes": "Copy dentro dos limites regulatórios. Todas as claims usadas constam nas alegações autorizadas do SKU curcuma-white. Avisos obrigatórios presentes em 3 itens. Linguagem preserva clareza das alegações funcionais sem expansão terapêutica. Correção cosmética aplicada em hashtag (erro de digitação) na copy_aprovada.json."
+  }
+}

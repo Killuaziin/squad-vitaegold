@@ -1,0 +1,139 @@
+{
+  "versao": "1.0",
+  "fonte": "IN 28/2018 + RDC 243/2018 + RDC 259/2002",
+  "atualizado_em": "2026-06-08",
+  "aviso": "Esta lista é orientação técnica/operacional, não parecer jurídico. Não substitui validação do responsável regulatório/jurídico da Vitae Gold.",
+
+  "categorias_bloqueadas": {
+    "emagrecimento": {
+      "descricao": "Nenhuma alegação de emagrecimento foi aprovada para suplementos alimentares",
+      "termos": [
+        "emagrecer", "emagrecimento", "perda de peso", "perder peso",
+        "queimar gordura", "queima de gordura", "queima calórica",
+        "secar", "secagem", "definição corporal", "redução de medidas",
+        "detox para emagrecer", "detox emagrecedor", "barriga chapada",
+        "eliminar gordura localizada", "reduzir gordura"
+      ]
+    },
+    "massa_muscular": {
+      "descricao": "Alegações de hipertrofia e ganho de massa muscular são proibidas para suplementos",
+      "termos": [
+        "ganho de massa muscular", "hipertrofia", "crescimento muscular",
+        "aumentar músculos", "ganhar músculo", "massa magra",
+        "anabólico", "anabolismo muscular"
+      ]
+    },
+    "estetica_corporal": {
+      "descricao": "Promessas de resultado estético corporal são proibidas",
+      "termos": [
+        "reduzir rugas", "anti-rugas", "eliminar rugas",
+        "reduzir celulite", "eliminar celulite", "anti-celulite",
+        "reduzir estrias", "eliminar flacidez", "firmeza da pele",
+        "rejuvenescer", "rejuvenescimento", "anti-aging", "anti-envelhecimento",
+        "pele mais jovem", "voltar no tempo"
+      ]
+    },
+    "funcao_sexual": {
+      "descricao": "Claims sobre função sexual, libido e fertilidade são proibidas",
+      "termos": [
+        "libido", "desejo sexual", "desempenho sexual", "potência sexual",
+        "disfunção erétil", "fertilidade", "testosterona (como promessa)",
+        "afrodisíaco", "estimulante sexual"
+      ]
+    },
+    "sintomas_hormonais": {
+      "descricao": "Claims sobre TPM, menopausa e sintomas hormonais são proibidas",
+      "termos": [
+        "TPM", "tensão pré-menstrual", "menopausa", "climatério",
+        "fogacho", "ondas de calor", "irregular menstrual",
+        "hormônios femininos", "reposição hormonal"
+      ]
+    },
+    "cognicao_clinica": {
+      "descricao": "Claims terapêuticas de cognição são proibidas (ex: 'trata déficit de atenção')",
+      "termos": [
+        "aumentar foco (como promessa terapêutica)", "melhorar atenção (como tratamento)",
+        "memória fotográfica", "memória eidética", "nootropico (como medicamento)",
+        "tratar TDAH", "déficit de atenção"
+      ]
+    },
+    "doencas_especificas": {
+      "descricao": "Mencionar doenças específicas em contexto de tratamento ou prevenção é proibido",
+      "termos": [
+        "câncer", "Alzheimer", "Parkinson", "demência",
+        "diabetes", "glicemia", "insulina", "resistência à insulina",
+        "pressão alta", "hipertensão", "pressão arterial",
+        "colesterol", "triglicerídeos", "aterosclerose",
+        "doenças do coração", "infarto", "AVC",
+        "próstata", "HPB",
+        "visão", "degeneração macular", "catarata",
+        "gastrite", "úlcera", "refluxo (como tratamento)",
+        "gripe", "resfriado", "covid", "pneumonia",
+        "labirintite", "zumbido (como tratamento)",
+        "ansiedade (como tratamento)", "depressão (como tratamento)",
+        "insônia (como tratamento)", "distúrbio do sono"
+      ]
+    },
+    "verbos_proibidos": {
+      "descricao": "Verbos que implicam ação terapêutica são proibidos",
+      "termos": [
+        "curar", "cura", "tratamento", "tratar",
+        "prevenir (doença)", "prevenção de doença",
+        "combater (doença)", "eliminar (doença)",
+        "reverter (doença)", "controlar (doença)"
+      ]
+    },
+    "apelos_milagre": {
+      "descricao": "Apelos de resultado milagroso, rápido ou garantido são proibidos",
+      "termos": [
+        "resultados em X dias", "resultados garantidos", "resultado garantido",
+        "milagroso", "milagre", "fórmula secreta", "fórmula exclusiva",
+        "resultado imediato", "ação imediata", "funciona em 7 dias",
+        "100% eficaz", "100% seguro (como garantia médica)"
+      ]
+    },
+    "comprovacao_cientifica": {
+      "descricao": "Uso de 'comprovado cientificamente' como selo de propaganda é restrito",
+      "termos": [
+        "comprovado cientificamente (como garantia)",
+        "clinicamente comprovado (sem respaldo)",
+        "estudos comprovam (sem citar estudo)"
+      ]
+    },
+    "antes_depois": {
+      "descricao": "Imagens ou afirmações de antes/depois que sugiram resultado médico ou estético",
+      "termos": [
+        "antes e depois", "antes/depois",
+        "transformação em X dias", "resultado em X semanas"
+      ]
+    },
+    "endosso_profissional": {
+      "descricao": "Uso de profissional de saúde ou celebridade para induzir consumo é restrito",
+      "termos": [
+        "médico recomenda", "nutricionista recomenda", "dermatologista indica",
+        "aprovado por médico", "usado por especialistas"
+      ]
+    },
+    "substituicao": {
+      "descricao": "Sugerir que o produto substitui refeição, dieta ou tratamento médico é proibido",
+      "termos": [
+        "substitui refeição", "substituir alimentação",
+        "dispensa dieta", "sem precisar de dieta",
+        "substitui tratamento médico", "sem precisar de remédio"
+      ]
+    },
+    "depoimentos_terapeuticos": {
+      "descricao": "Depoimentos que atribuam cura ou efeito terapêutico são proibidos",
+      "termos": [
+        "curou minha doença", "tratou meu problema",
+        "parei de tomar remédio", "não preciso mais de médico"
+      ]
+    }
+  },
+
+  "alertas_obrigatorios_padrao": [
+    "Este produto não é medicamento.",
+    "Consulte um nutricionista antes de iniciar a suplementação.",
+    "Não substitui uma alimentação equilibrada e hábitos de vida saudáveis."
+  ]
+}

@@ -1,0 +1,40 @@
+name: Publicar carrossel (fila Vitae Gold)
+
+on:
+  schedule:
+    # 12:00 UTC = 09:00 BRT, nas Segundas(1), Quartas(3), Quintas(4) e Sextas(5)
+    - cron: "0 12 * * 1,3,4,5"
+  workflow_dispatch: {} # permite rodar manualmente pelo botao "Run workflow"
+
+permissions:
+  contents: write # necessario para commitar o manifest atualizado
+
+concurrency:
+  group: publicar-fila
+  cancel-in-progress: false
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout do repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Node 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Publicar proximo post da fila
+        env:
+          INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
+          INSTAGRAM_USER_ID: ${{ secrets.INSTAGRAM_USER_ID }}
+        run: node publish-queue.mjs
+
+      - name: Salvar manifest atualizado no repo
+        run: |
+          git config user.name "vitaegold-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add queue/manifest.json
+          git commit -m "chore: publicado post da fila [skip ci]" || echo "Nada para commitar"
+          git push

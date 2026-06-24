@@ -1,0 +1,11 @@
+{
+  "status": "APROVADO",
+  "iteracao": 1,
+  "observacoes": "Slide 1 tem forte apelo visual de scroll-stop: fundo dourado #d4a017 com tipografia pura Montserrat Bold 56px preta — decisão assertiva que coloca a mensagem em evidência máxima. O set é visualmente coeso com alternância rítmica de fundos (dourado → branco → dourado → escuro → neutro → escuro → branco) que mantém o engajamento slide a slide. Paleta da marca presente em todos os slides. Tipografia consistente: Montserrat para headlines, Inter para corpo. Legibilidade mobile adequada — mínimo 42px para headlines, 28px para corpo. Aviso legal em destaque visual no slide 8 com borda dourada — boa decisão regulatória.",
+  "sugestoes_nao_bloqueantes": [
+    "Slide 2: ao escolher a foto stock de 'pessoa em rotina', preferir imagem aspiracional (pessoa em movimento, café da manhã, escritório) em vez de exaustão pura — reforça o posicionamento de bem-estar e não de problema",
+    "Slide 7: a foto do frasco CúrcumaWhite deve ser upload do usuário no Canva (fundo transparente PNG). O glow dourado pode ser obtido com sombra interna ou elemento circular semitransparente",
+    "Slides 3-6 (ícones line art): verificar disponibilidade no Canva Elements antes da execução. Alternativa: usar ícones de leaf/natural elements como substituto se ícones específicos não forem encontrados"
+  ],
+  "feedback": []
+}
