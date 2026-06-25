@@ -10,17 +10,18 @@ import { resolve, basename } from 'node:path';
 const MANIFEST = 'queue/manifest.json';
 const IG_BASE = 'https://graph.facebook.com/v21.0';
 
-// ---- upload catbox (sem chave) ----
-async function uploadToCatbox(imagePath) {
+// ---- upload de imagem (tmpfiles.org, sem chave, aceita upload de servidor) ----
+async function uploadImage(imagePath) {
   const buf = readFileSync(resolve(imagePath));
   const form = new FormData();
-  form.append('reqtype', 'fileupload');
-  form.append('fileToUpload', new Blob([buf]), basename(imagePath));
-  const res = await fetch('https://catbox.moe/user/api.php', { method: 'POST', body: form });
-  if (!res.ok) throw new Error(`catbox ${res.status}: ${await res.text()}`);
-  const url = (await res.text()).trim();
-  if (!url.startsWith('http')) throw new Error(`catbox falhou: ${url}`);
-  return url;
+  form.append('file', new Blob([buf]), basename(imagePath));
+  const res = await fetch('https://tmpfiles.org/api/v1/upload', { method: 'POST', body: form });
+  if (!res.ok) throw new Error(`tmpfiles ${res.status}: ${await res.text()}`);
+  const j = await res.json();
+  const page = j && j.data && j.data.url;
+  if (!page) throw new Error(`tmpfiles resposta inesperada: ${JSON.stringify(j)}`);
+  // converte o link da pagina em link direto da imagem: tmpfiles.org/ID/x -> tmpfiles.org/dl/ID/x
+  return page.replace(/:\/\/tmpfiles\.org\//, '://tmpfiles.org/dl/');
 }
 
 // ---- Instagram Graph API ----
@@ -86,7 +87,7 @@ const caption = readFileSync(`${dir}/caption.txt`, 'utf8').trim();
 
 console.log(`Publicando "${post.id}" (${type}) com ${images.length} imagens...`);
 const urls = [];
-for (const img of images) { urls.push(await uploadToCatbox(img)); console.log('  upload', img); }
+for (const img of images) { urls.push(await uploadImage(img)); console.log('  upload', img); }
 const children = [];
 for (const u of urls) children.push(await createChild(USER, u, TOKEN));
 for (const c of children) await waitFinished(c, TOKEN);
