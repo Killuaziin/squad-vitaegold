@@ -29,10 +29,10 @@ jobs:
       - name: Checkout do repositorio
         uses: actions/checkout@v4
 
-      - name: Configurar Node 20
+      - name: Configurar Node 24
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "24"
 
       - name: Publicar proximo post da fila
         env:
@@ -44,8 +44,12 @@ jobs:
 
       - name: Salvar manifest atualizado no repo
         run: |
-          git config user.name "vitaegold-bot"
-          git config user.email "bot@users.noreply.github.com"
-          git add queue/manifest.json
-          git commit -m "chore: publicado post da fila [skip ci]" || echo "Nada para commitar"
-          git push
+          if git diff --quiet -- queue/manifest.json; then
+            echo "Sem mudancas no manifest. Nada a commitar."
+          else
+            git config user.name "vitaegold-bot"
+            git config user.email "bot@users.noreply.github.com"
+            git add queue/manifest.json
+            git commit -m "chore: publicado post da fila [skip ci]"
+            git push
+          fi
