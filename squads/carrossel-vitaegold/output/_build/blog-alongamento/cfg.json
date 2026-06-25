@@ -1,0 +1,21 @@
+{
+  "assetDir": "squads/carrossel-vitaegold/output/_build/blog-alongamento/assets",
+  "outDir": "squads/carrossel-vitaegold/output/blog-alongamento/images",
+  "slides": [
+    { "img": "s1.jpg", "pos": "center 35%",
+      "headline": "Alongar não é só pra atleta.",
+      "body": "É um hábito simples que alivia o corpo, melhora a postura e ainda dá uma pausa no meio do dia." },
+    { "img": "s2.jpg", "pos": "center 40%", "pill": "O segredo",
+      "headline": "Alongue respirando, nunca prendendo o ar.",
+      "body": "Inspire preparando o movimento e solte o ar devagar enquanto aprofunda. Quanto mais calma a respiração, mais o músculo solta." },
+    { "img": "s3.jpg", "pos": "center 40%", "pill": "Quanto tempo",
+      "headline": "20 a 30 segundos em cada posição.",
+      "body": "Repita duas ou três vezes, com calma. O importante é a regularidade, sem nunca forçar até doer." },
+    { "img": "s4.jpg", "pos": "center 35%", "pill": "Quando fazer",
+      "headline": "Encaixe nos momentos do dia.",
+      "body": "Ao acordar, pra tirar a rigidez. Depois de ficar muito tempo sentado, pra aliviar pescoço, ombros e lombar." },
+    { "img": "s5.jpg", "pos": "center 35%",
+      "headline": "Poucos minutos que o corpo agradece.",
+      "body": "Alongar com atenção é também uma pausa pra mente. Comece devagar, no seu ritmo." }
+  ]
+}

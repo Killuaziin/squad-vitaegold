@@ -1,0 +1,21 @@
+{
+  "assetDir": "squads/carrossel-vitaegold/output/_build/mitos-sono/assets",
+  "outDir": "squads/carrossel-vitaegold/output/mitos-sono/images",
+  "slides": [
+    { "img": "s1.jpg", "pos": "center 30%", "tag": "Mitos e Verdades",
+      "headline": "Mitos e verdades sobre o sono depois dos 60.",
+      "body": "Tem muita coisa repetida por aí que não é bem assim. Vamos separar o que é fato do que é boato." },
+    { "img": "s2.jpg", "pos": "center 35%", "badge": "mito",
+      "headline": "Quanto mais idade, menos sono a pessoa precisa.",
+      "body": "A necessidade continua entre 7 e 8 horas. O que muda é o padrão: o sono fica mais leve e com mais despertares." },
+    { "img": "s3.jpg", "pos": "center 45%", "badge": "verdade",
+      "headline": "A luz da manhã ajuda a dormir melhor à noite.",
+      "body": "Tomar sol logo cedo acerta o relógio do corpo e favorece o sono na hora certa. Abrir as cortinas já ajuda." },
+    { "img": "s4.jpg", "pos": "center 30%", "badge": "mito",
+      "headline": "Cochilar de dia sempre atrapalha a noite.",
+      "body": "Um cochilo curto, de 20 a 30 minutos no começo da tarde, costuma fazer bem e não prejudica o sono noturno." },
+    { "img": "s5.jpg", "pos": "center 35%",
+      "headline": "Dormir bem é cuidar do corpo e da mente.",
+      "body": "Pequenos ajustes na rotina fazem diferença. Se o sono te preocupa com frequência, vale conversar com seu médico." }
+  ]
+}

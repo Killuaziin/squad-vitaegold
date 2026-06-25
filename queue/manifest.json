@@ -33,6 +33,38 @@
       "title": "Fibras e a saude do intestino",
       "published": false,
       "url": null
+    },
+    {
+      "id": "blog-alongamento",
+      "type": "blog",
+      "title": "Alongamento na rotina",
+      "published": false,
+      "url": null,
+      "date": "2026-07-01"
+    },
+    {
+      "id": "blog-rotina",
+      "type": "blog",
+      "date": "2026-07-03",
+      "title": "Rotina matinal",
+      "published": false,
+      "url": null
+    },
+    {
+      "id": "mitos-sono",
+      "type": "mitos",
+      "date": "2026-07-02",
+      "title": "Mitos e Verdades sobre o sono",
+      "published": false,
+      "url": null
+    },
+    {
+      "id": "produto-colageno-c2",
+      "type": "produto",
+      "date": "2026-06-29",
+      "title": "Colageno C2",
+      "published": false,
+      "url": null
     }
   ]
 }

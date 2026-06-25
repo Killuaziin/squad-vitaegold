@@ -1,0 +1,21 @@
+{
+  "assetDir": "squads/carrossel-vitaegold/output/_build/blog-rotina/assets",
+  "outDir": "squads/carrossel-vitaegold/output/blog-rotina/images",
+  "slides": [
+    { "img": "s1.jpg", "pos": "center 30%",
+      "headline": "Como você começa a manhã dá o tom do dia inteiro.",
+      "body": "Os primeiros minutos depois de acordar são delicados. Cuidar deles muda como você se sente nas horas seguintes." },
+    { "img": "s2.jpg", "pos": "center 40%", "pill": "A armadilha",
+      "headline": "Não pegue o celular assim que acordar.",
+      "body": "Ao abrir o telefone na hora, você entrega sua atenção pras notificações antes de ter um momento seu. Adie por uns 15 a 30 minutos." },
+    { "img": "s3.jpg", "pos": "center 40%", "pill": "Luz natural",
+      "headline": "Abra as cortinas logo cedo.",
+      "body": "A luz da manhã avisa ao corpo que é hora de despertar, e ainda ajuda a dormir melhor à noite. Um café num ambiente claro já vale." },
+    { "img": "s4.jpg", "pos": "center 45%", "pill": "Comece simples",
+      "headline": "Dois gestos que ajudam.",
+      "body": "Um copo de água ao acordar, depois de horas sem beber. E um movimento leve, um alongamento ou caminhada curta pra soltar o corpo." },
+    { "img": "s5.jpg", "pos": "center 35%",
+      "headline": "A manhã não precisa ser perfeita. Precisa ser sua.",
+      "body": "Escolha como começar o dia, em vez de só reagir ao que aparece." }
+  ]
+}
