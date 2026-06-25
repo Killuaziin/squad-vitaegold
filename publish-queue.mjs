@@ -73,12 +73,19 @@ if (!TOKEN || !USER) { console.error('ERRO: faltam secrets INSTAGRAM_ACCESS_TOKE
 
 const m = JSON.parse(readFileSync(MANIFEST, 'utf8'));
 const DRY = process.env.DRY_RUN === '1';
+const today = new Date().toISOString().slice(0, 10); // YYYY-MM-DD (UTC)
 const weekday = new Date().getUTCDay(); // 0=Dom..6=Sab
-const type = process.env.FORCE_TYPE || m.schedule[String(weekday)];
-if (!type) { console.log(`Hoje (dia ${weekday}) nao tem post agendado. Nada a fazer.`); process.exit(0); }
 
-const post = m.posts.find(p => !p.published && p.type === type);
-if (!post) { console.log(`Fila vazia para tipo "${type}". Reabasteca a fila. Nada publicado.`); process.exit(0); }
+// 1) Prioridade: post com DATA explicita marcada para hoje (one-off, ex.: sabado)
+let post = m.posts.find(p => !p.published && p.date === today);
+
+// 2) Senao, pelo TIPO do dia da semana (posts sem data fixa)
+if (!post) {
+  const type = process.env.FORCE_TYPE || m.schedule[String(weekday)];
+  if (!type) { console.log(`Hoje (dia ${weekday}) nao tem post agendado. Nada a fazer.`); process.exit(0); }
+  post = m.posts.find(p => !p.published && p.type === type && !p.date);
+  if (!post) { console.log(`Fila vazia para tipo "${type}". Reabasteca a fila. Nada publicado.`); process.exit(0); }
+}
 
 const dir = `queue/posts/${post.id}`;
 const images = readdirSync(dir).filter(f => /^slide-\d+\.jpe?g$/i.test(f)).sort().map(f => `${dir}/${f}`);

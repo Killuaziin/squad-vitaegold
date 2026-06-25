@@ -2,8 +2,10 @@ name: Publicar carrossel (fila Vitae Gold)
 
 on:
   schedule:
-    # 12:00 UTC = 09:00 BRT, nas Segundas(1), Quartas(3), Quintas(4) e Sextas(5)
-    - cron: "0 12 * * 1,3,4,5"
+    # Roda todo dia as 12:00 UTC (09:00 BRT). O publicador decide se posta:
+    # publica se houver post com data de hoje (one-off) OU do tipo do dia (Seg/Qua/Qui/Sex).
+    # Em dias sem nada agendado, ele apenas sai sem postar.
+    - cron: "0 12 * * *"
   workflow_dispatch: # permite rodar manualmente pelo botao "Run workflow"
     inputs:
       force_type:
