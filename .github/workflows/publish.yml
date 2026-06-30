@@ -12,6 +12,10 @@ on:
         description: "Forcar tipo (blog / produto / mitos). Vazio = usa o dia da semana."
         required: false
         default: ""
+      force_date:
+        description: "Forcar uma data (YYYY-MM-DD), ex. repostar atrasado. Vazio = hoje."
+        required: false
+        default: ""
       dry_run:
         description: "Teste sem publicar de verdade? (1 = sim)"
         required: false
@@ -41,6 +45,7 @@ jobs:
           INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
           INSTAGRAM_USER_ID: ${{ secrets.INSTAGRAM_USER_ID }}
           FORCE_TYPE: ${{ github.event.inputs.force_type }}
+          FORCE_DATE: ${{ github.event.inputs.force_date }}
           DRY_RUN: ${{ github.event.inputs.dry_run }}
         run: node publish-queue.mjs
 
