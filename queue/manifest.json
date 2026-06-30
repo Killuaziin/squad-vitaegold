@@ -63,8 +63,10 @@
       "type": "produto",
       "date": "2026-06-29",
       "title": "Colageno C2",
-      "published": false,
-      "url": null
+      "published": true,
+      "url": "https://www.instagram.com/p/DaNemXGkksk/",
+      "post_id": "18096749959976356",
+      "publishedAt": "2026-06-30T12:48:39.744Z"
     }
   ]
 }
