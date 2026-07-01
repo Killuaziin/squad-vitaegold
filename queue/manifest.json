@@ -38,9 +38,11 @@
       "id": "blog-alongamento",
       "type": "blog",
       "title": "Alongamento na rotina",
-      "published": false,
-      "url": null,
-      "date": "2026-07-01"
+      "published": true,
+      "url": "https://www.instagram.com/p/DaQOz69Do8P/",
+      "date": "2026-07-01",
+      "post_id": "18077838974668699",
+      "publishedAt": "2026-07-01T14:28:22.161Z"
     },
     {
       "id": "blog-rotina",
