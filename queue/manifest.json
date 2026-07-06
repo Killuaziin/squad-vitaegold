@@ -131,6 +131,38 @@
       "title": "Cafe da manha",
       "published": false,
       "url": null
+    },
+    {
+      "id": "produto-magd3",
+      "type": "produto",
+      "date": "2026-07-20",
+      "title": "Magnesium D3",
+      "published": false,
+      "url": null
+    },
+    {
+      "id": "blog-mobilidade",
+      "type": "blog",
+      "date": "2026-07-22",
+      "title": "Mobilidade articular",
+      "published": false,
+      "url": null
+    },
+    {
+      "id": "mitos-suplementos",
+      "type": "mitos",
+      "date": "2026-07-23",
+      "title": "Mitos suplementos",
+      "published": false,
+      "url": null
+    },
+    {
+      "id": "blog-acucar",
+      "type": "blog",
+      "date": "2026-07-24",
+      "title": "Reduzir acucar",
+      "published": false,
+      "url": null
     }
   ]
 }

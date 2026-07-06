@@ -1,0 +1,21 @@
+{
+  "assetDir": "squads/carrossel-vitaegold/output/_build/blog-acucar/assets",
+  "outDir": "squads/carrossel-vitaegold/output/blog-acucar/images",
+  "slides": [
+    { "img": "s1.jpg", "pos": "center 50%",
+      "headline": "Reduzir o açúcar não é proibir o doce.",
+      "body": "O açúcar não é vilão. O ponto é a quantidade e a frequência, muitas vezes escondidas onde a gente nem percebe." },
+    { "img": "s2.jpg", "pos": "center 50%", "pill": "O ciclo",
+      "headline": "Muito açúcar de uma vez vira montanha-russa.",
+      "body": "Uma onda rápida de energia, depois uma queda. Isso traz mais fome, mais cansaço e vontade de doce de novo pouco depois." },
+    { "img": "s3.jpg", "pos": "center 50%", "pill": "Boa notícia",
+      "headline": "O paladar se reeduca.",
+      "body": "Diminuindo aos poucos, em poucas semanas você começa a perceber a doçura natural de uma fruta ou de um café que antes pareciam sem graça." },
+    { "img": "s4.jpg", "pos": "center 35%", "pill": "Como fazer",
+      "headline": "Vá com calma, não de uma vez.",
+      "body": "Corte aos poucos, fique de olho no açúcar escondido e troque por sabores naturais. O desejo intenso vai perdendo força sozinho." },
+    { "img": "s5.jpg", "pos": "center 35%",
+      "headline": "Não é sobre resistir pra sempre.",
+      "body": "É devolver ao paladar o prazer dos sabores mais sutis. Um caminho gentil, no seu tempo." }
+  ]
+}

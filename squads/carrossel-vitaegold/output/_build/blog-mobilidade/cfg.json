@@ -1,0 +1,21 @@
+{
+  "assetDir": "squads/carrossel-vitaegold/output/_build/blog-mobilidade/assets",
+  "outDir": "squads/carrossel-vitaegold/output/blog-mobilidade/images",
+  "slides": [
+    { "img": "s1.jpg", "pos": "center 30%",
+      "headline": "Mobilidade é se mover pela vida com conforto.",
+      "body": "É o que permite agachar pra pegar algo, virar o pescoço no carro ou alcançar a prateleira sem desconforto." },
+    { "img": "s2.jpg", "pos": "center 30%", "pill": "O que é",
+      "headline": "A liberdade das suas articulações.",
+      "body": "Joelhos, ombros, quadris, coluna: mobilidade é a capacidade deles se moverem em toda a amplitude natural, com controle." },
+    { "img": "s3.jpg", "pos": "center 30%", "pill": "Não confunda",
+      "headline": "Mobilidade não é a mesma coisa que flexibilidade.",
+      "body": "Flexibilidade é o quanto o músculo estica. Mobilidade é a articulação se movendo com controle e estabilidade. Movimento útil e seguro." },
+    { "img": "s4.jpg", "pos": "center 30%", "pill": "Por que importa",
+      "headline": "Muito tempo parado cobra o seu preço.",
+      "body": "Articulações pouco usadas deixam tarefas simples mais difíceis. Cuidar da mobilidade traz mais facilidade e conforto no dia a dia." },
+    { "img": "s5.jpg", "pos": "center 25%",
+      "headline": "Mobilidade não é pose impressionante.",
+      "body": "É se mover pela vida com confiança. Movimente as articulações um pouco todo dia." }
+  ]
+}

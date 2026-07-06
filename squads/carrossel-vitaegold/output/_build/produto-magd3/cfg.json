@@ -1,0 +1,22 @@
+{
+  "assetDir": "squads/carrossel-vitaegold/output/_build/produto-magd3/assets",
+  "outDir": "squads/carrossel-vitaegold/output/produto-magd3/images",
+  "prodImage": "produto.png",
+  "hero": { "tag": "Ossos & Imunidade", "title": "Magnésium + D3", "sub": "Magnésio com vitamina D3 numa fórmula só" },
+  "slides": [
+    { "type": "hero" },
+    { "type": "photo", "img": "life1.jpg", "pos": "center 40%", "pill": "O que é",
+      "headline": "Magnésio e vitamina D3, juntos.",
+      "body": "Uma fórmula prática que reúne dois nutrientes importantes pra complementar sua alimentação no dia a dia." },
+    { "type": "photo", "img": "life2.jpg", "pos": "center 35%", "pill": "Função",
+      "headline": "Apoio pros ossos, músculos e imunidade.",
+      "body": "O magnésio auxilia no músculo e nos ossos. A vitamina D ajuda na absorção de cálcio, nos ossos e no sistema imune." },
+    { "type": "quote",
+      "quote": "\"Gosto da combinação de magnésio com D3 num produto só. Já é o terceiro pote.\"",
+      "from": "Relato de quem já incluiu o Magnésium + D3 na rotina" },
+    { "type": "cta",
+      "headline": "Ossos e imunidade\nmerecem atenção.",
+      "body": "Fale com a gente no WhatsApp e comece com o Magnésium + D3, com condições especiais em kits.",
+      "aviso": "Suplemento alimentar. Este produto não é um medicamento e não deve ser utilizado para tratamento, cura ou prevenção de doenças. Não substitui uma alimentação equilibrada e variada e hábitos de vida saudáveis. O magnésio e a vitamina D auxiliam na formação e manutenção de ossos e dentes; a vitamina D auxilia no funcionamento do sistema imune." }
+  ]
+}

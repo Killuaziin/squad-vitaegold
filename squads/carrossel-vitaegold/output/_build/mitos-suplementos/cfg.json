@@ -1,0 +1,21 @@
+{
+  "assetDir": "squads/carrossel-vitaegold/output/_build/mitos-suplementos/assets",
+  "outDir": "squads/carrossel-vitaegold/output/mitos-suplementos/images",
+  "slides": [
+    { "img": "s1.jpg", "pos": "center 40%", "tag": "Mitos e Verdades",
+      "headline": "Mitos e verdades sobre suplementos e vitaminas.",
+      "body": "Tem muita informação solta por aí. Vamos separar o que faz sentido do que é boato." },
+    { "img": "s2.jpg", "pos": "center 40%", "badge": "mito",
+      "headline": "Se um pouco faz bem, mais faz melhor.",
+      "body": "Não é assim. Doses acima do recomendado não trazem mais benefício e podem até atrapalhar. Siga a orientação do rótulo." },
+    { "img": "s3.jpg", "pos": "center 45%", "badge": "verdade",
+      "headline": "Suplemento complementa, não substitui a comida.",
+      "body": "Ele entra como apoio a uma alimentação equilibrada, nunca no lugar dela. O prato de verdade vem primeiro." },
+    { "img": "s4.jpg", "pos": "center 45%", "badge": "mito",
+      "headline": "Por ser natural, pode tomar à vontade.",
+      "body": "Mesmo suplementos têm dose certa e podem interagir com medicamentos. Vale sempre conversar com um profissional." },
+    { "img": "s5.jpg", "pos": "center 30%",
+      "headline": "O melhor suplemento é o que faz sentido pra você.",
+      "body": "As necessidades são individuais. Na dúvida, converse com seu médico ou nutricionista." }
+  ]
+}
