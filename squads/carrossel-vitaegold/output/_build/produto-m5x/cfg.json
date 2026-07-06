@@ -1,0 +1,22 @@
+{
+  "assetDir": "squads/carrossel-vitaegold/output/_build/produto-m5x/assets",
+  "outDir": "squads/carrossel-vitaegold/output/produto-m5x/images",
+  "prodImage": "produto.png",
+  "hero": { "tag": "Suporte Muscular & Energia", "title": "Magnésio M5X", "sub": "5 formas de magnésio em uma cápsula" },
+  "slides": [
+    { "type": "hero" },
+    { "type": "photo", "img": "life1.jpg", "pos": "center 35%", "pill": "O que é",
+      "headline": "Um blend de 5 magnésios de alta absorção.",
+      "body": "Dimalato, bisglicinato e outras formas juntas, pra complementar sua alimentação no dia a dia." },
+    { "type": "photo", "img": "life2.jpg", "pos": "center 35%", "pill": "Função",
+      "headline": "Auxilia no músculo e na energia do dia.",
+      "body": "O magnésio contribui pro funcionamento muscular e neuromuscular, o metabolismo energético e o equilíbrio dos eletrólitos." },
+    { "type": "quote",
+      "quote": "\"Tomo à noite, virou hábito. Cinco formas de magnésio numa cápsula só.\"",
+      "from": "Relato de quem já incluiu o M5X na rotina" },
+    { "type": "cta",
+      "headline": "Dê ao corpo o magnésio\nque ele precisa.",
+      "body": "Fale com a gente no WhatsApp e comece com o M5X, com condições especiais em kits.",
+      "aviso": "Suplemento alimentar. Este produto não é um medicamento e não deve ser utilizado para tratamento, cura ou prevenção de doenças. Não substitui uma alimentação equilibrada e variada e hábitos de vida saudáveis. O magnésio auxilia no funcionamento muscular e neuromuscular e no metabolismo energético." }
+  ]
+}

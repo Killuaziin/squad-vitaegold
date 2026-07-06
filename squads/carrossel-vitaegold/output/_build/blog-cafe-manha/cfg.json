@@ -1,0 +1,21 @@
+{
+  "assetDir": "squads/carrossel-vitaegold/output/_build/blog-cafe-manha/assets",
+  "outDir": "squads/carrossel-vitaegold/output/blog-cafe-manha/images",
+  "slides": [
+    { "img": "s1.jpg", "pos": "center 45%",
+      "headline": "Café da manhã: precisa ser aquela mesa cheia?",
+      "body": "Não. O que importa não é a quantidade, é o equilíbrio, e ouvir o próprio corpo." },
+    { "img": "s2.jpg", "pos": "center 35%", "pill": "Por que importa",
+      "headline": "Depois de horas de sono, o corpo retoma.",
+      "body": "Pra muita gente, comer cedo traz disposição e segura a fome até a próxima refeição, sem aquela vontade de beliscar." },
+    { "img": "s3.jpg", "pos": "center 40%", "pill": "Sem regra fixa",
+      "headline": "Nem todo mundo sente fome ao acordar.",
+      "body": "E tudo bem. Alguns preferem algo leve e comem mais tarde. Ouvir o corpo vale mais que qualquer fórmula pronta." },
+    { "img": "s4.jpg", "pos": "center 50%", "pill": "O que é equilibrado",
+      "headline": "Combine as famílias de alimentos.",
+      "body": "Energia que dura (aveia, pão integral, frutas) mais proteína (ovos, iogurte, queijo). Juntas, mantêm você satisfeito por mais tempo." },
+    { "img": "s5.jpg", "pos": "center 35%",
+      "headline": "O melhor café da manhã é o que cabe em você.",
+      "body": "Simples, equilibrado e no seu tempo. Sem complicar." }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "assetDir": "squads/carrossel-vitaegold/output/_build/blog-antioxidantes/assets",
+  "outDir": "squads/carrossel-vitaegold/output/blog-antioxidantes/images",
+  "slides": [
+    { "img": "s1.jpg", "pos": "center 50%",
+      "headline": "Antioxidantes: você já come, talvez sem saber.",
+      "body": "Eles ajudam o corpo a lidar com os radicais livres, ligados ao envelhecimento das células. E já estão na sua cozinha." },
+    { "img": "s2.jpg", "pos": "center 50%", "pill": "O que são",
+      "headline": "Um escudo natural das células.",
+      "body": "Radicais livres são moléculas instáveis que o corpo produz e recebe do ambiente. Os antioxidantes ajudam a neutralizar o excesso." },
+    { "img": "s3.jpg", "pos": "center 50%", "pill": "A regra das cores",
+      "headline": "Quanto mais colorido o prato, melhor.",
+      "body": "Cada cor traz um tipo de antioxidante. Vermelho e roxo na uva, amora e beterraba, e assim por diante. Variedade é o segredo." },
+    { "img": "s4.jpg", "pos": "center 40%", "pill": "Onde encontrar",
+      "headline": "Frutas, verduras e legumes.",
+      "body": "Não precisa de mudança radical. Inclua um pouco mais de cor em cada refeição, aos poucos." },
+    { "img": "s5.jpg", "pos": "center 40%",
+      "headline": "Comer colorido é cuidar de dentro pra fora.",
+      "body": "Pequenas trocas no prato, todo dia, fazem diferença ao longo do tempo." }
+  ]
+}

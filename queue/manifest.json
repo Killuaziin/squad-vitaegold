@@ -99,6 +99,38 @@
       "title": "Hidratacao",
       "published": false,
       "url": null
+    },
+    {
+      "id": "produto-m5x",
+      "type": "produto",
+      "date": "2026-07-13",
+      "title": "Magnesio M5X",
+      "published": false,
+      "url": null
+    },
+    {
+      "id": "blog-antioxidantes",
+      "type": "blog",
+      "date": "2026-07-15",
+      "title": "Antioxidantes",
+      "published": false,
+      "url": null
+    },
+    {
+      "id": "mitos-exercicio",
+      "type": "mitos",
+      "date": "2026-07-16",
+      "title": "Mitos exercicio",
+      "published": false,
+      "url": null
+    },
+    {
+      "id": "blog-cafe-manha",
+      "type": "blog",
+      "date": "2026-07-17",
+      "title": "Cafe da manha",
+      "published": false,
+      "url": null
     }
   ]
 }
