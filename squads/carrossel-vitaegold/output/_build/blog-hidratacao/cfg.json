@@ -1,0 +1,21 @@
+{
+  "assetDir": "squads/carrossel-vitaegold/output/_build/blog-hidratacao/assets",
+  "outDir": "squads/carrossel-vitaegold/output/blog-hidratacao/images",
+  "slides": [
+    { "img": "s1.jpg", "pos": "center 45%",
+      "headline": "Beber água é simples, mas cheio de dúvidas.",
+      "body": "Quanta água o corpo realmente precisa por dia? A resposta não é aquela regra fixa que você ouve por aí." },
+    { "img": "s2.jpg", "pos": "center 35%", "pill": "Por que importa",
+      "headline": "A água faz o corpo inteiro funcionar.",
+      "body": "Ela transporta nutrientes, regula a temperatura e lubrifica as articulações. Pouca água traz cansaço, dor de cabeça e falta de foco." },
+    { "img": "s3.jpg", "pos": "center 45%", "pill": "E os 2 litros?",
+      "headline": "Os 2 litros são só uma referência.",
+      "body": "A necessidade real varia com o peso, o calor, a atividade e a alimentação. Não existe número igual pra todo mundo." },
+    { "img": "s4.jpg", "pos": "center 50%", "pill": "Dicas",
+      "headline": "Nem toda água vem do copo.",
+      "body": "Melancia, pepino, laranja e alface também hidratam. E não espere a sede: beba aos poucos ao longo do dia." },
+    { "img": "s5.jpg", "pos": "center 35%",
+      "headline": "Um jeito fácil de conferir: a cor da urina.",
+      "body": "Bem clara é bom sinal. Quanto mais escura, mais o corpo pede água. Cuide disso todo dia." }
+  ]
+}

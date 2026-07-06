@@ -1,0 +1,21 @@
+{
+  "assetDir": "squads/carrossel-vitaegold/output/_build/blog-caminhada/assets",
+  "outDir": "squads/carrossel-vitaegold/output/blog-caminhada/images",
+  "slides": [
+    { "img": "s1.jpg", "pos": "center 40%",
+      "headline": "Caminhar é o exercício mais simples que existe.",
+      "body": "Sem academia, sem equipamento. Só dar os primeiros passos já faz bem pro corpo e pra cabeça." },
+    { "img": "s2.jpg", "pos": "center 45%", "pill": "No corpo",
+      "headline": "Movimento suave, de baixo impacto.",
+      "body": "A caminhada estimula a circulação, aquece os músculos e lubrifica as articulações. Dá pra começar aos poucos, no seu ritmo." },
+    { "img": "s3.jpg", "pos": "center 45%", "pill": "Na mente",
+      "headline": "Uns passos ao ar livre acalmam.",
+      "body": "O ritmo constante, a luz natural e o ar livre ajudam a deixar a cabeça mais tranquila e centrada." },
+    { "img": "s4.jpg", "pos": "center 50%", "pill": "No dia a dia",
+      "headline": "Não precisa de hora marcada.",
+      "body": "Desça um ponto antes, use a escada, dê uma volta no quarteirão no almoço. Pequenos passos somam muito no fim da semana." },
+    { "img": "s5.jpg", "pos": "center 35%",
+      "headline": "O melhor exercício é o que você mantém.",
+      "body": "E poucos são tão fáceis de manter quanto caminhar. Comece hoje, com uma volta simples." }
+  ]
+}

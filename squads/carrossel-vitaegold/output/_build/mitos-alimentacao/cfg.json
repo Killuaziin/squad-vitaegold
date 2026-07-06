@@ -1,0 +1,21 @@
+{
+  "assetDir": "squads/carrossel-vitaegold/output/_build/mitos-alimentacao/assets",
+  "outDir": "squads/carrossel-vitaegold/output/mitos-alimentacao/images",
+  "slides": [
+    { "img": "s1.jpg", "pos": "center 35%", "tag": "Mitos e Verdades",
+      "headline": "Mitos e verdades sobre a alimentação depois dos 60.",
+      "body": "Tem muito ouvi dizer sobre comida. Vamos separar o que é fato do que é boato." },
+    { "img": "s2.jpg", "pos": "center 50%", "badge": "mito",
+      "headline": "Carboidrato à noite engorda mais.",
+      "body": "O que conta é o total de calorias do dia, não o horário. Um jantar equilibrado com carboidrato não é o vilão." },
+    { "img": "s3.jpg", "pos": "center 40%", "badge": "verdade",
+      "headline": "Comer devagar ajuda a comer melhor.",
+      "body": "O corpo leva um tempinho pra avisar que está satisfeito. Mastigar com calma ajuda a perceber a saciedade." },
+    { "img": "s4.jpg", "pos": "center 50%", "badge": "mito",
+      "headline": "Depois dos 60 precisa de menos proteína.",
+      "body": "Pelo contrário. Com o passar dos anos, manter uma boa ingestão de proteína ajuda a preservar a massa muscular." },
+    { "img": "s5.jpg", "pos": "center 35%",
+      "headline": "Comer bem é equilíbrio, não regra rígida.",
+      "body": "Variedade, calma e bom senso valem mais que modismos. Na dúvida, converse com um nutricionista." }
+  ]
+}
