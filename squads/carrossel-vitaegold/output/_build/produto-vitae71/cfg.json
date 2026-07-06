@@ -1,0 +1,22 @@
+{
+  "assetDir": "squads/carrossel-vitaegold/output/_build/produto-vitae71/assets",
+  "outDir": "squads/carrossel-vitaegold/output/produto-vitae71/images",
+  "prodImage": "produto.png",
+  "hero": { "tag": "7 em 1", "title": "Vitae 7.1", "sub": "Sete nutrientes em uma cápsula só" },
+  "slides": [
+    { "type": "hero" },
+    { "type": "photo", "img": "life1.jpg", "pos": "center 30%", "pill": "O que é",
+      "headline": "Sete nutrientes numa cápsula só.",
+      "body": "Vitamina C, magnésio, cúrcuma, colágeno tipo II e mais, reunidos pra complementar sua alimentação com praticidade." },
+    { "type": "photo", "img": "life2.jpg", "pos": "center 25%", "pill": "Função",
+      "headline": "Apoio pra imunidade e pros músculos.",
+      "body": "A vitamina C auxilia na formação do colágeno e no sistema imune. O magnésio auxilia no funcionamento muscular e neuromuscular." },
+    { "type": "quote",
+      "quote": "\"Tem bastante coisa numa cápsula só. Facilita pra quem toma vários suplementos.\"",
+      "from": "Relato de quem já incluiu o Vitae 7.1 na rotina" },
+    { "type": "cta",
+      "headline": "Simplifique sua rotina\nde suplementos.",
+      "body": "Fale com a gente no WhatsApp e comece com o Vitae 7.1, com condições especiais em kits.",
+      "aviso": "Suplemento alimentar. Este produto não é um medicamento e não deve ser utilizado para tratamento, cura ou prevenção de doenças. Não substitui uma alimentação equilibrada e variada e hábitos de vida saudáveis. A vitamina C auxilia no funcionamento do sistema imune e na formação do colágeno; o magnésio auxilia no funcionamento muscular e neuromuscular." }
+  ]
+}

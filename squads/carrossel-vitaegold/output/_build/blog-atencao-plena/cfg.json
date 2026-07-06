@@ -1,0 +1,21 @@
+{
+  "assetDir": "squads/carrossel-vitaegold/output/_build/blog-atencao-plena/assets",
+  "outDir": "squads/carrossel-vitaegold/output/blog-atencao-plena/images",
+  "slides": [
+    { "img": "s1.jpg", "pos": "center 45%",
+      "headline": "A gente vive comendo no automático.",
+      "body": "Na frente da tela, respondendo mensagem, com a cabeça no próximo compromisso. Comer com atenção plena é só voltar a estar presente." },
+    { "img": "s2.jpg", "pos": "center 35%", "pill": "O que é",
+      "headline": "Presença no prato, não regra.",
+      "body": "É notar as cores, os aromas e os sabores. Perceber quando a fome aparece e quando a saciedade chega. Sem lista de proibidos." },
+    { "img": "s3.jpg", "pos": "center 40%", "pill": "O mecanismo",
+      "headline": "A saciedade demora alguns minutos.",
+      "body": "O aviso de que já comeu o suficiente leva um tempinho pra chegar ao cérebro. Comendo rápido e distraído, ele chega tarde demais." },
+    { "img": "s4.jpg", "pos": "center 35%", "pill": "Na prática",
+      "headline": "Desacelere um pouco a refeição.",
+      "body": "Sente-se, largue o celular, mastigue com calma. Pequenas pausas dão ao corpo a chance de avisar que está satisfeito." },
+    { "img": "s5.jpg", "pos": "center 40%",
+      "headline": "Comer bem começa por estar presente.",
+      "body": "Não é sobre o que está no prato, é sobre a atenção que você leva até ele." }
+  ]
+}

@@ -163,6 +163,38 @@
       "title": "Reduzir acucar",
       "published": false,
       "url": null
+    },
+    {
+      "id": "produto-vitae71",
+      "type": "produto",
+      "date": "2026-07-27",
+      "title": "Vitae 7.1",
+      "published": false,
+      "url": null
+    },
+    {
+      "id": "blog-atencao-plena",
+      "type": "blog",
+      "date": "2026-07-29",
+      "title": "Atencao plena",
+      "published": false,
+      "url": null
+    },
+    {
+      "id": "mitos-memoria",
+      "type": "mitos",
+      "date": "2026-07-30",
+      "title": "Mitos memoria",
+      "published": false,
+      "url": null
+    },
+    {
+      "id": "blog-autocuidado",
+      "type": "blog",
+      "date": "2026-07-31",
+      "title": "Autocuidado saude mental",
+      "published": false,
+      "url": null
     }
   ]
 }

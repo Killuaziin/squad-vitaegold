@@ -1,0 +1,21 @@
+{
+  "assetDir": "squads/carrossel-vitaegold/output/_build/mitos-memoria/assets",
+  "outDir": "squads/carrossel-vitaegold/output/mitos-memoria/images",
+  "slides": [
+    { "img": "s1.jpg", "pos": "center 40%", "tag": "Mitos e Verdades",
+      "headline": "Mitos e verdades sobre memória e envelhecimento.",
+      "body": "Envelhecer traz mudanças, mas nem tudo que dizem por aí é verdade. Vamos separar o que é fato." },
+    { "img": "s2.jpg", "pos": "center 35%", "badge": "mito",
+      "headline": "Perder memória é inevitável, não tem o que fazer.",
+      "body": "Algumas mudanças são normais, mas hábitos saudáveis, sono, movimento e convívio ajudam a manter a mente ativa." },
+    { "img": "s3.jpg", "pos": "center 35%", "badge": "verdade",
+      "headline": "Aprender coisas novas mantém o cérebro ativo.",
+      "body": "Ler, jogar, aprender um hobby ou uma habilidade estimula o cérebro em qualquer idade. Ele gosta de novidade." },
+    { "img": "s4.jpg", "pos": "center 30%", "badge": "mito",
+      "headline": "Esquecer um nome já é sinal de doença.",
+      "body": "Esquecimentos ocasionais são comuns e fazem parte. O que merece atenção é quando atrapalha o dia a dia com frequência." },
+    { "img": "s5.jpg", "pos": "center 30%",
+      "headline": "Cuidar da mente é cuidar do corpo inteiro.",
+      "body": "Sono, alimentação, movimento e convívio andam juntos. Se algo te preocupar, converse com seu médico." }
+  ]
+}
