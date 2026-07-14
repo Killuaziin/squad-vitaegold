@@ -79,7 +79,7 @@
     {
       "id": "blog-caminhada",
       "type": "blog",
-      "date": "2026-07-08",
+      "date": "2026-08-05",
       "title": "Caminhada",
       "published": false,
       "url": null
@@ -87,7 +87,7 @@
     {
       "id": "mitos-alimentacao",
       "type": "mitos",
-      "date": "2026-07-09",
+      "date": "2026-08-06",
       "title": "Mitos alimentacao",
       "published": false,
       "url": null
@@ -95,7 +95,7 @@
     {
       "id": "blog-hidratacao",
       "type": "blog",
-      "date": "2026-07-10",
+      "date": "2026-08-07",
       "title": "Hidratacao",
       "published": false,
       "url": null
@@ -103,7 +103,7 @@
     {
       "id": "produto-m5x",
       "type": "produto",
-      "date": "2026-07-13",
+      "date": "2026-08-03",
       "title": "Magnesio M5X",
       "published": false,
       "url": null
