@@ -1,27 +1,35 @@
 #!/usr/bin/env node
 // Publicador da fila — roda no GitHub Actions nos dias agendados.
 // Le queue/manifest.json, escolhe o proximo post NAO publicado do tipo do dia,
-// publica no Instagram (hospedagem catbox), marca como publicado e salva o manifest.
+// publica no Instagram (imagens servidas pelo raw.githubusercontent.com), marca como publicado e salva o manifest.
 // Sem dependencias externas (usa fetch/FormData/Blob nativos do Node 18+).
 
 import { readFileSync, writeFileSync, readdirSync } from 'node:fs';
-import { resolve, basename } from 'node:path';
 
 const MANIFEST = 'queue/manifest.json';
 const IG_BASE = 'https://graph.facebook.com/v21.0';
 
-// ---- upload de imagem (tmpfiles.org, sem chave, aceita upload de servidor) ----
-async function uploadImage(imagePath) {
-  const buf = readFileSync(resolve(imagePath));
-  const form = new FormData();
-  form.append('file', new Blob([buf]), basename(imagePath));
-  const res = await fetch('https://tmpfiles.org/api/v1/upload', { method: 'POST', body: form });
-  if (!res.ok) throw new Error(`tmpfiles ${res.status}: ${await res.text()}`);
-  const j = await res.json();
-  const page = j && j.data && j.data.url;
-  if (!page) throw new Error(`tmpfiles resposta inesperada: ${JSON.stringify(j)}`);
-  // converte o link da pagina em link direto da imagem: tmpfiles.org/ID/x -> tmpfiles.org/dl/ID/x
-  return page.replace(/:\/\/tmpfiles\.org\//, '://tmpfiles.org/dl/');
+// ---- hospedagem de imagem: raw.githubusercontent.com (repositorio PUBLICO) ----
+// O Instagram busca cada imagem por URL publica. Como as imagens ja estao
+// commitadas no repositorio, servimos direto pelo CDN do GitHub (raw), sem
+// upload e sem host de terceiros (catbox/tmpfiles/0x0 quebraram — 2026-07).
+// Requisito: o repositorio precisa estar PUBLICO.
+const REPO = process.env.GITHUB_REPOSITORY || 'Killuaziin/squad-vitaegold';
+const REF = process.env.GITHUB_SHA || process.env.RAW_REF || 'main';
+function rawUrl(imagePath) {
+  const clean = String(imagePath).replace(/\\/g, '/').replace(/^\.?\/+/, '');
+  return `https://raw.githubusercontent.com/${REPO}/${REF}/${clean}`;
+}
+// Falha cedo, com mensagem clara, se o repo nao estiver publico ou a imagem sumir.
+async function checkPublic(url) {
+  const r = await fetch(url);
+  const ct = r.headers.get('content-type') || '';
+  if (r.status !== 200) {
+    throw new Error(`imagem nao acessivel no raw (HTTP ${r.status}). O repositorio ${REPO} precisa estar PUBLICO e a imagem commitada no ref "${REF}". URL: ${url}`);
+  }
+  if (!/^image\//i.test(ct)) {
+    throw new Error(`raw retornou content-type "${ct}" (esperado image/*). URL: ${url}`);
+  }
 }
 
 // ---- Instagram Graph API ----
@@ -98,8 +106,9 @@ if (images.length < 2) { console.error(`ERRO: post ${post.id} tem menos de 2 ima
 const caption = readFileSync(`${dir}/caption.txt`, 'utf8').trim();
 
 console.log(`Publicando "${post.id}" (${type}) com ${images.length} imagens...`);
-const urls = [];
-for (const img of images) { urls.push(await uploadImage(img)); console.log('  upload', img); }
+const urls = images.map(rawUrl);
+await checkPublic(urls[0]); // valida acesso publico antes de chamar o Instagram
+console.log(`  imagens servidas via raw.githubusercontent.com (${REPO} @ ${REF})`);
 const children = [];
 for (const u of urls) children.push(await createChild(USER, u, TOKEN));
 for (const c of children) await waitFinished(c, TOKEN);
