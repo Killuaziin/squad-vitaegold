@@ -133,8 +133,10 @@
       "type": "blog",
       "date": "2026-07-17",
       "title": "Cafe da manha",
-      "published": false,
-      "url": null
+      "published": true,
+      "url": "https://www.instagram.com/p/Da5TveIGvHp/",
+      "post_id": "18099135584265902",
+      "publishedAt": "2026-07-17T13:20:20.230Z"
     },
     {
       "id": "produto-magd3",
