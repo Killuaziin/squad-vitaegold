@@ -143,8 +143,10 @@
       "type": "produto",
       "date": "2026-07-20",
       "title": "Magnesium D3",
-      "published": false,
-      "url": null
+      "published": true,
+      "url": "https://www.instagram.com/p/DbDrqrIEYlk/",
+      "post_id": "17937114618315232",
+      "publishedAt": "2026-07-21T14:01:47.661Z"
     },
     {
       "id": "blog-mobilidade",
