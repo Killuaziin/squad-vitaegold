@@ -183,8 +183,10 @@
       "type": "produto",
       "date": "2026-07-27",
       "title": "Vitae 7.1",
-      "published": false,
-      "url": null
+      "published": true,
+      "url": "https://www.instagram.com/p/DbTLD56kgI1/",
+      "post_id": "18020601629855247",
+      "publishedAt": "2026-07-27T14:24:45.368Z"
     },
     {
       "id": "blog-atencao-plena",
