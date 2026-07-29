@@ -193,8 +193,10 @@
       "type": "blog",
       "date": "2026-07-29",
       "title": "Atencao plena",
-      "published": false,
-      "url": null
+      "published": true,
+      "url": "https://www.instagram.com/p/DbYSEfAisIZ/",
+      "post_id": "18169751281449525",
+      "publishedAt": "2026-07-29T14:02:16.708Z"
     },
     {
       "id": "mitos-memoria",
