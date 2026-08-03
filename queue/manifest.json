@@ -105,8 +105,10 @@
       "type": "produto",
       "date": "2026-08-03",
       "title": "Magnesio M5X",
-      "published": false,
-      "url": null
+      "published": true,
+      "url": "https://www.instagram.com/p/DblNUffnGl1/",
+      "post_id": "17899085076555127",
+      "publishedAt": "2026-08-03T14:30:47.160Z"
     },
     {
       "id": "blog-antioxidantes",
