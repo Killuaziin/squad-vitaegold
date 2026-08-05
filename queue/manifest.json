@@ -81,8 +81,10 @@
       "type": "blog",
       "date": "2026-08-05",
       "title": "Caminhada",
-      "published": false,
-      "url": null
+      "published": true,
+      "url": "https://www.instagram.com/p/DbqTV_aDE8d/",
+      "post_id": "18214470160341917",
+      "publishedAt": "2026-08-05T13:59:38.766Z"
     },
     {
       "id": "mitos-alimentacao",
