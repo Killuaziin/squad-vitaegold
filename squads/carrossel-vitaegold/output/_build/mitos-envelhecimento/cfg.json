@@ -1,0 +1,21 @@
+{
+  "assetDir": "squads/carrossel-vitaegold/output/_build/mitos-envelhecimento/assets",
+  "outDir": "squads/carrossel-vitaegold/output/mitos-envelhecimento/images",
+  "slides": [
+    { "img": "s1.jpg", "pos": "center 35%", "tag": "Mitos e Verdades",
+      "headline": "Mitos e verdades sobre envelhecer bem.",
+      "body": "Tem muita ideia antiga por aí sobre o que se pode ou não fazer depois dos 60. Hora de atualizar essa conversa." },
+    { "img": "s2.jpg", "pos": "center 35%", "badge": "mito",
+      "headline": "Depois dos 60 não adianta começar a se exercitar.",
+      "body": "O corpo responde a estímulos em qualquer idade. Quem começa devagar hoje colhe força, equilíbrio e disposição amanhã." },
+    { "img": "s3.jpg", "pos": "center 30%", "badge": "verdade",
+      "headline": "Aprender coisas novas faz bem em qualquer fase.",
+      "body": "Um hobby, uma receita, uma habilidade nova. O cérebro e o corpo gostam de desafios, e a autoestima agradece." },
+    { "img": "s4.jpg", "pos": "center 40%", "badge": "mito",
+      "headline": "Descansar o máximo possível é o melhor pra idade.",
+      "body": "Repouso demais enfraquece. O corpo mantém o que é usado: alternar descanso com movimento é o que preserva a autonomia." },
+    { "img": "s5.jpg", "pos": "center 35%",
+      "headline": "Envelhecer bem é seguir participando da vida.",
+      "body": "Movimento, convívio, propósito e cuidado com a saúde. Cada fase tem sua beleza, e essa pode ser uma das melhores." }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "assetDir": "squads/carrossel-vitaegold/output/_build/blog-ritmo-circadiano/assets",
+  "outDir": "squads/carrossel-vitaegold/output/blog-ritmo-circadiano/images",
+  "slides": [
+    { "img": "s1.jpg", "pos": "center 40%",
+      "headline": "Seu corpo tem um relógio interno.",
+      "body": "É o ritmo circadiano: ele organiza sono, humor, fome e energia. E quem acerta o ponteiro todos os dias é a luz natural." },
+    { "img": "s2.jpg", "pos": "center 30%", "pill": "Como funciona",
+      "headline": "A luz da manhã desperta o organismo.",
+      "body": "Claridade logo cedo avisa o cérebro que o dia começou. À noite, menos luz prepara o corpo pro descanso." },
+    { "img": "s3.jpg", "pos": "center 35%", "pill": "Sinais de alerta",
+      "headline": "Energia trocada é sinal de relógio confuso.",
+      "body": "Sono durante o dia, agitação à noite e cansaço que não passa podem indicar falta de referências de claro e escuro." },
+    { "img": "s4.jpg", "pos": "center 35%", "pill": "Na prática",
+      "headline": "Comece o dia perto da luz natural.",
+      "body": "Abra as cortinas ao acordar, tome o café perto da janela ou caminhe cedinho. Meia hora de claridade já ajuda muito." },
+    { "img": "s5.jpg", "pos": "center 35%",
+      "headline": "Pequenas repetições, grande equilíbrio.",
+      "body": "Luz de dia, calma à noite, horários regulares. O corpo entende o ritmo e responde com dias e noites melhores." }
+  ]
+}

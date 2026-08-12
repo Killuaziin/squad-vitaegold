@@ -1,0 +1,21 @@
+{
+  "assetDir": "squads/carrossel-vitaegold/output/_build/blog-pele/assets",
+  "outDir": "squads/carrossel-vitaegold/output/blog-pele/images",
+  "slides": [
+    { "img": "s1.jpg", "pos": "center 30%",
+      "headline": "Pele bonita começa por dentro.",
+      "body": "Ela é o maior órgão do corpo e reflete o todo: sono, alimentação, hidratação e até o estresse do dia a dia." },
+    { "img": "s2.jpg", "pos": "center 50%", "pill": "No prato",
+      "headline": "Um prato colorido aparece na pele.",
+      "body": "Frutas, verduras e legumes variados trazem os nutrientes que a pele usa pra se renovar todos os dias." },
+    { "img": "s3.jpg", "pos": "center 50%", "pill": "Hidratação",
+      "headline": "Água é o cosmético mais simples que existe.",
+      "body": "Deixe uma garrafinha à vista e beba ao longo do dia. A pele hidratada de dentro responde melhor a qualquer creme." },
+    { "img": "s4.jpg", "pos": "center 35%", "pill": "Descanso",
+      "headline": "A noite é o turno de renovação da pele.",
+      "body": "É durante o sono que o corpo faz sua manutenção. Dormir bem é um cuidado de beleza silencioso." },
+    { "img": "s5.jpg", "pos": "center 35%",
+      "headline": "Cuidado de fora, sustento de dentro.",
+      "body": "Creme e protetor completam o que os hábitos constroem. Não existe milagre: existe constância." }
+  ]
+}

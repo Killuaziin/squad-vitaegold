@@ -1,0 +1,21 @@
+{
+  "assetDir": "squads/carrossel-vitaegold/output/_build/blog-lanches/assets",
+  "outDir": "squads/carrossel-vitaegold/output/blog-lanches/images",
+  "slides": [
+    { "img": "s1.jpg", "pos": "center 50%",
+      "headline": "Lanche não é o vilão da história.",
+      "body": "Bem escolhido, ele é uma ponte entre as refeições: segura a fome e evita exageros no almoço e no jantar." },
+    { "img": "s2.jpg", "pos": "center 50%", "pill": "A fórmula",
+      "headline": "Junte fibra com proteína.",
+      "body": "Fruta com castanhas, iogurte com aveia, pão integral com ovo. A dupla sacia de verdade e sustenta até a próxima refeição." },
+    { "img": "s3.jpg", "pos": "center 50%", "pill": "Facilite",
+      "headline": "Deixe as boas escolhas à vista.",
+      "body": "Fruta lavada na fruteira, castanhas porcionadas no armário. O lanche saudável vira o caminho mais fácil." },
+    { "img": "s4.jpg", "pos": "center 35%", "pill": "Atenção",
+      "headline": "Cuidado com os lanches-armadilha.",
+      "body": "Salgadinhos e biscoitos recheados enganam a fome por pouco tempo. O problema não é o episódio, é a frequência." },
+    { "img": "s5.jpg", "pos": "center 50%",
+      "headline": "Seu corpo dá a medida.",
+      "body": "Observe sua fome real: nem todo mundo precisa lanchar sempre. Escolha consciente vale mais que regra rígida." }
+  ]
+}

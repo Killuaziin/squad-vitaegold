@@ -1,0 +1,21 @@
+{
+  "assetDir": "squads/carrossel-vitaegold/output/_build/mitos-ossos/assets",
+  "outDir": "squads/carrossel-vitaegold/output/mitos-ossos/images",
+  "slides": [
+    { "img": "s1.jpg", "pos": "center 35%", "tag": "Mitos e Verdades",
+      "headline": "Mitos e verdades sobre ossos fortes.",
+      "body": "Cálcio, leite, exercício, idade: o que realmente importa pra manter a estrutura do corpo firme? Vamos aos fatos." },
+    { "img": "s2.jpg", "pos": "center 50%", "badge": "mito",
+      "headline": "Leite é a única fonte de cálcio.",
+      "body": "Vegetais verde-escuros, sardinha, gergelim e feijões também oferecem cálcio. Variedade no prato é o que sustenta." },
+    { "img": "s3.jpg", "pos": "center 35%", "badge": "verdade",
+      "headline": "Exercício ajuda a fortalecer os ossos.",
+      "body": "Caminhada e musculação leve estimulam o osso a se manter denso. O esqueleto responde ao uso, assim como os músculos." },
+    { "img": "s4.jpg", "pos": "center 35%", "badge": "mito",
+      "headline": "Se o osso enfraquece, não há nada a fazer.",
+      "body": "Alimentação, movimento, sol da manhã e acompanhamento médico ajudam a cuidar da saúde óssea em todas as idades." },
+    { "img": "s5.jpg", "pos": "center 40%",
+      "headline": "Estrutura firme, vida ativa.",
+      "body": "Prato variado, movimento regular e exames em dia. Seus ossos sustentam seus planos: cuide bem deles." }
+  ]
+}

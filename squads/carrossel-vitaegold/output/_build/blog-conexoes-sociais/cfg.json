@@ -1,0 +1,21 @@
+{
+  "assetDir": "squads/carrossel-vitaegold/output/_build/blog-conexoes-sociais/assets",
+  "outDir": "squads/carrossel-vitaegold/output/blog-conexoes-sociais/images",
+  "slides": [
+    { "img": "s1.jpg", "pos": "center 35%",
+      "headline": "Boas relações também são saúde.",
+      "body": "Cuidar dos vínculos faz tanto bem quanto comer melhor ou se movimentar. O coração já sabia, e a ciência confirma." },
+    { "img": "s2.jpg", "pos": "center 30%", "pill": "Por que importa",
+      "headline": "Pertencer acalma o corpo inteiro.",
+      "body": "Sentir-se acolhido reduz a tensão, melhora o sono e dá mais disposição. Vínculo bom é descanso pro corpo." },
+    { "img": "s3.jpg", "pos": "center 40%", "pill": "Qualidade, não quantidade",
+      "headline": "Poucas relações verdadeiras bastam.",
+      "body": "O que nutre é a troca sincera: conversar sem pressa, ouvir de verdade e sair do encontro mais leve." },
+    { "img": "s4.jpg", "pos": "center 35%", "pill": "Na prática",
+      "headline": "Conexão se cultiva nos gestos simples.",
+      "body": "Uma mensagem de lembrei de você, um telefonema, um café. Presença não exige grandes eventos." },
+    { "img": "s5.jpg", "pos": "center 35%",
+      "headline": "Quem você pode alegrar hoje?",
+      "body": "Mande aquela mensagem, marque aquele café. Cuidar das relações é uma forma legítima de cuidar de si." }
+  ]
+}

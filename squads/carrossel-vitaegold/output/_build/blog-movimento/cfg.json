@@ -1,0 +1,21 @@
+{
+  "assetDir": "squads/carrossel-vitaegold/output/_build/blog-movimento/assets",
+  "outDir": "squads/carrossel-vitaegold/output/blog-movimento/images",
+  "slides": [
+    { "img": "s1.jpg", "pos": "center 35%",
+      "headline": "Se mover mais não exige virar atleta.",
+      "body": "Caminhar até a padaria, subir escadas, dançar arrumando a casa. Movimento de verdade cabe na vida real." },
+    { "img": "s2.jpg", "pos": "center 35%", "pill": "Redefinindo",
+      "headline": "Todo movimento conta.",
+      "body": "Não precisa de roupa especial nem equipamento. O corpo não separa academia de vida cotidiana: ele agradece o uso." },
+    { "img": "s3.jpg", "pos": "center 35%", "pill": "Comece pequeno",
+      "headline": "Cinco minutos já são um começo.",
+      "body": "Uma volta no quarteirão, sem meta e sem pressão. Amanhã, se der vontade, um pouquinho mais." },
+    { "img": "s4.jpg", "pos": "center 35%", "pill": "O segredo",
+      "headline": "Espalhe o movimento pelo dia.",
+      "body": "Melhor várias doses pequenas do que um treino perfeito isolado. A soma das escolhas é o que constrói." },
+    { "img": "s5.jpg", "pos": "center 35%",
+      "headline": "Escute o corpo e siga no seu ritmo.",
+      "body": "Cansaço bom é diferente de dor. Respeite seus dias e celebre cada vitória: subir a escada sem ofegar já é uma." }
+  ]
+}

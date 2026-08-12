@@ -1,0 +1,21 @@
+{
+  "assetDir": "squads/carrossel-vitaegold/output/_build/blog-ferro/assets",
+  "outDir": "squads/carrossel-vitaegold/output/blog-ferro/images",
+  "slides": [
+    { "img": "s1.jpg", "pos": "center 50%",
+      "headline": "Ferro: não basta comer, tem que absorver.",
+      "body": "Feijão, carne e folhas verdes são ótimas fontes. Mas o segredo está nas combinações que você faz no prato." },
+    { "img": "s2.jpg", "pos": "center 50%", "pill": "Bom saber",
+      "headline": "Existem dois tipos de ferro.",
+      "body": "O de origem animal é absorvido com facilidade. O dos vegetais precisa de uma ajudinha pra ser bem aproveitado." },
+    { "img": "s3.jpg", "pos": "center 50%", "pill": "A dupla perfeita",
+      "headline": "Vitamina C potencializa o ferro dos vegetais.",
+      "body": "Limão no feijão, laranja de sobremesa, tomate na salada. Combinações simples que multiplicam o aproveitamento." },
+    { "img": "s4.jpg", "pos": "center 50%", "pill": "Atenção aos horários",
+      "headline": "Café e chá pedem um intervalo.",
+      "body": "Eles não são vilões: basta tomá-los um tempinho depois das refeições ricas em ferro, e não junto." },
+    { "img": "s5.jpg", "pos": "center 35%",
+      "headline": "Pequenas trocas, grande diferença.",
+      "body": "Comece com uma combinação por dia: um limão aqui, uma fruta ali. Constância vale mais que cardápio perfeito." }
+  ]
+}

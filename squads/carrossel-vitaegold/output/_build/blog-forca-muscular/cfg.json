@@ -1,0 +1,21 @@
+{
+  "assetDir": "squads/carrossel-vitaegold/output/_build/blog-forca-muscular/assets",
+  "outDir": "squads/carrossel-vitaegold/output/blog-forca-muscular/images",
+  "slides": [
+    { "img": "s1.jpg", "pos": "center 30%",
+      "headline": "Força não tem prazo de validade.",
+      "body": "Perder força com os anos não é uma sentença. O corpo mantém aquilo que usa, em qualquer fase da vida." },
+    { "img": "s2.jpg", "pos": "center 30%", "pill": "Por que acontece",
+      "headline": "O corpo economiza o que não é usado.",
+      "body": "Quando o movimento diminui, o organismo entende que aquela força não é mais necessária. O segredo é seguir avisando que é." },
+    { "img": "s3.jpg", "pos": "center 30%", "pill": "Na prática",
+      "headline": "Frequência vale mais que intensidade.",
+      "body": "Sentar e levantar da cadeira, subir escadas, carregar as compras. Pequenos gestos repetidos já são treino de verdade." },
+    { "img": "s4.jpg", "pos": "center 45%", "pill": "Não esqueça",
+      "headline": "Músculo também se faz no prato e no sono.",
+      "body": "Proteína distribuída ao longo do dia e noites bem dormidas dão ao corpo a matéria-prima e o tempo de manutenção." },
+    { "img": "s5.jpg", "pos": "center 35%",
+      "headline": "Constância vence perfeição.",
+      "body": "Observe como você sobe escadas ou carrega sacolas hoje. Cada pequeno esforço de agora é autonomia amanhã." }
+  ]
+}

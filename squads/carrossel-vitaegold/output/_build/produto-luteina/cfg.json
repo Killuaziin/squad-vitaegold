@@ -1,0 +1,22 @@
+{
+  "assetDir": "squads/carrossel-vitaegold/output/_build/produto-luteina/assets",
+  "outDir": "squads/carrossel-vitaegold/output/produto-luteina/images",
+  "prodImage": "produto.png",
+  "hero": { "tag": "Cuidado com a visão", "title": "Luteína + Zeaxantina", "sub": "Com vitaminas A e C" },
+  "slides": [
+    { "type": "hero" },
+    { "type": "photo", "img": "life1.jpg", "pos": "center 30%", "pill": "O que é",
+      "headline": "Nutrientes queridos pelos olhos.",
+      "body": "Luteína e zeaxantina são pigmentos naturais presentes em vegetais, aqui combinados com as vitaminas A e C pra complementar a alimentação." },
+    { "type": "photo", "img": "life2.jpg", "pos": "center 30%", "pill": "Função",
+      "headline": "Apoio pra visão e ação antioxidante.",
+      "body": "A vitamina A auxilia na manutenção da visão. A vitamina C é um antioxidante que auxilia na proteção contra os radicais livres." },
+    { "type": "quote",
+      "quote": "\"Leio, costuro e dirijo. Cuidar da vista virou prioridade pra mim.\"",
+      "from": "Relato de quem incluiu a Luteína na rotina" },
+    { "type": "cta",
+      "headline": "Continue vendo de perto\no que importa.",
+      "body": "Fale com a gente no WhatsApp e conheça a Luteína com Zeaxantina, com condições especiais em kits.",
+      "aviso": "Suplemento alimentar. Este produto não é um medicamento e não deve ser utilizado para tratamento, cura ou prevenção de doenças. Não substitui uma alimentação equilibrada e variada e hábitos de vida saudáveis. A vitamina A auxilia na manutenção da visão; a vitamina C é um antioxidante que auxilia na proteção dos danos causados pelos radicais livres. Não deve ser utilizado por gestantes e lactantes." }
+  ]
+}

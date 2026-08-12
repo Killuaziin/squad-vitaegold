@@ -1,0 +1,21 @@
+{
+  "assetDir": "squads/carrossel-vitaegold/output/_build/blog-sinais-corpo/assets",
+  "outDir": "squads/carrossel-vitaegold/output/blog-sinais-corpo/images",
+  "slides": [
+    { "img": "s1.jpg", "pos": "center 30%",
+      "headline": "Seu corpo fala com você o dia inteiro.",
+      "body": "Fome, cansaço, tensão no ombro, respiração curta. Escutar esses avisos é um cuidado simples e poderoso." },
+    { "img": "s2.jpg", "pos": "center 35%", "pill": "Por que importa",
+      "headline": "Sinal percebido cedo é desconforto evitado.",
+      "body": "Quando você nota o cansaço antes da exaustão, dá pra responder com uma pausa, uma água, um alongamento." },
+    { "img": "s3.jpg", "pos": "center 35%", "pill": "O que atrapalha",
+      "headline": "Pressa e telas abafam os avisos do corpo.",
+      "body": "Excesso de estímulo deixa a escuta difícil. Alguns segundos de silêncio já reabrem o canal." },
+    { "img": "s4.jpg", "pos": "center 35%", "pill": "Na prática",
+      "headline": "Faça a pergunta de 30 segundos.",
+      "body": "Como está meu corpo agora? Observe respiração, tensão e energia. Sem julgar, só perceber." },
+    { "img": "s5.jpg", "pos": "center 35%",
+      "headline": "Escutar o corpo é hábito, não dom.",
+      "body": "Alguns dias a percepção vem clara, outros não, e tudo bem. O que transforma é a constância gentil." }
+  ]
+}

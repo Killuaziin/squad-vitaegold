@@ -1,0 +1,21 @@
+{
+  "assetDir": "squads/carrossel-vitaegold/output/_build/blog-foco/assets",
+  "outDir": "squads/carrossel-vitaegold/output/blog-foco/images",
+  "slides": [
+    { "img": "s1.jpg", "pos": "center 35%",
+      "headline": "Foco não é dom, é treino.",
+      "body": "A concentração funciona como um músculo. E dá pra fortalecer em qualquer idade, mesmo num mundo cheio de distrações." },
+    { "img": "s2.jpg", "pos": "center 35%", "pill": "Bom saber",
+      "headline": "Distrair-se é humano.",
+      "body": "O cérebro adora novidade, e o celular sabe disso. Foco não é nunca se distrair: é perceber e voltar pra tarefa." },
+    { "img": "s3.jpg", "pos": "center 45%", "pill": "O custo invisível",
+      "headline": "Cada interrupção cobra um pedágio.",
+      "body": "Depois de olhar uma notificação, a mente leva minutos pra reentrar no que fazia. No fim do dia, isso vira cansaço." },
+    { "img": "s4.jpg", "pos": "center 40%", "pill": "Na prática",
+      "headline": "Experimente 10 minutos por inteiro.",
+      "body": "Celular longe, uma tarefa só. Leitura, palavras cruzadas ou uma receita: atenção completa numa coisa de cada vez." },
+    { "img": "s5.jpg", "pos": "center 35%",
+      "headline": "Corpo cuidado, mente clara.",
+      "body": "Sono, água, alimentação e movimento sustentam a atenção. Foco começa no básico bem feito." }
+  ]
+}

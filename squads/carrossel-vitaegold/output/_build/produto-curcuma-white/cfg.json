@@ -1,0 +1,22 @@
+{
+  "assetDir": "squads/carrossel-vitaegold/output/_build/produto-curcuma-white/assets",
+  "outDir": "squads/carrossel-vitaegold/output/produto-curcuma-white/images",
+  "prodImage": "produto.png",
+  "hero": { "tag": "Mobilidade e conforto", "title": "CúrcumaWhite", "sub": "Colágeno tipo II, cúrcuma, magnésio e cálcio" },
+  "slides": [
+    { "type": "hero" },
+    { "type": "photo", "img": "life1.jpg", "pos": "center 35%", "pill": "O que é",
+      "headline": "Quatro aliados em uma fórmula só.",
+      "body": "Colágeno tipo II não desnaturado, extrato de cúrcuma, magnésio e cálcio, reunidos pra complementar a alimentação de quem gosta de se manter em movimento." },
+    { "type": "photo", "img": "life2.jpg", "pos": "center 30%", "pill": "Função",
+      "headline": "Apoio pras articulações, músculos e ossos.",
+      "body": "O colágeno tipo II auxilia na manutenção da função articular. O magnésio auxilia no funcionamento muscular e o cálcio, na manutenção dos ossos." },
+    { "type": "quote",
+      "quote": "\"Gosto de saber que estou cuidando das minhas articulações com uma fórmula natural.\"",
+      "from": "Relato de quem incluiu o CúrcumaWhite na rotina" },
+    { "type": "cta",
+      "headline": "Siga em movimento,\ncom cuidado premium.",
+      "body": "Fale com a gente no WhatsApp e conheça o CúrcumaWhite, com condições especiais em kits.",
+      "aviso": "Suplemento alimentar. Este produto não é um medicamento e não deve ser utilizado para tratamento, cura ou prevenção de doenças. Não substitui uma alimentação equilibrada e variada e hábitos de vida saudáveis. O colágeno tipo II auxilia na manutenção da função articular; o magnésio auxilia no funcionamento muscular e neuromuscular; o cálcio auxilia na formação e manutenção de ossos e dentes; o extrato de cúrcuma possui ação antioxidante." }
+  ]
+}

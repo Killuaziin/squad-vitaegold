@@ -1,0 +1,21 @@
+{
+  "assetDir": "squads/carrossel-vitaegold/output/_build/mitos-articulacoes/assets",
+  "outDir": "squads/carrossel-vitaegold/output/mitos-articulacoes/images",
+  "slides": [
+    { "img": "s1.jpg", "pos": "center 35%", "tag": "Mitos e Verdades",
+      "headline": "Mitos e verdades sobre as articulações.",
+      "body": "Joelhos, quadril, ombros: todo mundo tem um palpite sobre eles. Vamos separar o que faz sentido do que é só conversa." },
+    { "img": "s2.jpg", "pos": "center 35%", "badge": "mito",
+      "headline": "Exercício desgasta as articulações.",
+      "body": "É o contrário: movimento regular e de baixo impacto nutre a cartilagem e fortalece os músculos que protegem a articulação." },
+    { "img": "s3.jpg", "pos": "center 40%", "badge": "verdade",
+      "headline": "Quem se move sente menos rigidez.",
+      "body": "Caminhada, alongamento e atividades na água aquecem o corpo e ajudam na mobilidade. Devagar e sempre, no seu ritmo." },
+    { "img": "s4.jpg", "pos": "center 35%", "badge": "mito",
+      "headline": "Dor nas juntas é normal, é só aceitar.",
+      "body": "Desconforto que persiste merece atenção. Um profissional pode investigar a causa e indicar o melhor caminho pra você." },
+    { "img": "s5.jpg", "pos": "center 40%",
+      "headline": "Suas articulações agradecem o cuidado.",
+      "body": "Movimento leve, alongamento e pausas fazem diferença no dia a dia. Se a dor insistir, converse com seu médico." }
+  ]
+}

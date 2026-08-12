@@ -1,0 +1,22 @@
+{
+  "assetDir": "squads/carrossel-vitaegold/output/_build/produto-sereno/assets",
+  "outDir": "squads/carrossel-vitaegold/output/produto-sereno/images",
+  "prodImage": "produto.png",
+  "hero": { "tag": "Rotina noturna", "title": "Sereno", "sub": "Melatonina e L-triptofano" },
+  "slides": [
+    { "type": "hero" },
+    { "type": "photo", "img": "life2.jpg", "pos": "center 35%", "pill": "O que é",
+      "headline": "Um companheiro pro fim do dia.",
+      "body": "Melatonina, L-triptofano e extratos vegetais em uma fórmula pensada pra rotina noturna de quem valoriza o descanso." },
+    { "type": "photo", "img": "life1.jpg", "pos": "center 40%", "pill": "Função",
+      "headline": "Suporte à nutrição noturna.",
+      "body": "A fórmula oferece suporte à nutrição noturna e à preparação do organismo pros períodos de descanso e recuperação." },
+    { "type": "quote",
+      "quote": "\"Tomo meia hora antes de deitar. Virou parte do meu ritual da noite.\"",
+      "from": "Relato de quem usa o Sereno" },
+    { "type": "cta",
+      "headline": "Boas noites começam\ncom bons rituais.",
+      "body": "Fale com a gente no WhatsApp e conheça o Sereno, com condições especiais em kits.",
+      "aviso": "Suplemento alimentar. Este produto não é um medicamento e não deve ser utilizado para tratamento, cura ou prevenção de doenças. Não substitui uma alimentação equilibrada e variada e hábitos de vida saudáveis. Suporte à nutrição noturna e preparação do organismo para os períodos de descanso e recuperação. Não indicado para gestantes, lactantes, crianças ou pessoas que necessitem de atenção constante." }
+  ]
+}

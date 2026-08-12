@@ -1,0 +1,22 @@
+{
+  "assetDir": "squads/carrossel-vitaegold/output/_build/produto-omega3/assets",
+  "outDir": "squads/carrossel-vitaegold/output/produto-omega3/images",
+  "prodImage": "produto.png",
+  "hero": { "tag": "Bem-estar diário", "title": "Ômega 3", "sub": "Óleo de peixe com EPA e DHA" },
+  "slides": [
+    { "type": "hero" },
+    { "type": "photo", "img": "life1.jpg", "pos": "center 35%", "pill": "O que é",
+      "headline": "As gorduras boas do peixe, em cápsulas.",
+      "body": "EPA e DHA são ômegas presentes nos peixes. Como nem sempre eles aparecem na mesa, a suplementação ajuda a complementar a alimentação." },
+    { "type": "photo", "img": "life2.jpg", "pos": "center 30%", "pill": "Função",
+      "headline": "Coração e cérebro agradecem.",
+      "body": "O ômega-3 DHA contribui pra manutenção da função cerebral normal. Juntos, DHA e EPA contribuem pra manutenção da função cardíaca normal." },
+    { "type": "quote",
+      "quote": "\"Tomo junto com o café da manhã. Virou parte da rotina, simples assim.\"",
+      "from": "Relato de quem usa o Ômega 3 Vitae Gold" },
+    { "type": "cta",
+      "headline": "Um cuidado diário\ncom quem você ama ver bem.",
+      "body": "Fale com a gente no WhatsApp e conheça o Ômega 3 Vitae Gold, com condições especiais em kits.",
+      "aviso": "Suplemento alimentar. Este produto não é um medicamento e não deve ser utilizado para tratamento, cura ou prevenção de doenças. Não substitui uma alimentação equilibrada e variada e hábitos de vida saudáveis. O ômega-3 (DHA) contribui para a manutenção da função cerebral normal; o ômega-3 (DHA + EPA) contribui para a manutenção da função cardíaca normal. Contém derivados de peixe." }
+  ]
+}

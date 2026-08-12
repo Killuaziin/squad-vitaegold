@@ -1,0 +1,21 @@
+{
+  "assetDir": "squads/carrossel-vitaegold/output/_build/mitos-vitamina-d/assets",
+  "outDir": "squads/carrossel-vitaegold/output/mitos-vitamina-d/images",
+  "slides": [
+    { "img": "s1.jpg", "pos": "center 35%", "tag": "Mitos e Verdades",
+      "headline": "Mitos e verdades sobre a vitamina D.",
+      "body": "Ela anda famosa, mas ainda gera muita confusão. Vamos esclarecer o papel do sol, da alimentação e dos exames." },
+    { "img": "s2.jpg", "pos": "center 35%", "badge": "mito",
+      "headline": "Sol atrás do vidro já garante vitamina D.",
+      "body": "O vidro barra boa parte dos raios que o corpo usa pra produzir a vitamina. O que conta é o sol direto na pele, com moderação." },
+    { "img": "s3.jpg", "pos": "center 40%", "badge": "verdade",
+      "headline": "Alguns minutos de sol por dia ajudam.",
+      "body": "Braços e pernas ao sol da manhã, por 15 a 20 minutos, auxiliam a produção natural. Sempre com bom senso e sem exagero." },
+    { "img": "s4.jpg", "pos": "center 35%", "badge": "mito",
+      "headline": "Quanto mais sol, melhor.",
+      "body": "Excesso de sol envelhece a pele e traz riscos. Depois do tempo necessário, chapéu e protetor continuam sendo bons amigos." },
+    { "img": "s5.jpg", "pos": "center 40%",
+      "headline": "Equilíbrio é a palavra.",
+      "body": "Sol com moderação, alimentação variada e acompanhamento regular. Só o exame pode dizer se está tudo em ordem: converse com seu médico." }
+  ]
+}

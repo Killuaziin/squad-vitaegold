@@ -27,8 +27,17 @@
 - Foto em faixa superior + cartão de texto; chip do logo (ícone árvore); indicador de progresso; seta "ARRASTE →" horizontal.
 - Imagens via Pexels (automático, grátis) — pessoas **60–75 anos**, dignas e ativas, momentos em família/com netos. Evitar estética "fitness jovem".
 
+## Temas já usados (não repetir)
+- **Blog:** respiração, fibras, alongamento, rotina matinal, caminhada, hidratação, antioxidantes, café da manhã, mobilidade, açúcar, atenção plena, autocuidado, força muscular, conexões sociais, ritmo circadiano, ferro, sinais do corpo, lanches, foco, pele de dentro pra fora, movimentar-se mais.
+- **Mitos:** saúde 60+, sono, alimentação, exercício, suplementos, memória, articulações, imunidade, vitamina D, envelhecer bem, ossos.
+- **Produto:** Colágeno C2, M5X, Magnésium+D3, Vitae 7.1, CúrcumaWhite, Ômega 3, Luteína+Zeaxantina, Sereno.
+- Artigos do blog ainda não usados (reserva): limites saudáveis, autocompaixão, momentos de relaxamento, pausas conscientes, trabalho e descanso, sono e recuperação, comer com atenção plena (parcial).
+
 ## Proibições Explícitas
 
 ## Técnico (específico do squad)
-- Imagens renderizadas via `output/_build/render2.mjs` (Playwright + Chrome). Fotos auto-buscadas via `fetch-pexels.mjs` (PEXELS_API_KEY no .env).
-- Publicação via skill instagram-publisher (hospedagem catbox.moe, sem chave).
+- Imagens renderizadas via `output/_build/render-generic.mjs` (blog/mitos) e `render-produto.mjs` (produto), ambos Playwright + Chrome, rodando da raiz do projeto: `node render-generic.mjs <cfg.json>`.
+- Fotos em lote via `_build/fetch-batch.mjs` + `photo-plan.json` (PEXELS_API_KEY no .env). Revisar o campo `alt` impresso no log: trocar fotos jovens/fora da persona.
+- Fotos de produto: `https://vitaegold.com.br/images/produtos/<slug>.webp` (slugs sem hífen, ex.: omega3, luteina, sereno, q10, nac, vitaliv). Converter pra PNG via `_build/convert-webp.mjs`.
+- Fila: posts SEM campo `date` no manifest são escolhidos pelo tipo do dia da semana (Seg produto, Qua/Sex blog, Qui mitos), na ordem do array. Preferir sem data: fila não trava se um dia falhar.
+- Publicação: GitHub Actions `publish.yml` roda 12:00 UTC diariamente; imagens servidas via raw.githubusercontent.com (repo público).

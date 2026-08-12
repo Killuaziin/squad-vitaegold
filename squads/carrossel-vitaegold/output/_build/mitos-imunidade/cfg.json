@@ -1,0 +1,21 @@
+{
+  "assetDir": "squads/carrossel-vitaegold/output/_build/mitos-imunidade/assets",
+  "outDir": "squads/carrossel-vitaegold/output/mitos-imunidade/images",
+  "slides": [
+    { "img": "s1.jpg", "pos": "center 35%", "tag": "Mitos e Verdades",
+      "headline": "Mitos e verdades sobre imunidade.",
+      "body": "Toda estação fria aparecem receitas milagrosas pra blindar o corpo. Vamos ver o que faz sentido de verdade." },
+    { "img": "s2.jpg", "pos": "center 50%", "badge": "mito",
+      "headline": "Vitamina C sozinha impede qualquer gripe.",
+      "body": "Nenhum alimento isolado faz milagre. O que sustenta as defesas do corpo é o conjunto: alimentação variada, sono e movimento." },
+    { "img": "s3.jpg", "pos": "center 35%", "badge": "verdade",
+      "headline": "Dormir bem ajuda as defesas do corpo.",
+      "body": "É durante o sono que o organismo se recupera e se reorganiza. Noites bem dormidas são um cuidado diário com a imunidade." },
+    { "img": "s4.jpg", "pos": "center 35%", "badge": "mito",
+      "headline": "Depois dos 60, não há o que fazer pela imunidade.",
+      "body": "Há, e muito: comer bem, se mover, conviver com quem se ama e manter as vacinas em dia. Pequenos hábitos, grande diferença." },
+    { "img": "s5.jpg", "pos": "center 40%",
+      "headline": "Imunidade se constrói todos os dias.",
+      "body": "Prato colorido, sono de qualidade, movimento e bons encontros. E qualquer dúvida, converse com seu médico." }
+  ]
+}
