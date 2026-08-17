@@ -332,8 +332,10 @@
       "id": "produto-curcuma-white",
       "type": "produto",
       "title": "CúrcumaWhite",
-      "published": false,
-      "url": null
+      "published": true,
+      "url": "https://www.instagram.com/p/DcJDSoEFVnA/",
+      "post_id": "18426775249180378",
+      "publishedAt": "2026-08-17T12:35:47.925Z"
     },
     {
       "id": "produto-omega3",
