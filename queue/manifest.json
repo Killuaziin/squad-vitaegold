@@ -287,8 +287,10 @@
       "id": "blog-ritmo-circadiano",
       "type": "blog",
       "title": "Ritmo circadiano",
-      "published": false,
-      "url": null
+      "published": true,
+      "url": "https://www.instagram.com/p/DcTWxtBn1iY/",
+      "post_id": "17994221343007985",
+      "publishedAt": "2026-08-21T12:38:32.754Z"
     },
     {
       "id": "blog-ferro",
