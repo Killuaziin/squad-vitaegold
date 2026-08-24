@@ -347,8 +347,10 @@
       "id": "produto-omega3",
       "type": "produto",
       "title": "Ômega 3",
-      "published": false,
-      "url": null
+      "published": true,
+      "url": "https://www.instagram.com/p/DcbFdvCj01L/",
+      "post_id": "18161796814470604",
+      "publishedAt": "2026-08-24T12:41:07.382Z"
     },
     {
       "id": "produto-luteina",
