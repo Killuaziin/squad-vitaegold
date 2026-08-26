@@ -296,8 +296,10 @@
       "id": "blog-ferro",
       "type": "blog",
       "title": "Ferro na alimentação",
-      "published": false,
-      "url": null
+      "published": true,
+      "url": "https://www.instagram.com/p/DcgPS7wFHcw/",
+      "post_id": "18126409393813816",
+      "publishedAt": "2026-08-26T12:43:15.810Z"
     },
     {
       "id": "blog-sinais-corpo",
