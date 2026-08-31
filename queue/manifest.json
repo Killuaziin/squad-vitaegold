@@ -362,8 +362,10 @@
       "id": "produto-luteina",
       "type": "produto",
       "title": "Luteína + Zeaxantina",
-      "published": false,
-      "url": null
+      "published": true,
+      "url": "https://www.instagram.com/p/DctwWFrFBMq/",
+      "post_id": "18119347816937731",
+      "publishedAt": "2026-08-31T18:42:09.747Z"
     },
     {
       "id": "produto-sereno",
