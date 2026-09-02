@@ -316,8 +316,10 @@
       "id": "blog-lanches",
       "type": "blog",
       "title": "Lanches saudáveis",
-      "published": false,
-      "url": null
+      "published": true,
+      "url": "https://www.instagram.com/p/DcymvUUG5k-/",
+      "post_id": "18114183499783696",
+      "publishedAt": "2026-09-02T15:54:29.934Z"
     },
     {
       "id": "blog-foco",
