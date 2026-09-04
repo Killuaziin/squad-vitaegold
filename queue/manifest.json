@@ -327,8 +327,10 @@
       "id": "blog-foco",
       "type": "blog",
       "title": "Foco e concentração",
-      "published": false,
-      "url": null
+      "published": true,
+      "url": "https://www.instagram.com/p/Dc3u47TGecf/",
+      "post_id": "18121874296678019",
+      "publishedAt": "2026-09-04T15:41:51.952Z"
     },
     {
       "id": "blog-pele",
