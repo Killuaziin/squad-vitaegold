@@ -377,8 +377,10 @@
       "id": "produto-sereno",
       "type": "produto",
       "title": "Sereno",
-      "published": false,
-      "url": null
+      "published": true,
+      "url": "https://www.instagram.com/p/Dc_nVGZEZ_H/",
+      "post_id": "18009293864968205",
+      "publishedAt": "2026-09-07T17:09:42.116Z"
     }
   ]
 }
