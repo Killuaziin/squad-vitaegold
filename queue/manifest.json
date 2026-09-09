@@ -336,8 +336,10 @@
       "id": "blog-pele",
       "type": "blog",
       "title": "Pele de dentro pra fora",
-      "published": false,
-      "url": null
+      "published": true,
+      "url": "https://www.instagram.com/p/DdEn7cWFGmV/",
+      "post_id": "17874620016567181",
+      "publishedAt": "2026-09-09T15:51:12.841Z"
     },
     {
       "id": "blog-movimento",
