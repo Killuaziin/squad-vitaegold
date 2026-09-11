@@ -347,8 +347,10 @@
       "id": "blog-movimento",
       "type": "blog",
       "title": "Movimentar-se mais",
-      "published": false,
-      "url": null
+      "published": true,
+      "url": "https://www.instagram.com/p/DdJxJY5jnF0/",
+      "post_id": "18119963572930762",
+      "publishedAt": "2026-09-11T15:47:54.096Z"
     },
     {
       "id": "produto-curcuma-white",
