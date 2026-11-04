@@ -1,0 +1,40 @@
+{
+  "assetDir": "squads/carrossel-vitaegold/output/_build/mitos-intestino/assets",
+  "outDir": "squads/carrossel-vitaegold/output/mitos-intestino/images",
+  "slides": [
+    {
+      "img": "s1.jpg",
+      "pos": "center 45%",
+      "tag": "Mitos e Verdades",
+      "headline": "Mitos e verdades sobre o intestino.",
+      "body": "Fibras, água, movimento, rotina: o que realmente ajuda o intestino a funcionar bem no dia a dia? Vamos aos fatos."
+    },
+    {
+      "img": "s2.jpg",
+      "pos": "center 50%",
+      "badge": "mito",
+      "headline": "Intestino preso é normal com a idade.",
+      "body": "Pode ser comum, mas não precisa ser aceito como normal. Mudanças que persistem merecem uma conversa com o médico."
+    },
+    {
+      "img": "s3.jpg",
+      "pos": "center 35%",
+      "badge": "verdade",
+      "headline": "Fibra e água trabalham juntas.",
+      "body": "Ao aumentar frutas, verduras e grãos integrais no prato, aumente também a água ao longo do dia. Uma ajuda a outra."
+    },
+    {
+      "img": "s4.jpg",
+      "pos": "center 40%",
+      "badge": "mito",
+      "headline": "Movimento não tem nada a ver com o intestino.",
+      "body": "Caminhar e se movimentar no dia a dia também ajuda o intestino a manter o seu ritmo."
+    },
+    {
+      "img": "s5.jpg",
+      "pos": "center 50%",
+      "headline": "Rotina gentil, intestino em dia.",
+      "body": "Prato colorido, água por perto, corpo em movimento e um horário tranquilo pro banheiro. Pequenos hábitos somam."
+    }
+  ]
+}

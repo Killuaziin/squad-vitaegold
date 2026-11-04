@@ -1,0 +1,40 @@
+{
+  "assetDir": "squads/carrossel-vitaegold/output/_build/mitos-protecao-solar/assets",
+  "outDir": "squads/carrossel-vitaegold/output/mitos-protecao-solar/images",
+  "slides": [
+    {
+      "img": "s1.jpg",
+      "pos": "center 50%",
+      "tag": "Mitos e Verdades",
+      "headline": "Mitos e verdades sobre o sol no verão.",
+      "body": "Protetor, chapéu, horário: o que vale de verdade pra curtir os dias de sol com cuidado? Vamos aos fatos."
+    },
+    {
+      "img": "s2.jpg",
+      "pos": "center 30%",
+      "badge": "mito",
+      "headline": "Protetor solar é só pra praia.",
+      "body": "O sol bate na caminhada, no quintal e até pela janela do carro. No dia a dia, proteger rosto, pescoço e mãos também é cuidado."
+    },
+    {
+      "img": "s3.jpg",
+      "pos": "center 45%",
+      "badge": "verdade",
+      "headline": "O horário faz diferença.",
+      "body": "Entre 10h e 16h o sol é mais forte. Prefira a sombra nesse período e deixe os passeios pro começo da manhã ou fim da tarde."
+    },
+    {
+      "img": "s4.jpg",
+      "pos": "center 55%",
+      "badge": "mito",
+      "headline": "Em dia nublado não precisa se proteger.",
+      "body": "Parte da radiação atravessa as nuvens. Chapéu, óculos escuros e protetor continuam valendo com o céu cinzento."
+    },
+    {
+      "img": "s5.jpg",
+      "pos": "center 30%",
+      "headline": "Sol com cuidado, verão com alegria.",
+      "body": "Água por perto, roupa leve e sombra nos horários de pico. E mostre ao dermatologista qualquer mancha diferente na pele."
+    }
+  ]
+}

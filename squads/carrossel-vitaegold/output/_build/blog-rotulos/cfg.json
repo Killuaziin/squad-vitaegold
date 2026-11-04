@@ -1,0 +1,39 @@
+{
+  "assetDir": "squads/carrossel-vitaegold/output/_build/blog-rotulos/assets",
+  "outDir": "squads/carrossel-vitaegold/output/blog-rotulos/images",
+  "slides": [
+    {
+      "img": "s1.jpg",
+      "pos": "center 35%",
+      "headline": "Vire a embalagem antes de pôr no carrinho.",
+      "body": "Ler rótulo não é coisa de nutricionista. Com poucas dicas, a ida ao mercado fica mais tranquila e consciente."
+    },
+    {
+      "img": "s2.jpg",
+      "pos": "center 35%",
+      "pill": "Ingredientes",
+      "headline": "A ordem da lista conta uma história.",
+      "body": "O primeiro ingrediente é o que tem em maior quantidade. Açúcar logo no começo? Ele está presente em boa proporção."
+    },
+    {
+      "img": "s3.jpg",
+      "pos": "center 35%",
+      "pill": "Tabela nutricional",
+      "headline": "Compare sempre por 100 gramas.",
+      "body": "As porções mudam de marca pra marca. Por 100g, dá pra comparar dois produtos parecidos de forma justa."
+    },
+    {
+      "img": "s4.jpg",
+      "pos": "center 35%",
+      "pill": "Frente do pacote",
+      "headline": "Confie mais no verso do que na frente.",
+      "body": "Natural, light, zero, integral: frases bonitas nem sempre contam tudo. A lista e a tabela contam o resto."
+    },
+    {
+      "img": "s5.jpg",
+      "pos": "center 35%",
+      "headline": "Comece por um produto só.",
+      "body": "Na próxima compra, leia os ingredientes de algo que você sempre leva. Sem julgamento: só o hábito de olhar."
+    }
+  ]
+}

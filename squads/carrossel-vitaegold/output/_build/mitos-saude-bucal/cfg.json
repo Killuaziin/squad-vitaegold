@@ -1,0 +1,40 @@
+{
+  "assetDir": "squads/carrossel-vitaegold/output/_build/mitos-saude-bucal/assets",
+  "outDir": "squads/carrossel-vitaegold/output/mitos-saude-bucal/images",
+  "slides": [
+    {
+      "img": "s1.jpg",
+      "pos": "center 55%",
+      "tag": "Mitos e Verdades",
+      "headline": "Mitos e verdades sobre a saúde da boca.",
+      "body": "Dentes, gengiva, prótese: cuidar do sorriso é cuidar da saúde inteira. Vamos separar o que é fato do que é mito."
+    },
+    {
+      "img": "s2.jpg",
+      "pos": "center 35%",
+      "badge": "mito",
+      "headline": "Perder os dentes é normal da idade.",
+      "body": "Com escovação, fio dental e visitas ao dentista, dá pra manter os dentes naturais por muitos anos. Idade não é sentença."
+    },
+    {
+      "img": "s3.jpg",
+      "pos": "center 40%",
+      "badge": "mito",
+      "headline": "Gengiva que sangra um pouco é normal.",
+      "body": "Sangramento ao escovar é um sinal que merece atenção. Conte ao dentista na próxima consulta, sem esperar doer."
+    },
+    {
+      "img": "s4.jpg",
+      "pos": "center 40%",
+      "badge": "verdade",
+      "headline": "Quem usa prótese também precisa ir ao dentista.",
+      "body": "A prótese pede limpeza diária e ajustes com o tempo. E a consulta cuida também da gengiva e da boca inteira."
+    },
+    {
+      "img": "s5.jpg",
+      "pos": "center 35%",
+      "headline": "Um sorriso bem cuidado à mesa da família.",
+      "body": "Escova macia, fio dental e consulta em dia. Seu sorriso merece estar em cada foto com quem você ama."
+    }
+  ]
+}

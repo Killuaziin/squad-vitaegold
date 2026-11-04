@@ -1,0 +1,39 @@
+{
+  "assetDir": "squads/carrossel-vitaegold/output/_build/blog-refeicoes/assets",
+  "outDir": "squads/carrossel-vitaegold/output/blog-refeicoes/images",
+  "slides": [
+    {
+      "img": "s1.jpg",
+      "pos": "center 40%",
+      "headline": "Comer menos nem sempre sacia mais.",
+      "body": "Prato leve demais costuma trazer fome logo depois. O segredo está em como você combina os alimentos."
+    },
+    {
+      "img": "s2.jpg",
+      "pos": "center 50%",
+      "pill": "Proteína primeiro",
+      "headline": "Comece pela proteína.",
+      "body": "Ovo, feijão, peixe, frango ou iogurte. Ela ajuda o corpo a perceber que já é o suficiente."
+    },
+    {
+      "img": "s3.jpg",
+      "pos": "center 50%",
+      "pill": "Cor e fibra",
+      "headline": "Metade do prato colorida.",
+      "body": "Verduras e legumes pedem mais mastigação e fazem a digestão acontecer com calma."
+    },
+    {
+      "img": "s4.jpg",
+      "pos": "center 50%",
+      "pill": "Sem medo",
+      "headline": "Carboidrato e gordura boa também entram.",
+      "body": "Arroz, batata, mandioca, um fio de azeite, castanhas. Nada é proibido: a questão é como combinar."
+    },
+    {
+      "img": "s5.jpg",
+      "pos": "center 35%",
+      "headline": "Coma com calma.",
+      "body": "A saciedade leva um tempinho pra chegar. Mastigue devagar e repare em como você se sente nas horas seguintes."
+    }
+  ]
+}

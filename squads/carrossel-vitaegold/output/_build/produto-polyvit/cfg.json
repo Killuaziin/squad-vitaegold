@@ -1,0 +1,42 @@
+{
+  "assetDir": "squads/carrossel-vitaegold/output/_build/produto-polyvit/assets",
+  "outDir": "squads/carrossel-vitaegold/output/produto-polyvit/images",
+  "prodImage": "produto.png",
+  "hero": {
+    "tag": "Vitaminas e minerais",
+    "title": "PolyVit A-Z",
+    "sub": "Multivitamínico e multimineral completo"
+  },
+  "slides": [
+    {
+      "type": "hero"
+    },
+    {
+      "type": "photo",
+      "img": "life2.jpg",
+      "pos": "center 35%",
+      "pill": "O que é",
+      "headline": "De A a Z em uma cápsula por dia.",
+      "body": "Vitaminas A, C, D, complexo B, zinco, selênio, cobre, cálcio e magnésio reunidos pra complementar a alimentação."
+    },
+    {
+      "type": "photo",
+      "img": "life1.jpg",
+      "pos": "center 40%",
+      "pill": "Funções",
+      "headline": "Cada nutriente com o seu papel.",
+      "body": "Vitaminas A, C, D, zinco, selênio e cobre auxiliam no funcionamento do sistema imune. O complexo B, no metabolismo energético. Cálcio, vitamina D e magnésio, na formação e manutenção de ossos e dentes."
+    },
+    {
+      "type": "quote",
+      "quote": "\"Gostei de ter vitaminas e minerais num produto só. Prático para o dia a dia.\"",
+      "from": "Relato de quem usa o PolyVit A-Z"
+    },
+    {
+      "type": "cta",
+      "headline": "Vitaminas e minerais\nde A a Z, todo dia.",
+      "body": "Fale com a gente no WhatsApp e conheça o PolyVit A-Z, com condições especiais em kits.",
+      "aviso": "Suplemento alimentar. Este produto não é um medicamento. Não exceder a recomendação diária de consumo indicada na embalagem. Manter fora do alcance de crianças. Indicado para maiores de 19 anos. Não substitui uma alimentação equilibrada e hábitos de vida saudáveis."
+    }
+  ]
+}

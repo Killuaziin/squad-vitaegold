@@ -1,0 +1,39 @@
+{
+  "assetDir": "squads/carrossel-vitaegold/output/_build/blog-ar-livre/assets",
+  "outDir": "squads/carrossel-vitaegold/output/blog-ar-livre/images",
+  "slides": [
+    {
+      "img": "s1.jpg",
+      "pos": "center 40%",
+      "headline": "A natureza está mais perto do que parece.",
+      "body": "Não precisa de trilha nem de viagem. Um banco na praça, a varanda ou uma volta no quarteirão já fazem diferença."
+    },
+    {
+      "img": "s2.jpg",
+      "pos": "center 30%",
+      "pill": "Luz da manhã",
+      "headline": "O sol da manhã organiza o seu relógio.",
+      "body": "A luz natural logo cedo ajuda o corpo a entender a hora de ter disposição e a hora de descansar."
+    },
+    {
+      "img": "s3.jpg",
+      "pos": "center 45%",
+      "pill": "Descanso pra mente",
+      "headline": "Paisagem verde acalma o olhar.",
+      "body": "Árvores, céu e pássaros pedem uma atenção mais relaxada, bem diferente da tensão das telas."
+    },
+    {
+      "img": "s4.jpg",
+      "pos": "center 45%",
+      "pill": "Frequência conta",
+      "headline": "Pouco e todo dia vale mais.",
+      "body": "Café da manhã na varanda, descer um ponto antes, uma ligação caminhando. Pequenos encontros diários somam."
+    },
+    {
+      "img": "s5.jpg",
+      "pos": "center 35%",
+      "headline": "Cinco minutos ao ar livre, sem tela.",
+      "body": "Saia, respire com calma e repare em três coisas: um som, uma cor, uma sensação na pele. Amanhã, repita."
+    }
+  ]
+}

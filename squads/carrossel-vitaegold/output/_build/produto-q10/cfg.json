@@ -1,0 +1,42 @@
+{
+  "assetDir": "squads/carrossel-vitaegold/output/_build/produto-q10/assets",
+  "outDir": "squads/carrossel-vitaegold/output/produto-q10/images",
+  "prodImage": "produto.png",
+  "hero": {
+    "tag": "Fonte de coenzima Q10",
+    "title": "Coenzima Q10",
+    "sub": "60 cápsulas · ubiquinona"
+  },
+  "slides": [
+    {
+      "type": "hero"
+    },
+    {
+      "type": "photo",
+      "img": "life2.jpg",
+      "pos": "center 35%",
+      "pill": "O que é",
+      "headline": "Uma substância que o corpo já conhece.",
+      "body": "A coenzima Q10 (ubiquinona) está naturalmente presente no organismo e em alguns alimentos."
+    },
+    {
+      "type": "photo",
+      "img": "life1.jpg",
+      "pos": "center 40%",
+      "pill": "Como usar",
+      "headline": "Uma cápsula por dia, junto a uma refeição.",
+      "body": "Prática pra complementar a alimentação no dia a dia, sem complicação. Muita gente toma com o café da manhã."
+    },
+    {
+      "type": "quote",
+      "quote": "\"Tomo diariamente junto com o café da manhã. Produto de boa qualidade, embalagem bem fechada.\"",
+      "from": "Relato de quem usa a Coenzima Q10"
+    },
+    {
+      "type": "cta",
+      "headline": "Simples de incluir,\nfácil de manter.",
+      "body": "Fale com a gente no WhatsApp e conheça a Coenzima Q10 da Vitae Gold, com condições especiais em kits.",
+      "aviso": "Suplemento alimentar em cápsulas. Fonte de coenzima Q10. Este produto não é um medicamento. Não exceder a recomendação diária de consumo indicada na embalagem. Manter fora do alcance de crianças. Indicado para maiores de 19 anos. Gestantes, lactantes e pessoas que utilizam medicamentos devem consultar um profissional de saúde."
+    }
+  ]
+}

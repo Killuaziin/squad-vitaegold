@@ -1,0 +1,42 @@
+{
+  "assetDir": "squads/carrossel-vitaegold/output/_build/produto-colageno-hidrolisado/assets",
+  "outDir": "squads/carrossel-vitaegold/output/produto-colageno-hidrolisado/images",
+  "prodImage": "produto.png",
+  "hero": {
+    "tag": "Cuidado de dentro pra fora",
+    "title": "Colágeno Hidrolisado",
+    "sub": "Premium, com vitamina C, zinco e vitamina E"
+  },
+  "slides": [
+    {
+      "type": "hero"
+    },
+    {
+      "type": "photo",
+      "img": "life2.jpg",
+      "pos": "center 30%",
+      "pill": "O que é",
+      "headline": "Colágeno com três aliados.",
+      "body": "Peptídeos de colágeno hidrolisado com vitamina C, zinco e vitamina E, em cápsulas, pra complementar a alimentação no dia a dia."
+    },
+    {
+      "type": "photo",
+      "img": "life1.jpg",
+      "pos": "center 35%",
+      "pill": "Funções",
+      "headline": "Cada ativo com o seu papel.",
+      "body": "O zinco auxilia na manutenção da pele e no funcionamento do sistema imune. A vitamina C auxilia na formação do colágeno do próprio corpo. As vitaminas C e E auxiliam na proteção contra os danos dos radicais livres."
+    },
+    {
+      "type": "quote",
+      "quote": "\"Tomo com um copo de água de manhã. Não tem gosto, passa fácil.\"",
+      "from": "Relato de quem usa o Colágeno Hidrolisado"
+    },
+    {
+      "type": "cta",
+      "headline": "Cuidar de você também\né um gesto de carinho.",
+      "body": "Fale com a gente no WhatsApp e conheça o Colágeno Hidrolisado Premium, com condições especiais em kits.",
+      "aviso": "Suplemento alimentar em cápsulas. Este produto não é um medicamento. Não substitui uma alimentação equilibrada. Não exceder a recomendação diária de consumo indicada na embalagem. Manter fora do alcance de crianças. Indicado para maiores de 19 anos. Gestantes, lactantes e pessoas com condições de saúde devem consultar um médico."
+    }
+  ]
+}

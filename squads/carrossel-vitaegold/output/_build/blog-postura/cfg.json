@@ -1,0 +1,39 @@
+{
+  "assetDir": "squads/carrossel-vitaegold/output/_build/blog-postura/assets",
+  "outDir": "squads/carrossel-vitaegold/output/blog-postura/images",
+  "slides": [
+    {
+      "img": "s1.jpg",
+      "pos": "center 40%",
+      "headline": "A melhor postura é a próxima.",
+      "body": "O corpo não foi feito pra ficar parado numa pose perfeita. Ele gosta de variar, se mexer e se ajustar ao longo do dia."
+    },
+    {
+      "img": "s2.jpg",
+      "pos": "center 35%",
+      "pill": "Sentado",
+      "headline": "Pés no chão, quadril no fundo da cadeira.",
+      "body": "E traga o livro ou a tela até os olhos, em vez de esticar o pescoço. Levante-se de vez em quando."
+    },
+    {
+      "img": "s3.jpg",
+      "pos": "center 30%",
+      "pill": "Em pé",
+      "headline": "Peso nos dois pés, joelhos soltos.",
+      "body": "Alterne o apoio de uma perna pra outra. A vontade de mudar de posição é um recado do corpo: escute."
+    },
+    {
+      "img": "s4.jpg",
+      "pos": "center 45%",
+      "pill": "Carregando peso",
+      "headline": "Dobre os joelhos e traga o peso perto do corpo.",
+      "body": "As pernas são mais fortes que a lombar. Divida as sacolas dos dois lados e peça ajuda quando for pesado demais."
+    },
+    {
+      "img": "s5.jpg",
+      "pos": "center 40%",
+      "headline": "Uma pausa a cada hora.",
+      "body": "Levante, dê alguns passos, gire os ombros e respire fundo. Simples assim, e fácil de repetir todo dia."
+    }
+  ]
+}

@@ -28,10 +28,12 @@
 - Imagens via Pexels (automático, grátis) — pessoas **60–75 anos**, dignas e ativas, momentos em família/com netos. Evitar estética "fitness jovem".
 
 ## Temas já usados (não repetir)
-- **Blog:** respiração, fibras, alongamento, rotina matinal, caminhada, hidratação, antioxidantes, café da manhã, mobilidade, açúcar, atenção plena, autocuidado, força muscular, conexões sociais, ritmo circadiano, ferro, sinais do corpo, lanches, foco, pele de dentro pra fora, movimentar-se mais.
-- **Mitos:** saúde 60+, sono, alimentação, exercício, suplementos, memória, articulações, imunidade, vitamina D, envelhecer bem, ossos.
-- **Produto:** Colágeno C2, M5X, Magnésium+D3, Vitae 7.1, CúrcumaWhite, Ômega 3, Luteína+Zeaxantina, Sereno.
-- Artigos do blog ainda não usados (reserva): limites saudáveis, autocompaixão, momentos de relaxamento, pausas conscientes, trabalho e descanso, sono e recuperação, comer com atenção plena (parcial).
+- **Blog:** respiração, fibras, alongamento, rotina matinal, caminhada, hidratação, antioxidantes, café da manhã, mobilidade, açúcar, atenção plena, autocuidado, força muscular, conexões sociais, ritmo circadiano, ferro, sinais do corpo, lanches, foco, pele de dentro pra fora, movimentar-se mais, equilíbrio corporal, temperos/menos sal, tempo ao ar livre, ritual noturno, postura, refeições que saciam, escrever pra organizar a mente, cafeína e sono, ler rótulos.
+- **Mitos:** saúde 60+, sono, alimentação, exercício, suplementos, memória, articulações, imunidade, vitamina D, envelhecer bem, ossos, proteção solar, proteína, saúde bucal, aprender depois dos 60, intestino.
+- **Produto:** Colágeno C2, M5X, Magnésium+D3, Vitae 7.1, CúrcumaWhite, Ômega 3, Luteína+Zeaxantina, Sereno, PolyVit A-Z, Colágeno Hidrolisado, Vitae Flora, Coenzima Q10.
+- Produtos ainda não usados: Vita Liv, NAC, Creatina, ThermoVit, FeminiFit, Blue Man (os 3 últimos têm alto risco de compliance: emagrecimento, hormonal, sexual; evitar ou passar por revisão regulatória).
+- Artigos do blog ainda não usados (reserva): coordenação motora (repete a dica do equilíbrio, espaçar), prato colorido, como acordar mais disposto, limites saudáveis, autocompaixão, momentos de relaxamento, pausas conscientes, trabalho e descanso, sono e recuperação, comer com atenção plena (parcial). Lista completa e datas: `https://vitaegold.com.br/blog/wp-json/wp/v2/posts?per_page=100&_fields=slug,date` (o HTML do blog bloqueia curl sem User-Agent de navegador: Mod_Security).
+- Evitar mitos sobre visão, pressão, colesterol, glicemia, gripe: são termos da blocklist (doenças específicas) e soam como alegação ligada aos produtos.
 
 ## Proibições Explícitas
 
@@ -41,3 +43,7 @@
 - Fotos de produto: `https://vitaegold.com.br/images/produtos/<slug>.webp` (slugs sem hífen, ex.: omega3, luteina, sereno, q10, nac, vitaliv). Converter pra PNG via `_build/convert-webp.mjs`.
 - Fila: posts SEM campo `date` no manifest são escolhidos pelo tipo do dia da semana (Seg produto, Qua/Sex blog, Qui mitos), na ordem do array. Preferir sem data: fila não trava se um dia falhar.
 - Publicação: GitHub Actions `publish.yml` roda 12:00 UTC diariamente; imagens servidas via raw.githubusercontent.com (repo público).
+- **Fila vazia = workflow vermelho** (desde 2026-11-04): o publicador sai com erro quando não há post do tipo do dia, e o GitHub manda e-mail. Antes saía verde e a fila ficou vazia de 12/09 a 04/11/2026 sem ninguém notar.
+- **Fluxo de lote (a partir de 2026-11):** (1) `photo-plan.json` + `fetch-batch.mjs` (registra ids em `photo-ids.json` e nunca repete foto do lote; apagar `photo-ids.json` ao começar lote novo); (2) textos de todos os posts num arquivo `lote-AAAA-MM.mjs` (slides + legenda); (3) `build-lote.mjs <lote> --check` valida travessão, blocklist ANVISA, idoso/vovô, 5 slides, legenda, aviso legal; sem `--check` renderiza e copia pra `queue/posts/`; `--manifest --no-render` põe na fila; (4) `review-lote.mjs <lote> <data-inicio> <prefixo>` gera folhas `_review-*-sN.png` (slides + legenda + data prevista) pra aprovação humana.
+- Depoimentos nos slides "Quem usa": usar só frases publicadas na página do produto no site (seção "O que nossos clientes dizem"), nunca inventar.
+- Telefone de vendas no CTA: 0800 888 0032 ("COMPRE AQUI" no site). 0800 608 0050 é o SAC.

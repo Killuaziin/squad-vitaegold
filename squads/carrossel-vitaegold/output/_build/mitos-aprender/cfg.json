@@ -1,0 +1,40 @@
+{
+  "assetDir": "squads/carrossel-vitaegold/output/_build/mitos-aprender/assets",
+  "outDir": "squads/carrossel-vitaegold/output/mitos-aprender/images",
+  "slides": [
+    {
+      "img": "s1.jpg",
+      "pos": "center 40%",
+      "tag": "Mitos e Verdades",
+      "headline": "Mitos e verdades sobre aprender depois dos 60.",
+      "body": "Celular novo, uma receita diferente, um instrumento, um idioma. Existe idade certa pra aprender? Vamos aos fatos."
+    },
+    {
+      "img": "s2.jpg",
+      "pos": "center 35%",
+      "badge": "mito",
+      "headline": "Depois de certa idade, o cérebro não aprende mais.",
+      "body": "O cérebro segue criando novas conexões ao longo da vida quando é estimulado. Pode levar um pouco mais de tempo, e tudo bem."
+    },
+    {
+      "img": "s3.jpg",
+      "pos": "center 40%",
+      "badge": "verdade",
+      "headline": "Aprender algo novo estimula a mente.",
+      "body": "Novidades tiram a cabeça do piloto automático. Um curso, um hobby, uma conversa diferente: tudo isso é exercício pra mente."
+    },
+    {
+      "img": "s4.jpg",
+      "pos": "center 35%",
+      "badge": "mito",
+      "headline": "Tecnologia não é pra mim.",
+      "body": "Videochamada com os netos, fotos da família, mensagens: com paciência e alguém pra ensinar, todo mundo aprende."
+    },
+    {
+      "img": "s5.jpg",
+      "pos": "center 35%",
+      "headline": "Nunca é tarde pra começar.",
+      "body": "Escolha algo que sempre teve vontade de aprender e dê o primeiro passo esta semana. Curiosidade não tem idade."
+    }
+  ]
+}

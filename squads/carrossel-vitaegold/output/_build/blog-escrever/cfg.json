@@ -1,0 +1,39 @@
+{
+  "assetDir": "squads/carrossel-vitaegold/output/_build/blog-escrever/assets",
+  "outDir": "squads/carrossel-vitaegold/output/blog-escrever/images",
+  "slides": [
+    {
+      "img": "s1.jpg",
+      "pos": "center 40%",
+      "headline": "Escrever ajuda a organizar a cabeça.",
+      "body": "Não precisa de talento nem de caderno bonito. É só um jeito de tirar os pensamentos de dentro e olhar pra eles com calma."
+    },
+    {
+      "img": "s2.jpg",
+      "pos": "center 40%",
+      "pill": "Por que funciona",
+      "headline": "No papel, o pensamento ganha forma.",
+      "body": "O que estava solto e confuso ganha começo, meio e fim. E às vezes o problema fica menor do que parecia."
+    },
+    {
+      "img": "s3.jpg",
+      "pos": "center 50%",
+      "pill": "Do seu jeito",
+      "headline": "Não existe forma certa.",
+      "body": "Diário livre, lista de gratidão, lembretes do dia seguinte. À mão ou no celular, ninguém precisa ler além de você."
+    },
+    {
+      "img": "s4.jpg",
+      "pos": "center 45%",
+      "pill": "Na rotina",
+      "headline": "Junto do café ou antes de dormir.",
+      "body": "Pendure o hábito em algo que você já faz e deixe o caderno à vista. O que fica no fundo da gaveta é esquecido."
+    },
+    {
+      "img": "s5.jpg",
+      "pos": "center 40%",
+      "headline": "Hoje, uma frase só.",
+      "body": "Antes de dormir, escreva uma frase sobre o seu dia. Estou cansado, deu tudo certo, a cabeça está a mil. Já vale."
+    }
+  ]
+}

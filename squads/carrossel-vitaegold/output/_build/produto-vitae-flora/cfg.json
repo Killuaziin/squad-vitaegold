@@ -1,0 +1,42 @@
+{
+  "assetDir": "squads/carrossel-vitaegold/output/_build/produto-vitae-flora/assets",
+  "outDir": "squads/carrossel-vitaegold/output/produto-vitae-flora/images",
+  "prodImage": "produto.png",
+  "hero": {
+    "tag": "Complexo B líquido",
+    "title": "Vitae Flora",
+    "sub": "Vitaminas B1, B6 e colina"
+  },
+  "slides": [
+    {
+      "type": "hero"
+    },
+    {
+      "type": "photo",
+      "img": "life1.jpg",
+      "pos": "center 35%",
+      "pill": "O que é",
+      "headline": "Prático como um copinho.",
+      "body": "Suplemento líquido com vitaminas B1, B6 e colina. Vem com copo dosador e é fácil de incluir na rotina da manhã."
+    },
+    {
+      "type": "photo",
+      "img": "life2.jpg",
+      "pos": "center 55%",
+      "pill": "Funções",
+      "headline": "O papel das vitaminas do complexo B.",
+      "body": "A vitamina B1 auxilia no metabolismo energético e no funcionamento do sistema nervoso. A B6 auxilia no metabolismo energético e no metabolismo de proteínas."
+    },
+    {
+      "type": "quote",
+      "quote": "\"Prático de usar, o formato líquido facilita bastante. Já faz parte da minha rotina matinal.\"",
+      "from": "Relato de quem usa o Vitae Flora"
+    },
+    {
+      "type": "cta",
+      "headline": "Um gole de praticidade\nna sua manhã.",
+      "body": "Fale com a gente no WhatsApp e conheça o Vitae Flora, com condições especiais em kits.",
+      "aviso": "Suplemento alimentar líquido. Este produto não é um medicamento. Não exceder a recomendação diária de consumo indicada na embalagem. Manter fora do alcance de crianças. Não deve ser consumido por gestantes, lactantes e crianças menores de 12 anos. Pessoas com homocistinúria, cirrose ou doenças cardiovasculares devem consultar um médico."
+    }
+  ]
+}

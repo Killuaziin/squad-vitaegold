@@ -1,0 +1,39 @@
+{
+  "assetDir": "squads/carrossel-vitaegold/output/_build/blog-temperos/assets",
+  "outDir": "squads/carrossel-vitaegold/output/blog-temperos/images",
+  "slides": [
+    {
+      "img": "s1.jpg",
+      "pos": "center 45%",
+      "headline": "Menos sal não precisa ser menos sabor.",
+      "body": "Ervas, especiarias e um toque de limão deixam a comida tão gostosa que o saleiro quase não faz falta."
+    },
+    {
+      "img": "s2.jpg",
+      "pos": "center 30%",
+      "pill": "O paladar se educa",
+      "headline": "Seu paladar se acostuma com menos sal.",
+      "body": "Reduzindo uma pitada por vez, em algumas semanas a comida muito salgada começa a parecer exagerada."
+    },
+    {
+      "img": "s3.jpg",
+      "pos": "center 50%",
+      "pill": "Ervas que transformam",
+      "headline": "Salsinha, alecrim, manjericão, orégano.",
+      "body": "Cheiro-verde no arroz e no feijão, alecrim no frango, manjericão com tomate. Experimente sem medo."
+    },
+    {
+      "img": "s4.jpg",
+      "pos": "center 88%",
+      "pill": "O truque da acidez",
+      "headline": "Um fio de limão no final.",
+      "body": "A acidez realça o sabor e engana o paladar, que sente mais tempero mesmo com menos sal. Vinagre também ajuda."
+    },
+    {
+      "img": "s5.jpg",
+      "pos": "center 35%",
+      "headline": "Prove antes de salgar.",
+      "body": "Deixe os temperos naturais à vista e cuidado com caldos prontos, que concentram sódio. Uma refeição de cada vez."
+    }
+  ]
+}

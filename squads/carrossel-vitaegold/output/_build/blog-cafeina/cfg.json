@@ -1,0 +1,39 @@
+{
+  "assetDir": "squads/carrossel-vitaegold/output/_build/blog-cafeina/assets",
+  "outDir": "squads/carrossel-vitaegold/output/blog-cafeina/images",
+  "slides": [
+    {
+      "img": "s1.jpg",
+      "pos": "center 35%",
+      "headline": "Café depois das 18h atrapalha o sono?",
+      "body": "Depende de você. A relação entre cafeína e sono é bem mais pessoal do que um horário fixo no relógio."
+    },
+    {
+      "img": "s2.jpg",
+      "pos": "center 55%",
+      "pill": "Como age",
+      "headline": "A cafeína esconde o cansaço.",
+      "body": "Ela ocupa o lugar da substância que dá sono ao longo do dia. Você não fica menos cansado: só deixa de perceber por um tempo."
+    },
+    {
+      "img": "s3.jpg",
+      "pos": "center 50%",
+      "pill": "Atenção",
+      "headline": "Não é só o café.",
+      "body": "Chá preto, chá verde, chocolate e alguns refrigerantes também têm cafeína. Às vezes a soma do dia surpreende."
+    },
+    {
+      "img": "s4.jpg",
+      "pos": "center 40%",
+      "pill": "Fique de olho",
+      "headline": "Pegar no sono não é dormir bem.",
+      "body": "Tem gente que adormece depois do café, mas tem um descanso mais leve durante a noite, sem perceber."
+    },
+    {
+      "img": "s5.jpg",
+      "pos": "center 35%",
+      "headline": "Adiante o último cafezinho.",
+      "body": "Experimente tomar o café da tarde uma ou duas horas mais cedo e repare na sua noite. Sem abrir mão do prazer."
+    }
+  ]
+}

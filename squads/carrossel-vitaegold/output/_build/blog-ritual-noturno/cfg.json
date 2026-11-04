@@ -1,0 +1,39 @@
+{
+  "assetDir": "squads/carrossel-vitaegold/output/_build/blog-ritual-noturno/assets",
+  "outDir": "squads/carrossel-vitaegold/output/blog-ritual-noturno/images",
+  "slides": [
+    {
+      "img": "s1.jpg",
+      "pos": "center 45%",
+      "headline": "Dormir bem começa antes de deitar.",
+      "body": "O corpo não desliga apertando um botão. Ele precisa de sinais suaves de que o dia está terminando."
+    },
+    {
+      "img": "s2.jpg",
+      "pos": "center 45%",
+      "pill": "Luz mais baixa",
+      "headline": "Diminua as luzes na última hora.",
+      "body": "Troque a luz forte do teto por uma luminária mais suave. A luz é um dos recados mais fortes pro corpo."
+    },
+    {
+      "img": "s3.jpg",
+      "pos": "center 50%",
+      "pill": "Telas com gentileza",
+      "headline": "Celular longe da mão.",
+      "body": "Deixe o aparelho carregando fora do alcance da cama. Não precisa ser radical: alguns minutos a menos já ajudam."
+    },
+    {
+      "img": "s4.jpg",
+      "pos": "center 45%",
+      "pill": "Corpo e mente",
+      "headline": "Banho morno, chá sem cafeína, papel e caneta.",
+      "body": "Escolha um ou dois gestos que combinem com você. Anotar as preocupações tira o peso da cabeça antes de deitar."
+    },
+    {
+      "img": "s5.jpg",
+      "pos": "center 40%",
+      "headline": "Um ritual seu, noite após noite.",
+      "body": "Não existe fórmula perfeita. O que funciona é a repetição gentil de pequenos gestos que avisam: pode descansar."
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "assetDir": "squads/carrossel-vitaegold/output/_build/blog-equilibrio/assets",
+  "outDir": "squads/carrossel-vitaegold/output/blog-equilibrio/images",
+  "slides": [
+    {
+      "img": "s1.jpg",
+      "pos": "center 35%",
+      "headline": "Equilíbrio não é dom: é treino.",
+      "body": "Não é algo com que a gente nasce pronto. É uma habilidade que o corpo aprende, aprimora e mantém com o uso."
+    },
+    {
+      "img": "s2.jpg",
+      "pos": "center 40%",
+      "pill": "Como funciona",
+      "headline": "Olhos, ouvido e corpo trabalhando juntos.",
+      "body": "Os três conversam o tempo todo pra você caminhar, se abaixar e subir uma escada sem nem pensar no esforço."
+    },
+    {
+      "img": "s3.jpg",
+      "pos": "center 35%",
+      "pill": "Por que cuidar",
+      "headline": "Mais confiança em cada passo.",
+      "body": "Quem se sente firme se movimenta mais. E quem se movimenta mais segue presente nos passeios, nas viagens, na vida."
+    },
+    {
+      "img": "s4.jpg",
+      "pos": "center 35%",
+      "pill": "No dia a dia",
+      "headline": "Escove os dentes em um pé só.",
+      "body": "Alterne as pernas, sempre com a pia ao alcance da mão. Um momento que já existe no seu dia vira treino."
+    },
+    {
+      "img": "s5.jpg",
+      "pos": "center 45%",
+      "headline": "Pequenos desafios, sempre com apoio por perto.",
+      "body": "Levantar da cadeira sem as mãos, ficar num pé só enquanto o café passa. Sem pressa e sem comparação: no seu ritmo."
+    }
+  ]
+}

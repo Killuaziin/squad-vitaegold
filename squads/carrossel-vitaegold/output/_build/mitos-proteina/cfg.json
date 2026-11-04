@@ -1,0 +1,40 @@
+{
+  "assetDir": "squads/carrossel-vitaegold/output/_build/mitos-proteina/assets",
+  "outDir": "squads/carrossel-vitaegold/output/mitos-proteina/images",
+  "slides": [
+    {
+      "img": "s1.jpg",
+      "pos": "center 45%",
+      "tag": "Mitos e Verdades",
+      "headline": "Mitos e verdades sobre proteína depois dos 60.",
+      "body": "Ovo, feijão, peixe, iogurte: de onde vem, quanto importa e quando comer? Vamos separar o fato do boato."
+    },
+    {
+      "img": "s2.jpg",
+      "pos": "center 30%",
+      "badge": "mito",
+      "headline": "Com a idade, o corpo precisa de menos proteína.",
+      "body": "A proteína continua importante com o passar dos anos. Ela ajuda a manter os músculos e a força pras atividades do dia a dia."
+    },
+    {
+      "img": "s3.jpg",
+      "pos": "center 50%",
+      "badge": "mito",
+      "headline": "Proteína só vem da carne.",
+      "body": "Ovos, feijão, lentilha, grão-de-bico, leite, iogurte e queijos também são boas fontes. Dá pra variar e combinar no prato."
+    },
+    {
+      "img": "s4.jpg",
+      "pos": "center 40%",
+      "badge": "verdade",
+      "headline": "Vale distribuir ao longo do dia.",
+      "body": "Em vez de concentrar tudo no almoço, incluir uma fonte de proteína no café da manhã e no jantar costuma ser uma boa estratégia."
+    },
+    {
+      "img": "s5.jpg",
+      "pos": "center 40%",
+      "headline": "Cada refeição com a sua proteína.",
+      "body": "As quantidades ideais variam de pessoa pra pessoa. Converse com seu médico ou nutricionista e monte o prato com quem você ama."
+    }
+  ]
+}
