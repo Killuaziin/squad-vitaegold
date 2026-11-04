@@ -97,7 +97,12 @@ if (post) {
   type = process.env.FORCE_TYPE || m.schedule[String(weekday)];
   if (!type) { console.log(`Hoje (dia ${weekday}) nao tem post agendado. Nada a fazer.`); process.exit(0); }
   post = m.posts.find(p => !p.published && p.type === type && !p.date);
-  if (!post) { console.log(`Fila vazia para tipo "${type}". Reabasteca a fila. Nada publicado.`); process.exit(0); }
+  if (!post) {
+    // Sai com ERRO de proposito: o run fica vermelho e o GitHub manda e-mail de falha.
+    // Antes saia com 0 (verde) e a fila ficou vazia por ~2 meses sem ninguem perceber (2026-09 a 2026-11).
+    console.error(`::error::Fila vazia para tipo "${type}" — nenhum post publicado hoje. Gere um novo lote e reabasteca queue/manifest.json.`);
+    process.exit(1);
+  }
 }
 
 const dir = `queue/posts/${post.id}`;
