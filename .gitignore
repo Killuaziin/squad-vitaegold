@@ -27,6 +27,4 @@ Thumbs.db
 desktop.ini
 
 # ===== Videos brutos (GitHub recusa arquivos > 100 MB) =====
-videos/*.zip
-videos/brutos/
-videos/_frames/
+videos/

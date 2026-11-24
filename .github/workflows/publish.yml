@@ -2,12 +2,19 @@ name: Publicar carrossel (fila Vitae Gold)
 
 on:
   schedule:
-    # Roda todo dia as 12:00 UTC (09:00 BRT). O publicador decide se posta:
-    # publica se houver post com data de hoje (one-off) OU do tipo do dia (Seg/Qua/Qui/Sex).
-    # Em dias sem nada agendado, ele apenas sai sem postar.
+    # Diario 12:00 UTC (09:00 BRT; o GitHub costuma atrasar horas). O publicador decide se posta:
+    # horario marcado vencido > post com data de hoje > post do tipo do dia (Seg/Qua/Qui/Sex).
+    # Em dias sem nada agendado, ele apenas sai sem postar. Fila vazia no dia de post = run vermelho.
     - cron: "0 12 * * *"
+    # A cada 15 min: so publica posts com horario marcado (campo "at" no manifest) que ja venceram.
+    # Minutos "quebrados" porque o inicio de cada hora e o horario mais congestionado do GitHub.
+    - cron: "4,19,34,49 * * * *"
   workflow_dispatch: # permite rodar manualmente pelo botao "Run workflow"
     inputs:
+      force_id:
+        description: "Publicar um post especifico pelo id (ex.: reel-lucinha-institucional). Vazio = fila normal."
+        required: false
+        default: ""
       force_type:
         description: "Forcar tipo (blog / produto / mitos). Vazio = usa o dia da semana."
         required: false
@@ -44,6 +51,8 @@ jobs:
         env:
           INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
           INSTAGRAM_USER_ID: ${{ secrets.INSTAGRAM_USER_ID }}
+          MODE: ${{ github.event.schedule == '4,19,34,49 * * * *' && 'timed' || 'daily' }}
+          FORCE_ID: ${{ github.event.inputs.force_id }}
           FORCE_TYPE: ${{ github.event.inputs.force_type }}
           FORCE_DATE: ${{ github.event.inputs.force_date }}
           DRY_RUN: ${{ github.event.inputs.dry_run }}
@@ -58,5 +67,7 @@ jobs:
             git config user.email "bot@users.noreply.github.com"
             git add queue/manifest.json
             git commit -m "chore: publicado post da fila [skip ci]"
+            # Com runs a cada 15 min, o remoto pode ter andado desde o checkout.
+            git pull --rebase origin "${GITHUB_REF_NAME}"
             git push
           fi

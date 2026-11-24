@@ -108,27 +108,43 @@ if (!TOKEN || !USER) { console.error('ERRO: faltam secrets INSTAGRAM_ACCESS_TOKE
 
 const m = JSON.parse(readFileSync(MANIFEST, 'utf8'));
 const DRY = process.env.DRY_RUN === '1';
+const NOW = process.env.NOW ? new Date(process.env.NOW) : new Date(); // NOW so para testes (simular horario)
+// MODE=daily (cron diario ou manual): horario marcado vencido > data do dia > tipo do dia da semana.
+// MODE=timed (cron a cada 30 min): so posts com horario marcado ("at") que ja venceram.
+const MODE = process.env.MODE || 'daily';
+const FORCED = process.env.FORCE_DATE || process.env.FORCE_TYPE;
 // FORCE_DATE (YYYY-MM-DD) permite forcar um dia especifico (testes ou repostar atrasados)
-const today = process.env.FORCE_DATE || new Date().toISOString().slice(0, 10); // YYYY-MM-DD (UTC)
-const weekday = (process.env.FORCE_DATE ? new Date(process.env.FORCE_DATE + 'T12:00:00Z') : new Date()).getUTCDay(); // 0=Dom..6=Sab
+const today = process.env.FORCE_DATE || NOW.toISOString().slice(0, 10); // YYYY-MM-DD (UTC)
+const weekday = (process.env.FORCE_DATE ? new Date(process.env.FORCE_DATE + 'T12:00:00Z') : NOW).getUTCDay(); // 0=Dom..6=Sab
 
-// 1) Prioridade: post com DATA explicita marcada para hoje (one-off, ex.: sabado)
-let post = m.posts.find(p => !p.published && p.date === today);
-let type;
-
-if (post) {
-  // achou pela data
+let post, type;
+if (process.env.FORCE_ID) {
+  // 0) Post especifico pelo id (publicacao manual)
+  post = m.posts.find(p => p.id === process.env.FORCE_ID);
+  if (!post) { console.error(`::error::FORCE_ID "${process.env.FORCE_ID}" nao existe no manifest.`); process.exit(1); }
+  if (post.published) { console.log(`"${post.id}" ja foi publicado (${post.url}). Nada a fazer.`); process.exit(0); }
   type = post.type;
 } else {
-  // 2) Senao, pelo TIPO do dia da semana (posts sem data fixa)
-  type = process.env.FORCE_TYPE || m.schedule[String(weekday)];
-  if (!type) { console.log(`Hoje (dia ${weekday}) nao tem post agendado. Nada a fazer.`); process.exit(0); }
-  post = m.posts.find(p => !p.published && p.type === type && !p.date);
-  if (!post) {
-    // Sai com ERRO de proposito: o run fica vermelho e o GitHub manda e-mail de falha.
-    // Antes saia com 0 (verde) e a fila ficou vazia por ~2 meses sem ninguem perceber (2026-09 a 2026-11).
-    console.error(`::error::Fila vazia para tipo "${type}" — nenhum post publicado hoje. Gere um novo lote e reabasteca queue/manifest.json.`);
-    process.exit(1);
+  // 1) Horario marcado: campo "at" (ISO com fuso, ex. 2026-11-27T09:00:00-03:00) ja vencido; o mais antigo primeiro
+  if (!FORCED) post = m.posts.filter(p => !p.published && p.at && new Date(p.at) <= NOW).sort((a, b) => new Date(a.at) - new Date(b.at))[0];
+  if (post) type = post.type;
+  else if (MODE === 'timed') { console.log('Nenhum post com horario marcado vencido. Nada a fazer.'); process.exit(0); }
+  else {
+    // 2) Post com DATA explicita marcada para hoje (one-off, ex.: sabado)
+    post = m.posts.find(p => !p.published && !p.at && p.date === today);
+    if (post) type = post.type;
+    else {
+      // 3) Pelo TIPO do dia da semana (posts sem data nem horario)
+      type = process.env.FORCE_TYPE || m.schedule[String(weekday)];
+      if (!type) { console.log(`Hoje (dia ${weekday}) nao tem post agendado. Nada a fazer.`); process.exit(0); }
+      post = m.posts.find(p => !p.published && p.type === type && !p.date && !p.at);
+      if (!post) {
+        // Sai com ERRO de proposito: o run fica vermelho e o GitHub manda e-mail de falha.
+        // Antes saia com 0 (verde) e a fila ficou vazia por ~2 meses sem ninguem perceber (2026-09 a 2026-11).
+        console.error(`::error::Fila vazia para tipo "${type}" — nenhum post publicado hoje. Gere um novo lote e reabasteca queue/manifest.json.`);
+        process.exit(1);
+      }
+    }
   }
 }
 
@@ -166,7 +182,7 @@ try {
     await waitFinished(creation, TOKEN);
   }
 
-  if (DRY) { console.log(`DRY RUN OK: tudo pronto, NAO publicado (post "${post.id}" segue na fila). token ${tokenFp}`); process.exit(0); }
+  if (DRY) { console.log(`::notice::DRY RUN OK: tudo pronto, NAO publicado (post "${post.id}" segue na fila). token ${tokenFp}`); process.exit(0); }
 
   const id = await publishMedia(USER, creation, TOKEN);
   const link = await permalink(id, TOKEN);
@@ -176,7 +192,7 @@ try {
   post.url = link;
   post.publishedAt = new Date().toISOString();
   writeFileSync(MANIFEST, JSON.stringify(m, null, 2) + '\n');
-  console.log(`PUBLICADO: ${link || id}`);
+  console.log(`::notice::PUBLICADO "${post.id}" (${type}): ${link || id}`);
 } catch (e) {
   // O log completo do Actions so abre para admin do repo; a anotacao ::error:: aparece no resumo
   // publico do run (e na API de check-runs), entao o motivo fica visivel para quem for investigar.

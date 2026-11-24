@@ -527,13 +527,24 @@
       "type": "reels",
       "title": "Reels Lucinha Lins: Cúrcuma White PRO+",
       "thumb_offset": 300,
-      "published": false,
-      "url": null
+      "published": true,
+      "url": "https://www.instagram.com/reel/DgIq2UEjuQ9/",
+      "post_id": "17918959560520989",
+      "publishedAt": "2026-11-24T19:08:13.784Z"
     },
     {
       "id": "bf-lucinha-curcuma-pro",
       "type": "especial",
       "title": "Black Friday: Lucinha Lins + Cúrcuma White PRO+",
+      "published": false,
+      "url": null,
+      "at": "2026-11-27T09:00:00-03:00"
+    },
+    {
+      "id": "lucinha-curcuma-pro",
+      "type": "especial",
+      "title": "Lucinha Lins + Cúrcuma White PRO+ (imagem)",
+      "at": "2026-11-24T17:10:00-03:00",
       "published": false,
       "url": null
     }
