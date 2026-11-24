@@ -1,14 +1,16 @@
 #!/usr/bin/env node
 // Publicador da fila — roda no GitHub Actions nos dias agendados.
 // Le queue/manifest.json, escolhe o proximo post NAO publicado do tipo do dia,
-// publica no Instagram (imagens servidas pelo raw.githubusercontent.com), marca como publicado e salva o manifest.
+// publica no Instagram (carrossel, imagem unica ou Reels, conforme a pasta do post),
+// marca como publicado e salva o manifest.
 // Sem dependencias externas (usa fetch/FormData/Blob nativos do Node 18+).
 
 import { readFileSync, writeFileSync, readdirSync } from 'node:fs';
 import { createHash } from 'node:crypto';
 
 const MANIFEST = 'queue/manifest.json';
-const IG_BASE = 'https://graph.facebook.com/v21.0';
+const IG_VERSION = 'v21.0';
+const IG_BASE = `https://graph.facebook.com/${IG_VERSION}`;
 
 // ---- hospedagem de imagem: raw.githubusercontent.com (repositorio PUBLICO) ----
 // O Instagram busca cada imagem por URL publica. Como as imagens ja estao
@@ -62,6 +64,30 @@ async function createCarousel(userId, children, caption, token) {
   if (!r.ok) throw new Error(`createCarousel ${r.status}: ${await r.text()}`);
   return (await r.json()).id;
 }
+// Post de imagem unica (pasta com so slide-01.jpg).
+async function createImage(userId, imageUrl, caption, token) {
+  const p = new URLSearchParams({ image_url: imageUrl, caption, access_token: token });
+  const r = await fetch(`${IG_BASE}/${userId}/media?${p}`, { method: 'POST' });
+  if (!r.ok) throw new Error(`createImage ${r.status}: ${await r.text()}`);
+  return (await r.json()).id;
+}
+// Reels (pasta com video.mp4): upload "resumable" direto para o Instagram, sem depender de URL publica.
+// thumbOffset = milissegundo do video usado como capa (opcional, campo thumb_offset no manifest).
+async function createReel(userId, file, caption, token, thumbOffset) {
+  const p = new URLSearchParams({ media_type: 'REELS', upload_type: 'resumable', share_to_feed: 'true', caption, access_token: token });
+  if (thumbOffset != null) p.set('thumb_offset', String(thumbOffset));
+  const r = await fetch(`${IG_BASE}/${userId}/media?${p}`, { method: 'POST' });
+  if (!r.ok) throw new Error(`createReel ${r.status}: ${await r.text()}`);
+  const { id } = await r.json();
+  const video = readFileSync(file);
+  const up = await fetch(`https://rupload.facebook.com/ig-api-upload/${IG_VERSION}/${id}`, {
+    method: 'POST',
+    headers: { Authorization: `OAuth ${token}`, offset: '0', file_size: String(video.length) },
+    body: video,
+  });
+  if (!up.ok) throw new Error(`upload do video ${up.status}: ${await up.text()}`);
+  return id;
+}
 async function publishMedia(userId, creationId, token) {
   const p = new URLSearchParams({ creation_id: creationId, access_token: token });
   const r = await fetch(`${IG_BASE}/${userId}/media_publish?${p}`, { method: 'POST' });
@@ -106,9 +132,12 @@ if (post) {
   }
 }
 
+// Formato pelo conteudo da pasta: video.mp4 = Reels; 1 slide = imagem unica; 2+ slides = carrossel.
 const dir = `queue/posts/${post.id}`;
-const images = readdirSync(dir).filter(f => /^slide-\d+\.jpe?g$/i.test(f)).sort().map(f => `${dir}/${f}`);
-if (images.length < 2) { console.error(`ERRO: post ${post.id} tem menos de 2 imagens`); process.exit(1); }
+const files = readdirSync(dir);
+const isReel = files.includes('video.mp4');
+const images = files.filter(f => /^slide-\d+\.jpe?g$/i.test(f)).sort().map(f => `${dir}/${f}`);
+if (!isReel && images.length < 1) { console.error(`ERRO: post ${post.id} sem video.mp4 nem slide-NN.jpg`); process.exit(1); }
 const caption = readFileSync(`${dir}/caption.txt`, 'utf8').trim();
 
 // Impressao digital do token (hash curto, nao revela o token): permite comparar o secret do
@@ -116,19 +145,30 @@ const caption = readFileSync(`${dir}/caption.txt`, 'utf8').trim();
 const tokenFp = createHash('sha256').update(TOKEN).digest('hex').slice(0, 10);
 
 try {
-  console.log(`Publicando "${post.id}" (${type}) com ${images.length} imagens...`);
-  const urls = images.map(rawUrl);
-  await checkPublic(urls[0]); // valida acesso publico antes de chamar o Instagram
-  console.log(`  imagens servidas via raw.githubusercontent.com (${REPO} @ ${REF})`);
-  const children = [];
-  for (const u of urls) children.push(await createChild(USER, u, TOKEN));
-  for (const c of children) await waitFinished(c, TOKEN);
-  const carousel = await createCarousel(USER, children, caption, TOKEN);
-  await waitFinished(carousel, TOKEN);
+  let creation;
+  if (isReel) {
+    console.log(`Publicando "${post.id}" (${type}) como Reels...`);
+    creation = await createReel(USER, `${dir}/video.mp4`, caption, TOKEN, post.thumb_offset);
+    await waitFinished(creation, TOKEN, 10 * 60 * 1000); // o Instagram processa o video antes de liberar
+  } else {
+    console.log(`Publicando "${post.id}" (${type}) com ${images.length} imagem(ns)...`);
+    const urls = images.map(rawUrl);
+    await checkPublic(urls[0]); // valida acesso publico antes de chamar o Instagram
+    console.log(`  imagens servidas via raw.githubusercontent.com (${REPO} @ ${REF})`);
+    if (urls.length === 1) {
+      creation = await createImage(USER, urls[0], caption, TOKEN);
+    } else {
+      const children = [];
+      for (const u of urls) children.push(await createChild(USER, u, TOKEN));
+      for (const c of children) await waitFinished(c, TOKEN);
+      creation = await createCarousel(USER, children, caption, TOKEN);
+    }
+    await waitFinished(creation, TOKEN);
+  }
 
   if (DRY) { console.log(`DRY RUN OK: tudo pronto, NAO publicado (post "${post.id}" segue na fila). token ${tokenFp}`); process.exit(0); }
 
-  const id = await publishMedia(USER, carousel, TOKEN);
+  const id = await publishMedia(USER, creation, TOKEN);
   const link = await permalink(id, TOKEN);
 
   post.published = true;

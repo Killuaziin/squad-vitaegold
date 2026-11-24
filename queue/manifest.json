@@ -513,6 +513,29 @@
       "title": "Coenzima Q10",
       "published": false,
       "url": null
+    },
+    {
+      "id": "reel-lucinha-institucional",
+      "type": "reels",
+      "title": "Reels Lucinha Lins: institucional Vitae Gold",
+      "thumb_offset": 22600,
+      "published": false,
+      "url": null
+    },
+    {
+      "id": "reel-lucinha-curcuma-pro",
+      "type": "reels",
+      "title": "Reels Lucinha Lins: Cúrcuma White PRO+",
+      "thumb_offset": 300,
+      "published": false,
+      "url": null
+    },
+    {
+      "id": "bf-lucinha-curcuma-pro",
+      "type": "especial",
+      "title": "Black Friday: Lucinha Lins + Cúrcuma White PRO+",
+      "published": false,
+      "url": null
     }
   ]
 }
