@@ -5,6 +5,7 @@
 // Sem dependencias externas (usa fetch/FormData/Blob nativos do Node 18+).
 
 import { readFileSync, writeFileSync, readdirSync } from 'node:fs';
+import { createHash } from 'node:crypto';
 
 const MANIFEST = 'queue/manifest.json';
 const IG_BASE = 'https://graph.facebook.com/v21.0';
@@ -110,24 +111,38 @@ const images = readdirSync(dir).filter(f => /^slide-\d+\.jpe?g$/i.test(f)).sort(
 if (images.length < 2) { console.error(`ERRO: post ${post.id} tem menos de 2 imagens`); process.exit(1); }
 const caption = readFileSync(`${dir}/caption.txt`, 'utf8').trim();
 
-console.log(`Publicando "${post.id}" (${type}) com ${images.length} imagens...`);
-const urls = images.map(rawUrl);
-await checkPublic(urls[0]); // valida acesso publico antes de chamar o Instagram
-console.log(`  imagens servidas via raw.githubusercontent.com (${REPO} @ ${REF})`);
-const children = [];
-for (const u of urls) children.push(await createChild(USER, u, TOKEN));
-for (const c of children) await waitFinished(c, TOKEN);
-const carousel = await createCarousel(USER, children, caption, TOKEN);
-await waitFinished(carousel, TOKEN);
+// Impressao digital do token (hash curto, nao revela o token): permite comparar o secret do
+// GitHub com o token do .env sem expor nenhum dos dois.
+const tokenFp = createHash('sha256').update(TOKEN).digest('hex').slice(0, 10);
 
-if (DRY) { console.log(`DRY RUN OK: tudo pronto, NAO publicado (post "${post.id}" segue na fila).`); process.exit(0); }
+try {
+  console.log(`Publicando "${post.id}" (${type}) com ${images.length} imagens...`);
+  const urls = images.map(rawUrl);
+  await checkPublic(urls[0]); // valida acesso publico antes de chamar o Instagram
+  console.log(`  imagens servidas via raw.githubusercontent.com (${REPO} @ ${REF})`);
+  const children = [];
+  for (const u of urls) children.push(await createChild(USER, u, TOKEN));
+  for (const c of children) await waitFinished(c, TOKEN);
+  const carousel = await createCarousel(USER, children, caption, TOKEN);
+  await waitFinished(carousel, TOKEN);
 
-const id = await publishMedia(USER, carousel, TOKEN);
-const link = await permalink(id, TOKEN);
+  if (DRY) { console.log(`DRY RUN OK: tudo pronto, NAO publicado (post "${post.id}" segue na fila). token ${tokenFp}`); process.exit(0); }
 
-post.published = true;
-post.post_id = id;
-post.url = link;
-post.publishedAt = new Date().toISOString();
-writeFileSync(MANIFEST, JSON.stringify(m, null, 2) + '\n');
-console.log(`PUBLICADO: ${link || id}`);
+  const id = await publishMedia(USER, carousel, TOKEN);
+  const link = await permalink(id, TOKEN);
+
+  post.published = true;
+  post.post_id = id;
+  post.url = link;
+  post.publishedAt = new Date().toISOString();
+  writeFileSync(MANIFEST, JSON.stringify(m, null, 2) + '\n');
+  console.log(`PUBLICADO: ${link || id}`);
+} catch (e) {
+  // O log completo do Actions so abre para admin do repo; a anotacao ::error:: aparece no resumo
+  // publico do run (e na API de check-runs), entao o motivo fica visivel para quem for investigar.
+  const msg = String(e.message || e).replace(/\s+/g, ' ').slice(0, 600);
+  const hint = /"code":190/.test(msg) ? ' DICA: token invalido/expirado, atualize o secret INSTAGRAM_ACCESS_TOKEN.'
+    : /"code":25\b/.test(msg) ? ' DICA: conta ou usuario do token restrito pelo Instagram/Meta.' : '';
+  console.error(`::error::Falha ao publicar "${post.id}" (token ${tokenFp}, user ${USER}): ${msg}${hint}`);
+  process.exit(1);
+}
