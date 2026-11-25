@@ -427,8 +427,10 @@
       "id": "blog-equilibrio",
       "type": "blog",
       "title": "Equilíbrio corporal",
-      "published": false,
-      "url": null
+      "published": true,
+      "url": "https://www.instagram.com/p/DgLceKulzIt/",
+      "post_id": "17973513347961217",
+      "publishedAt": "2026-11-25T20:59:52.292Z"
     },
     {
       "id": "blog-temperos",
