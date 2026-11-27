@@ -438,8 +438,10 @@
       "id": "blog-temperos",
       "type": "blog",
       "title": "Temperos naturais e menos sal",
-      "published": false,
-      "url": null
+      "published": true,
+      "url": "https://www.instagram.com/p/DgQjjPJjVd-/",
+      "post_id": "17948634105385818",
+      "publishedAt": "2026-11-27T20:37:58.981Z"
     },
     {
       "id": "blog-ar-livre",
